@@ -1,0 +1,1211 @@
+INFO:root:Start training with [cpu(0)]
+INFO:root:Epoch[0] Batch [0-10]	Speed: 157.54 samples/sec	accuracy=0.142187	cross-entropy=3.288669
+INFO:root:Epoch[0] Batch [10-20]	Speed: 152.90 samples/sec	accuracy=0.141406	cross-entropy=3.284575
+INFO:root:Epoch[0] Batch [20-30]	Speed: 150.83 samples/sec	accuracy=0.159375	cross-entropy=3.161329
+INFO:root:Epoch[0] Batch [30-40]	Speed: 151.29 samples/sec	accuracy=0.153125	cross-entropy=3.041081
+INFO:root:Epoch[0] Batch [40-50]	Speed: 151.98 samples/sec	accuracy=0.177344	cross-entropy=2.942972
+INFO:root:Epoch[0] Batch [50-60]	Speed: 155.50 samples/sec	accuracy=0.190625	cross-entropy=2.930976
+INFO:root:Epoch[0] Resetting Data Iterator
+INFO:root:Epoch[0] Time cost=54.017
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0001.params"
+INFO:root:Epoch[0] Validation-accuracy=0.244591
+INFO:root:Epoch[0] Validation-cross-entropy=2.069941
+INFO:root:Epoch[1] Batch [0-10]	Speed: 160.22 samples/sec	accuracy=0.192188	cross-entropy=2.810344
+INFO:root:Epoch[1] Batch [10-20]	Speed: 143.64 samples/sec	accuracy=0.190625	cross-entropy=2.773380
+INFO:root:Epoch[1] Batch [20-30]	Speed: 139.12 samples/sec	accuracy=0.210156	cross-entropy=2.638401
+INFO:root:Epoch[1] Batch [30-40]	Speed: 139.15 samples/sec	accuracy=0.205469	cross-entropy=2.634160
+INFO:root:Epoch[1] Batch [40-50]	Speed: 138.86 samples/sec	accuracy=0.196094	cross-entropy=2.624942
+INFO:root:Epoch[1] Batch [50-60]	Speed: 145.04 samples/sec	accuracy=0.218750	cross-entropy=2.611819
+INFO:root:Epoch[1] Resetting Data Iterator
+INFO:root:Epoch[1] Time cost=56.166
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0002.params"
+INFO:root:Epoch[1] Validation-accuracy=0.298077
+INFO:root:Epoch[1] Validation-cross-entropy=2.143335
+INFO:root:Epoch[2] Batch [0-10]	Speed: 155.93 samples/sec	accuracy=0.203125	cross-entropy=2.586783
+INFO:root:Epoch[2] Batch [10-20]	Speed: 143.02 samples/sec	accuracy=0.226562	cross-entropy=2.476871
+INFO:root:Epoch[2] Batch [20-30]	Speed: 139.66 samples/sec	accuracy=0.221094	cross-entropy=2.510121
+INFO:root:Epoch[2] Batch [30-40]	Speed: 139.15 samples/sec	accuracy=0.235156	cross-entropy=2.421824
+INFO:root:Epoch[2] Batch [40-50]	Speed: 142.60 samples/sec	accuracy=0.228125	cross-entropy=2.534582
+INFO:root:Epoch[2] Batch [50-60]	Speed: 147.46 samples/sec	accuracy=0.223438	cross-entropy=2.430755
+INFO:root:Epoch[2] Resetting Data Iterator
+INFO:root:Epoch[2] Time cost=56.828
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0003.params"
+INFO:root:Epoch[2] Validation-accuracy=0.339844
+INFO:root:Epoch[2] Validation-cross-entropy=1.960401
+INFO:root:Epoch[3] Batch [0-10]	Speed: 151.81 samples/sec	accuracy=0.242969	cross-entropy=2.382775
+INFO:root:Epoch[3] Batch [10-20]	Speed: 142.76 samples/sec	accuracy=0.254688	cross-entropy=2.349016
+INFO:root:Epoch[3] Batch [20-30]	Speed: 125.20 samples/sec	accuracy=0.261719	cross-entropy=2.261466
+INFO:root:Epoch[3] Batch [30-40]	Speed: 120.12 samples/sec	accuracy=0.256250	cross-entropy=2.262855
+INFO:root:Epoch[3] Batch [40-50]	Speed: 142.64 samples/sec	accuracy=0.272656	cross-entropy=2.212509
+INFO:root:Epoch[3] Batch [50-60]	Speed: 145.78 samples/sec	accuracy=0.272656	cross-entropy=2.257825
+INFO:root:Epoch[3] Resetting Data Iterator
+INFO:root:Epoch[3] Time cost=58.889
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0004.params"
+INFO:root:Epoch[3] Validation-accuracy=0.362981
+INFO:root:Epoch[3] Validation-cross-entropy=1.870892
+INFO:root:Epoch[4] Batch [0-10]	Speed: 149.38 samples/sec	accuracy=0.259375	cross-entropy=2.223840
+INFO:root:Epoch[4] Batch [10-20]	Speed: 133.08 samples/sec	accuracy=0.250781	cross-entropy=2.202246
+INFO:root:Epoch[4] Batch [20-30]	Speed: 139.58 samples/sec	accuracy=0.251563	cross-entropy=2.159983
+INFO:root:Epoch[4] Batch [30-40]	Speed: 137.61 samples/sec	accuracy=0.273438	cross-entropy=2.147643
+INFO:root:Epoch[4] Batch [40-50]	Speed: 139.93 samples/sec	accuracy=0.279687	cross-entropy=2.116913
+INFO:root:Epoch[4] Batch [50-60]	Speed: 144.99 samples/sec	accuracy=0.288281	cross-entropy=2.164640
+INFO:root:Epoch[4] Resetting Data Iterator
+INFO:root:Epoch[4] Time cost=57.476
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0005.params"
+INFO:root:Epoch[4] Validation-accuracy=0.376803
+INFO:root:Epoch[4] Validation-cross-entropy=1.795500
+INFO:root:Epoch[5] Batch [0-10]	Speed: 154.98 samples/sec	accuracy=0.296875	cross-entropy=2.050859
+INFO:root:Epoch[5] Batch [10-20]	Speed: 139.17 samples/sec	accuracy=0.278906	cross-entropy=2.120991
+INFO:root:Epoch[5] Batch [20-30]	Speed: 138.66 samples/sec	accuracy=0.295312	cross-entropy=2.109206
+INFO:root:Epoch[5] Batch [30-40]	Speed: 142.04 samples/sec	accuracy=0.282813	cross-entropy=2.084220
+INFO:root:Epoch[5] Batch [40-50]	Speed: 139.09 samples/sec	accuracy=0.303906	cross-entropy=2.014430
+INFO:root:Epoch[5] Batch [50-60]	Speed: 140.11 samples/sec	accuracy=0.316406	cross-entropy=1.971480
+INFO:root:Epoch[5] Resetting Data Iterator
+INFO:root:Epoch[5] Time cost=57.740
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0006.params"
+INFO:root:Epoch[5] Validation-accuracy=0.379207
+INFO:root:Epoch[5] Validation-cross-entropy=1.756816
+INFO:root:Epoch[6] Batch [0-10]	Speed: 157.11 samples/sec	accuracy=0.325000	cross-entropy=1.918305
+INFO:root:Epoch[6] Batch [10-20]	Speed: 134.19 samples/sec	accuracy=0.293750	cross-entropy=2.056985
+INFO:root:Epoch[6] Batch [20-30]	Speed: 136.94 samples/sec	accuracy=0.306250	cross-entropy=1.965102
+INFO:root:Epoch[6] Batch [30-40]	Speed: 134.40 samples/sec	accuracy=0.308594	cross-entropy=1.935369
+INFO:root:Epoch[6] Batch [40-50]	Speed: 137.90 samples/sec	accuracy=0.325781	cross-entropy=1.952468
+INFO:root:Epoch[6] Batch [50-60]	Speed: 146.36 samples/sec	accuracy=0.322656	cross-entropy=1.888022
+INFO:root:Epoch[6] Resetting Data Iterator
+INFO:root:Epoch[6] Time cost=57.377
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0007.params"
+INFO:root:Epoch[6] Validation-accuracy=0.400670
+INFO:root:Epoch[6] Validation-cross-entropy=1.720604
+INFO:root:Epoch[7] Batch [0-10]	Speed: 154.16 samples/sec	accuracy=0.335938	cross-entropy=1.870078
+INFO:root:Epoch[7] Batch [10-20]	Speed: 137.40 samples/sec	accuracy=0.312500	cross-entropy=1.909068
+INFO:root:Epoch[7] Batch [20-30]	Speed: 141.53 samples/sec	accuracy=0.318750	cross-entropy=1.924690
+INFO:root:Epoch[7] Batch [30-40]	Speed: 144.27 samples/sec	accuracy=0.332813	cross-entropy=1.840169
+INFO:root:Epoch[7] Batch [40-50]	Speed: 138.77 samples/sec	accuracy=0.339062	cross-entropy=1.815861
+INFO:root:Epoch[7] Batch [50-60]	Speed: 144.70 samples/sec	accuracy=0.314063	cross-entropy=1.878168
+INFO:root:Epoch[7] Resetting Data Iterator
+INFO:root:Epoch[7] Time cost=57.372
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0008.params"
+INFO:root:Epoch[7] Validation-accuracy=0.420673
+INFO:root:Epoch[7] Validation-cross-entropy=1.657869
+INFO:root:Epoch[8] Batch [0-10]	Speed: 151.84 samples/sec	accuracy=0.339844	cross-entropy=1.835545
+INFO:root:Epoch[8] Batch [10-20]	Speed: 141.65 samples/sec	accuracy=0.331250	cross-entropy=1.848970
+INFO:root:Epoch[8] Batch [20-30]	Speed: 144.73 samples/sec	accuracy=0.338281	cross-entropy=1.832116
+INFO:root:Epoch[8] Batch [30-40]	Speed: 143.91 samples/sec	accuracy=0.355469	cross-entropy=1.721980
+INFO:root:Epoch[8] Batch [40-50]	Speed: 146.61 samples/sec	accuracy=0.353125	cross-entropy=1.772628
+INFO:root:Epoch[8] Batch [50-60]	Speed: 149.53 samples/sec	accuracy=0.359375	cross-entropy=1.736210
+INFO:root:Epoch[8] Resetting Data Iterator
+INFO:root:Epoch[8] Time cost=55.191
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0009.params"
+INFO:root:Epoch[8] Validation-accuracy=0.411659
+INFO:root:Epoch[8] Validation-cross-entropy=1.616649
+INFO:root:Epoch[9] Batch [0-10]	Speed: 159.29 samples/sec	accuracy=0.356250	cross-entropy=1.749567
+INFO:root:Epoch[9] Batch [10-20]	Speed: 144.40 samples/sec	accuracy=0.375781	cross-entropy=1.776225
+INFO:root:Epoch[9] Batch [20-30]	Speed: 145.07 samples/sec	accuracy=0.358594	cross-entropy=1.700963
+INFO:root:Epoch[9] Batch [30-40]	Speed: 145.03 samples/sec	accuracy=0.360156	cross-entropy=1.714587
+INFO:root:Epoch[9] Batch [40-50]	Speed: 146.35 samples/sec	accuracy=0.374219	cross-entropy=1.717919
+INFO:root:Epoch[9] Batch [50-60]	Speed: 149.30 samples/sec	accuracy=0.371875	cross-entropy=1.677381
+INFO:root:Epoch[9] Resetting Data Iterator
+INFO:root:Epoch[9] Time cost=54.636
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0010.params"
+INFO:root:Epoch[9] Validation-accuracy=0.402902
+INFO:root:Epoch[9] Validation-cross-entropy=1.648519
+INFO:root:Epoch[10] Batch [0-10]	Speed: 159.88 samples/sec	accuracy=0.365625	cross-entropy=1.686895
+INFO:root:Epoch[10] Batch [10-20]	Speed: 145.10 samples/sec	accuracy=0.350781	cross-entropy=1.738926
+INFO:root:Epoch[10] Batch [20-30]	Speed: 144.79 samples/sec	accuracy=0.360156	cross-entropy=1.724848
+INFO:root:Epoch[10] Batch [30-40]	Speed: 145.37 samples/sec	accuracy=0.381250	cross-entropy=1.668501
+INFO:root:Epoch[10] Batch [40-50]	Speed: 146.48 samples/sec	accuracy=0.396094	cross-entropy=1.612007
+INFO:root:Epoch[10] Batch [50-60]	Speed: 148.26 samples/sec	accuracy=0.387500	cross-entropy=1.643287
+INFO:root:Epoch[10] Resetting Data Iterator
+INFO:root:Epoch[10] Time cost=55.450
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0011.params"
+INFO:root:Epoch[10] Validation-accuracy=0.432478
+INFO:root:Epoch[10] Validation-cross-entropy=1.547439
+INFO:root:Epoch[11] Batch [0-10]	Speed: 160.47 samples/sec	accuracy=0.403906	cross-entropy=1.581965
+INFO:root:Epoch[11] Batch [10-20]	Speed: 144.47 samples/sec	accuracy=0.395313	cross-entropy=1.650938
+INFO:root:Epoch[11] Batch [20-30]	Speed: 145.11 samples/sec	accuracy=0.385156	cross-entropy=1.636717
+INFO:root:Epoch[11] Batch [30-40]	Speed: 144.66 samples/sec	accuracy=0.399219	cross-entropy=1.637519
+INFO:root:Epoch[11] Batch [40-50]	Speed: 147.03 samples/sec	accuracy=0.395313	cross-entropy=1.600575
+INFO:root:Epoch[11] Batch [50-60]	Speed: 149.64 samples/sec	accuracy=0.396875	cross-entropy=1.613249
+INFO:root:Epoch[11] Resetting Data Iterator
+INFO:root:Epoch[11] Time cost=54.438
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0012.params"
+INFO:root:Epoch[11] Validation-accuracy=0.453726
+INFO:root:Epoch[11] Validation-cross-entropy=1.494137
+INFO:root:Epoch[12] Batch [0-10]	Speed: 159.21 samples/sec	accuracy=0.428125	cross-entropy=1.540193
+INFO:root:Epoch[12] Batch [10-20]	Speed: 145.05 samples/sec	accuracy=0.393750	cross-entropy=1.629344
+INFO:root:Epoch[12] Batch [20-30]	Speed: 145.00 samples/sec	accuracy=0.397656	cross-entropy=1.617966
+INFO:root:Epoch[12] Batch [30-40]	Speed: 143.88 samples/sec	accuracy=0.431250	cross-entropy=1.578347
+INFO:root:Epoch[12] Batch [40-50]	Speed: 146.61 samples/sec	accuracy=0.421875	cross-entropy=1.550486
+INFO:root:Epoch[12] Batch [50-60]	Speed: 134.20 samples/sec	accuracy=0.397656	cross-entropy=1.597473
+INFO:root:Epoch[12] Resetting Data Iterator
+INFO:root:Epoch[12] Time cost=56.798
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0013.params"
+INFO:root:Epoch[12] Validation-accuracy=0.457332
+INFO:root:Epoch[12] Validation-cross-entropy=1.484610
+INFO:root:Epoch[13] Batch [0-10]	Speed: 142.15 samples/sec	accuracy=0.433594	cross-entropy=1.533574
+INFO:root:Epoch[13] Batch [10-20]	Speed: 129.01 samples/sec	accuracy=0.398438	cross-entropy=1.593901
+INFO:root:Epoch[13] Batch [20-30]	Speed: 129.93 samples/sec	accuracy=0.414844	cross-entropy=1.555491
+INFO:root:Epoch[13] Batch [30-40]	Speed: 129.35 samples/sec	accuracy=0.435156	cross-entropy=1.526438
+INFO:root:Epoch[13] Batch [40-50]	Speed: 131.03 samples/sec	accuracy=0.421094	cross-entropy=1.502949
+INFO:root:Epoch[13] Batch [50-60]	Speed: 133.69 samples/sec	accuracy=0.418750	cross-entropy=1.545277
+INFO:root:Epoch[13] Resetting Data Iterator
+INFO:root:Epoch[13] Time cost=61.040
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0014.params"
+INFO:root:Epoch[13] Validation-accuracy=0.444196
+INFO:root:Epoch[13] Validation-cross-entropy=1.514485
+INFO:root:Epoch[14] Batch [0-10]	Speed: 143.49 samples/sec	accuracy=0.399219	cross-entropy=1.526822
+INFO:root:Epoch[14] Batch [10-20]	Speed: 129.15 samples/sec	accuracy=0.426563	cross-entropy=1.538426
+INFO:root:Epoch[14] Batch [20-30]	Speed: 139.00 samples/sec	accuracy=0.414062	cross-entropy=1.568093
+INFO:root:Epoch[14] Batch [30-40]	Speed: 164.02 samples/sec	accuracy=0.439063	cross-entropy=1.514967
+INFO:root:Epoch[14] Batch [40-50]	Speed: 166.85 samples/sec	accuracy=0.437500	cross-entropy=1.528396
+INFO:root:Epoch[14] Batch [50-60]	Speed: 169.98 samples/sec	accuracy=0.427344	cross-entropy=1.540957
+INFO:root:Epoch[14] Resetting Data Iterator
+INFO:root:Epoch[14] Time cost=53.584
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0015.params"
+INFO:root:Epoch[14] Validation-accuracy=0.446987
+INFO:root:Epoch[14] Validation-cross-entropy=1.492901
+INFO:root:Epoch[15] Batch [0-10]	Speed: 179.36 samples/sec	accuracy=0.422656	cross-entropy=1.512004
+INFO:root:Epoch[15] Batch [10-20]	Speed: 163.51 samples/sec	accuracy=0.442188	cross-entropy=1.515053
+INFO:root:Epoch[15] Batch [20-30]	Speed: 163.03 samples/sec	accuracy=0.421875	cross-entropy=1.527519
+INFO:root:Epoch[15] Batch [30-40]	Speed: 163.97 samples/sec	accuracy=0.435156	cross-entropy=1.489326
+INFO:root:Epoch[15] Batch [40-50]	Speed: 162.99 samples/sec	accuracy=0.461719	cross-entropy=1.453667
+INFO:root:Epoch[15] Batch [50-60]	Speed: 168.78 samples/sec	accuracy=0.422656	cross-entropy=1.505234
+INFO:root:Epoch[15] Resetting Data Iterator
+INFO:root:Epoch[15] Time cost=49.234
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0016.params"
+INFO:root:Epoch[15] Validation-accuracy=0.445913
+INFO:root:Epoch[15] Validation-cross-entropy=1.486539
+INFO:root:Epoch[16] Batch [0-10]	Speed: 180.81 samples/sec	accuracy=0.425000	cross-entropy=1.483501
+INFO:root:Epoch[16] Batch [10-20]	Speed: 163.48 samples/sec	accuracy=0.434375	cross-entropy=1.520279
+INFO:root:Epoch[16] Batch [20-30]	Speed: 163.96 samples/sec	accuracy=0.439063	cross-entropy=1.476401
+INFO:root:Epoch[16] Batch [30-40]	Speed: 162.92 samples/sec	accuracy=0.441406	cross-entropy=1.478833
+INFO:root:Epoch[16] Batch [40-50]	Speed: 165.90 samples/sec	accuracy=0.473438	cross-entropy=1.413861
+INFO:root:Epoch[16] Batch [50-60]	Speed: 168.69 samples/sec	accuracy=0.420312	cross-entropy=1.501299
+INFO:root:Epoch[16] Resetting Data Iterator
+INFO:root:Epoch[16] Time cost=48.344
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0017.params"
+INFO:root:Epoch[16] Validation-accuracy=0.465144
+INFO:root:Epoch[16] Validation-cross-entropy=1.456461
+INFO:root:Epoch[17] Batch [0-10]	Speed: 176.96 samples/sec	accuracy=0.450781	cross-entropy=1.457879
+INFO:root:Epoch[17] Batch [10-20]	Speed: 161.02 samples/sec	accuracy=0.419531	cross-entropy=1.506710
+INFO:root:Epoch[17] Batch [20-30]	Speed: 162.36 samples/sec	accuracy=0.447656	cross-entropy=1.472475
+INFO:root:Epoch[17] Batch [30-40]	Speed: 162.94 samples/sec	accuracy=0.455469	cross-entropy=1.448749
+INFO:root:Epoch[17] Batch [40-50]	Speed: 164.48 samples/sec	accuracy=0.462500	cross-entropy=1.436816
+INFO:root:Epoch[17] Batch [50-60]	Speed: 169.06 samples/sec	accuracy=0.447656	cross-entropy=1.474177
+INFO:root:Epoch[17] Resetting Data Iterator
+INFO:root:Epoch[17] Time cost=49.492
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0018.params"
+INFO:root:Epoch[17] Validation-accuracy=0.457589
+INFO:root:Epoch[17] Validation-cross-entropy=1.448102
+INFO:root:Epoch[18] Batch [0-10]	Speed: 179.35 samples/sec	accuracy=0.449219	cross-entropy=1.461103
+INFO:root:Epoch[18] Batch [10-20]	Speed: 163.18 samples/sec	accuracy=0.456250	cross-entropy=1.492868
+INFO:root:Epoch[18] Batch [20-30]	Speed: 163.04 samples/sec	accuracy=0.455469	cross-entropy=1.434421
+INFO:root:Epoch[18] Batch [30-40]	Speed: 161.80 samples/sec	accuracy=0.450781	cross-entropy=1.438037
+INFO:root:Epoch[18] Batch [40-50]	Speed: 165.23 samples/sec	accuracy=0.482031	cross-entropy=1.414013
+INFO:root:Epoch[18] Batch [50-60]	Speed: 168.42 samples/sec	accuracy=0.448437	cross-entropy=1.440519
+INFO:root:Epoch[18] Resetting Data Iterator
+INFO:root:Epoch[18] Time cost=48.546
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0019.params"
+INFO:root:Epoch[18] Validation-accuracy=0.482572
+INFO:root:Epoch[18] Validation-cross-entropy=1.424674
+INFO:root:Epoch[19] Batch [0-10]	Speed: 179.20 samples/sec	accuracy=0.457031	cross-entropy=1.397682
+INFO:root:Epoch[19] Batch [10-20]	Speed: 159.67 samples/sec	accuracy=0.446094	cross-entropy=1.441438
+INFO:root:Epoch[19] Batch [20-30]	Speed: 158.34 samples/sec	accuracy=0.452344	cross-entropy=1.427529
+INFO:root:Epoch[19] Batch [30-40]	Speed: 159.25 samples/sec	accuracy=0.450781	cross-entropy=1.450996
+INFO:root:Epoch[19] Batch [40-50]	Speed: 163.76 samples/sec	accuracy=0.459375	cross-entropy=1.428255
+INFO:root:Epoch[19] Batch [50-60]	Speed: 168.38 samples/sec	accuracy=0.451562	cross-entropy=1.435591
+INFO:root:Epoch[19] Resetting Data Iterator
+INFO:root:Epoch[19] Time cost=49.167
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0020.params"
+INFO:root:Epoch[19] Validation-accuracy=0.480769
+INFO:root:Epoch[19] Validation-cross-entropy=1.412293
+INFO:root:Epoch[20] Batch [0-10]	Speed: 178.22 samples/sec	accuracy=0.456250	cross-entropy=1.431573
+INFO:root:Epoch[20] Batch [10-20]	Speed: 162.69 samples/sec	accuracy=0.467187	cross-entropy=1.405025
+INFO:root:Epoch[20] Batch [20-30]	Speed: 162.66 samples/sec	accuracy=0.453906	cross-entropy=1.435561
+INFO:root:Epoch[20] Batch [30-40]	Speed: 158.27 samples/sec	accuracy=0.489063	cross-entropy=1.390542
+INFO:root:Epoch[20] Batch [40-50]	Speed: 159.87 samples/sec	accuracy=0.476562	cross-entropy=1.371742
+INFO:root:Epoch[20] Batch [50-60]	Speed: 168.55 samples/sec	accuracy=0.443750	cross-entropy=1.438542
+INFO:root:Epoch[20] Resetting Data Iterator
+INFO:root:Epoch[20] Time cost=49.825
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0021.params"
+INFO:root:Epoch[20] Validation-accuracy=0.480168
+INFO:root:Epoch[20] Validation-cross-entropy=1.408606
+INFO:root:Epoch[21] Batch [0-10]	Speed: 175.53 samples/sec	accuracy=0.479687	cross-entropy=1.371836
+INFO:root:Epoch[21] Batch [10-20]	Speed: 146.45 samples/sec	accuracy=0.453906	cross-entropy=1.420889
+INFO:root:Epoch[21] Batch [20-30]	Speed: 158.98 samples/sec	accuracy=0.460156	cross-entropy=1.403037
+INFO:root:Epoch[21] Batch [30-40]	Speed: 156.46 samples/sec	accuracy=0.490625	cross-entropy=1.344314
+INFO:root:Epoch[21] Batch [40-50]	Speed: 153.23 samples/sec	accuracy=0.457813	cross-entropy=1.375078
+INFO:root:Epoch[21] Batch [50-60]	Speed: 160.75 samples/sec	accuracy=0.457813	cross-entropy=1.420218
+INFO:root:Epoch[21] Resetting Data Iterator
+INFO:root:Epoch[21] Time cost=51.129
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0022.params"
+INFO:root:Epoch[21] Validation-accuracy=0.470424
+INFO:root:Epoch[21] Validation-cross-entropy=1.413170
+INFO:root:Epoch[22] Batch [0-10]	Speed: 174.28 samples/sec	accuracy=0.470313	cross-entropy=1.386171
+INFO:root:Epoch[22] Batch [10-20]	Speed: 160.72 samples/sec	accuracy=0.471875	cross-entropy=1.415093
+INFO:root:Epoch[22] Batch [20-30]	Speed: 158.72 samples/sec	accuracy=0.467187	cross-entropy=1.387401
+INFO:root:Epoch[22] Batch [30-40]	Speed: 158.27 samples/sec	accuracy=0.507031	cross-entropy=1.343646
+INFO:root:Epoch[22] Batch [40-50]	Speed: 161.94 samples/sec	accuracy=0.477344	cross-entropy=1.393320
+INFO:root:Epoch[22] Batch [50-60]	Speed: 163.34 samples/sec	accuracy=0.466406	cross-entropy=1.406977
+INFO:root:Epoch[22] Resetting Data Iterator
+INFO:root:Epoch[22] Time cost=49.729
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0023.params"
+INFO:root:Epoch[22] Validation-accuracy=0.478365
+INFO:root:Epoch[22] Validation-cross-entropy=1.393706
+INFO:root:Epoch[23] Batch [0-10]	Speed: 169.68 samples/sec	accuracy=0.476562	cross-entropy=1.362132
+INFO:root:Epoch[23] Batch [10-20]	Speed: 151.23 samples/sec	accuracy=0.474219	cross-entropy=1.376414
+INFO:root:Epoch[23] Batch [20-30]	Speed: 156.51 samples/sec	accuracy=0.482031	cross-entropy=1.390049
+INFO:root:Epoch[23] Batch [30-40]	Speed: 149.83 samples/sec	accuracy=0.510156	cross-entropy=1.318613
+INFO:root:Epoch[23] Batch [40-50]	Speed: 153.68 samples/sec	accuracy=0.490625	cross-entropy=1.353795
+INFO:root:Epoch[23] Batch [50-60]	Speed: 159.56 samples/sec	accuracy=0.465625	cross-entropy=1.387938
+INFO:root:Epoch[23] Resetting Data Iterator
+INFO:root:Epoch[23] Time cost=52.398
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0024.params"
+INFO:root:Epoch[23] Validation-accuracy=0.493990
+INFO:root:Epoch[23] Validation-cross-entropy=1.398196
+INFO:root:Epoch[24] Batch [0-10]	Speed: 167.81 samples/sec	accuracy=0.500781	cross-entropy=1.331463
+INFO:root:Epoch[24] Batch [10-20]	Speed: 150.81 samples/sec	accuracy=0.475781	cross-entropy=1.385188
+INFO:root:Epoch[24] Batch [20-30]	Speed: 157.42 samples/sec	accuracy=0.481250	cross-entropy=1.352089
+INFO:root:Epoch[24] Batch [30-40]	Speed: 151.79 samples/sec	accuracy=0.492188	cross-entropy=1.335358
+INFO:root:Epoch[24] Batch [40-50]	Speed: 157.72 samples/sec	accuracy=0.472656	cross-entropy=1.399918
+INFO:root:Epoch[24] Batch [50-60]	Speed: 155.73 samples/sec	accuracy=0.477344	cross-entropy=1.335751
+INFO:root:Epoch[24] Resetting Data Iterator
+INFO:root:Epoch[24] Time cost=51.637
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0025.params"
+INFO:root:Epoch[24] Validation-accuracy=0.484933
+INFO:root:Epoch[24] Validation-cross-entropy=1.400445
+INFO:root:Epoch[25] Batch [0-10]	Speed: 177.18 samples/sec	accuracy=0.491406	cross-entropy=1.339201
+INFO:root:Epoch[25] Batch [10-20]	Speed: 161.13 samples/sec	accuracy=0.467969	cross-entropy=1.369734
+INFO:root:Epoch[25] Batch [20-30]	Speed: 160.95 samples/sec	accuracy=0.485938	cross-entropy=1.359342
+INFO:root:Epoch[25] Batch [30-40]	Speed: 161.93 samples/sec	accuracy=0.503906	cross-entropy=1.330870
+INFO:root:Epoch[25] Batch [40-50]	Speed: 163.63 samples/sec	accuracy=0.488281	cross-entropy=1.329755
+INFO:root:Epoch[25] Batch [50-60]	Speed: 167.67 samples/sec	accuracy=0.473438	cross-entropy=1.361773
+INFO:root:Epoch[25] Resetting Data Iterator
+INFO:root:Epoch[25] Time cost=49.709
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0026.params"
+INFO:root:Epoch[25] Validation-accuracy=0.493304
+INFO:root:Epoch[25] Validation-cross-entropy=1.382697
+INFO:root:Epoch[26] Batch [0-10]	Speed: 177.92 samples/sec	accuracy=0.474219	cross-entropy=1.332450
+INFO:root:Epoch[26] Batch [10-20]	Speed: 161.50 samples/sec	accuracy=0.487500	cross-entropy=1.349448
+INFO:root:Epoch[26] Batch [20-30]	Speed: 162.22 samples/sec	accuracy=0.502344	cross-entropy=1.346199
+INFO:root:Epoch[26] Batch [30-40]	Speed: 161.89 samples/sec	accuracy=0.499219	cross-entropy=1.325150
+INFO:root:Epoch[26] Batch [40-50]	Speed: 163.43 samples/sec	accuracy=0.505469	cross-entropy=1.337628
+INFO:root:Epoch[26] Batch [50-60]	Speed: 167.81 samples/sec	accuracy=0.488281	cross-entropy=1.339093
+INFO:root:Epoch[26] Resetting Data Iterator
+INFO:root:Epoch[26] Time cost=48.793
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0027.params"
+INFO:root:Epoch[26] Validation-accuracy=0.506611
+INFO:root:Epoch[26] Validation-cross-entropy=1.372126
+INFO:root:Epoch[27] Batch [0-10]	Speed: 178.69 samples/sec	accuracy=0.501563	cross-entropy=1.296639
+INFO:root:Epoch[27] Batch [10-20]	Speed: 161.53 samples/sec	accuracy=0.485156	cross-entropy=1.348933
+INFO:root:Epoch[27] Batch [20-30]	Speed: 162.30 samples/sec	accuracy=0.497656	cross-entropy=1.335247
+INFO:root:Epoch[27] Batch [30-40]	Speed: 162.67 samples/sec	accuracy=0.510938	cross-entropy=1.269090
+INFO:root:Epoch[27] Batch [40-50]	Speed: 163.26 samples/sec	accuracy=0.514062	cross-entropy=1.302397
+INFO:root:Epoch[27] Batch [50-60]	Speed: 167.95 samples/sec	accuracy=0.477344	cross-entropy=1.345462
+INFO:root:Epoch[27] Resetting Data Iterator
+INFO:root:Epoch[27] Time cost=48.693
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0028.params"
+INFO:root:Epoch[27] Validation-accuracy=0.506010
+INFO:root:Epoch[27] Validation-cross-entropy=1.342942
+INFO:root:Epoch[28] Batch [0-10]	Speed: 174.93 samples/sec	accuracy=0.492188	cross-entropy=1.328855
+INFO:root:Epoch[28] Batch [10-20]	Speed: 162.04 samples/sec	accuracy=0.484375	cross-entropy=1.324429
+INFO:root:Epoch[28] Batch [20-30]	Speed: 161.10 samples/sec	accuracy=0.487500	cross-entropy=1.330768
+INFO:root:Epoch[28] Batch [30-40]	Speed: 162.47 samples/sec	accuracy=0.515625	cross-entropy=1.297391
+INFO:root:Epoch[28] Batch [40-50]	Speed: 163.78 samples/sec	accuracy=0.517188	cross-entropy=1.303496
+INFO:root:Epoch[28] Batch [50-60]	Speed: 168.13 samples/sec	accuracy=0.489844	cross-entropy=1.337181
+INFO:root:Epoch[28] Resetting Data Iterator
+INFO:root:Epoch[28] Time cost=49.629
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0029.params"
+INFO:root:Epoch[28] Validation-accuracy=0.502790
+INFO:root:Epoch[28] Validation-cross-entropy=1.328974
+INFO:root:Epoch[29] Batch [0-10]	Speed: 177.36 samples/sec	accuracy=0.508594	cross-entropy=1.274887
+INFO:root:Epoch[29] Batch [10-20]	Speed: 161.58 samples/sec	accuracy=0.500781	cross-entropy=1.329265
+INFO:root:Epoch[29] Batch [20-30]	Speed: 162.94 samples/sec	accuracy=0.510938	cross-entropy=1.299225
+INFO:root:Epoch[29] Batch [30-40]	Speed: 162.15 samples/sec	accuracy=0.502344	cross-entropy=1.307288
+INFO:root:Epoch[29] Batch [40-50]	Speed: 164.60 samples/sec	accuracy=0.499219	cross-entropy=1.312065
+INFO:root:Epoch[29] Batch [50-60]	Speed: 168.18 samples/sec	accuracy=0.485156	cross-entropy=1.315015
+INFO:root:Epoch[29] Resetting Data Iterator
+INFO:root:Epoch[29] Time cost=48.725
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0030.params"
+INFO:root:Epoch[29] Validation-accuracy=0.502232
+INFO:root:Epoch[29] Validation-cross-entropy=1.325898
+INFO:root:Epoch[30] Batch [0-10]	Speed: 178.08 samples/sec	accuracy=0.506250	cross-entropy=1.265206
+INFO:root:Epoch[30] Batch [10-20]	Speed: 163.39 samples/sec	accuracy=0.504687	cross-entropy=1.299782
+INFO:root:Epoch[30] Batch [20-30]	Speed: 162.53 samples/sec	accuracy=0.503125	cross-entropy=1.313906
+INFO:root:Epoch[30] Batch [30-40]	Speed: 163.02 samples/sec	accuracy=0.513281	cross-entropy=1.274019
+INFO:root:Epoch[30] Batch [40-50]	Speed: 164.38 samples/sec	accuracy=0.514844	cross-entropy=1.276607
+INFO:root:Epoch[30] Batch [50-60]	Speed: 168.21 samples/sec	accuracy=0.502344	cross-entropy=1.315228
+INFO:root:Epoch[30] Resetting Data Iterator
+INFO:root:Epoch[30] Time cost=49.380
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0031.params"
+INFO:root:Epoch[30] Validation-accuracy=0.512620
+INFO:root:Epoch[30] Validation-cross-entropy=1.301100
+INFO:root:Epoch[31] Batch [0-10]	Speed: 178.97 samples/sec	accuracy=0.501563	cross-entropy=1.301059
+INFO:root:Epoch[31] Batch [10-20]	Speed: 161.43 samples/sec	accuracy=0.492969	cross-entropy=1.323988
+INFO:root:Epoch[31] Batch [20-30]	Speed: 158.97 samples/sec	accuracy=0.492188	cross-entropy=1.288808
+INFO:root:Epoch[31] Batch [30-40]	Speed: 159.24 samples/sec	accuracy=0.530469	cross-entropy=1.263026
+INFO:root:Epoch[31] Batch [40-50]	Speed: 156.14 samples/sec	accuracy=0.492188	cross-entropy=1.291547
+INFO:root:Epoch[31] Batch [50-60]	Speed: 167.14 samples/sec	accuracy=0.482812	cross-entropy=1.308053
+INFO:root:Epoch[31] Resetting Data Iterator
+INFO:root:Epoch[31] Time cost=49.413
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0032.params"
+INFO:root:Epoch[31] Validation-accuracy=0.519832
+INFO:root:Epoch[31] Validation-cross-entropy=1.294839
+INFO:root:Epoch[32] Batch [0-10]	Speed: 178.03 samples/sec	accuracy=0.528906	cross-entropy=1.258982
+INFO:root:Epoch[32] Batch [10-20]	Speed: 161.74 samples/sec	accuracy=0.507812	cross-entropy=1.256991
+INFO:root:Epoch[32] Batch [20-30]	Speed: 162.58 samples/sec	accuracy=0.517188	cross-entropy=1.275690
+INFO:root:Epoch[32] Batch [30-40]	Speed: 162.78 samples/sec	accuracy=0.517188	cross-entropy=1.262865
+INFO:root:Epoch[32] Batch [40-50]	Speed: 164.34 samples/sec	accuracy=0.503125	cross-entropy=1.287546
+INFO:root:Epoch[32] Batch [50-60]	Speed: 167.53 samples/sec	accuracy=0.502344	cross-entropy=1.276156
+INFO:root:Epoch[32] Resetting Data Iterator
+INFO:root:Epoch[32] Time cost=48.742
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0033.params"
+INFO:root:Epoch[32] Validation-accuracy=0.500558
+INFO:root:Epoch[32] Validation-cross-entropy=1.339646
+INFO:root:Epoch[33] Batch [0-10]	Speed: 176.84 samples/sec	accuracy=0.515625	cross-entropy=1.267453
+INFO:root:Epoch[33] Batch [10-20]	Speed: 162.17 samples/sec	accuracy=0.524219	cross-entropy=1.259874
+INFO:root:Epoch[33] Batch [20-30]	Speed: 161.69 samples/sec	accuracy=0.515625	cross-entropy=1.295263
+INFO:root:Epoch[33] Batch [30-40]	Speed: 162.35 samples/sec	accuracy=0.525781	cross-entropy=1.254965
+INFO:root:Epoch[33] Batch [40-50]	Speed: 163.67 samples/sec	accuracy=0.513281	cross-entropy=1.264587
+INFO:root:Epoch[33] Batch [50-60]	Speed: 167.83 samples/sec	accuracy=0.497656	cross-entropy=1.298295
+INFO:root:Epoch[33] Resetting Data Iterator
+INFO:root:Epoch[33] Time cost=49.539
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0034.params"
+INFO:root:Epoch[33] Validation-accuracy=0.519231
+INFO:root:Epoch[33] Validation-cross-entropy=1.266760
+INFO:root:Epoch[34] Batch [0-10]	Speed: 179.19 samples/sec	accuracy=0.515625	cross-entropy=1.255792
+INFO:root:Epoch[34] Batch [10-20]	Speed: 161.72 samples/sec	accuracy=0.512500	cross-entropy=1.286600
+INFO:root:Epoch[34] Batch [20-30]	Speed: 159.58 samples/sec	accuracy=0.528125	cross-entropy=1.255990
+INFO:root:Epoch[34] Batch [30-40]	Speed: 160.87 samples/sec	accuracy=0.526563	cross-entropy=1.277420
+INFO:root:Epoch[34] Batch [40-50]	Speed: 164.88 samples/sec	accuracy=0.503906	cross-entropy=1.287086
+INFO:root:Epoch[34] Batch [50-60]	Speed: 166.74 samples/sec	accuracy=0.493750	cross-entropy=1.299899
+INFO:root:Epoch[34] Resetting Data Iterator
+INFO:root:Epoch[34] Time cost=48.989
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0035.params"
+INFO:root:Epoch[34] Validation-accuracy=0.520433
+INFO:root:Epoch[34] Validation-cross-entropy=1.284198
+INFO:root:Epoch[35] Batch [0-10]	Speed: 172.10 samples/sec	accuracy=0.526563	cross-entropy=1.253474
+INFO:root:Epoch[35] Batch [10-20]	Speed: 162.42 samples/sec	accuracy=0.507812	cross-entropy=1.282114
+INFO:root:Epoch[35] Batch [20-30]	Speed: 161.26 samples/sec	accuracy=0.530469	cross-entropy=1.252210
+INFO:root:Epoch[35] Batch [30-40]	Speed: 162.69 samples/sec	accuracy=0.517969	cross-entropy=1.236693
+INFO:root:Epoch[35] Batch [40-50]	Speed: 163.96 samples/sec	accuracy=0.530469	cross-entropy=1.243028
+INFO:root:Epoch[35] Batch [50-60]	Speed: 167.84 samples/sec	accuracy=0.499219	cross-entropy=1.248575
+INFO:root:Epoch[35] Resetting Data Iterator
+INFO:root:Epoch[35] Time cost=49.731
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0036.params"
+INFO:root:Epoch[35] Validation-accuracy=0.524639
+INFO:root:Epoch[35] Validation-cross-entropy=1.285238
+INFO:root:Epoch[36] Batch [0-10]	Speed: 177.53 samples/sec	accuracy=0.509375	cross-entropy=1.253345
+INFO:root:Epoch[36] Batch [10-20]	Speed: 162.86 samples/sec	accuracy=0.498437	cross-entropy=1.264895
+INFO:root:Epoch[36] Batch [20-30]	Speed: 158.85 samples/sec	accuracy=0.517969	cross-entropy=1.263833
+INFO:root:Epoch[36] Batch [30-40]	Speed: 152.53 samples/sec	accuracy=0.557813	cross-entropy=1.201829
+INFO:root:Epoch[36] Batch [40-50]	Speed: 159.75 samples/sec	accuracy=0.524219	cross-entropy=1.231474
+INFO:root:Epoch[36] Batch [50-60]	Speed: 167.94 samples/sec	accuracy=0.503125	cross-entropy=1.271293
+INFO:root:Epoch[36] Resetting Data Iterator
+INFO:root:Epoch[36] Time cost=49.622
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0037.params"
+INFO:root:Epoch[36] Validation-accuracy=0.521763
+INFO:root:Epoch[36] Validation-cross-entropy=1.279469
+INFO:root:Epoch[37] Batch [0-10]	Speed: 178.07 samples/sec	accuracy=0.523438	cross-entropy=1.236712
+INFO:root:Epoch[37] Batch [10-20]	Speed: 161.96 samples/sec	accuracy=0.521875	cross-entropy=1.254414
+INFO:root:Epoch[37] Batch [20-30]	Speed: 158.27 samples/sec	accuracy=0.542188	cross-entropy=1.204906
+INFO:root:Epoch[37] Batch [30-40]	Speed: 161.47 samples/sec	accuracy=0.543750	cross-entropy=1.201439
+INFO:root:Epoch[37] Batch [40-50]	Speed: 164.53 samples/sec	accuracy=0.542969	cross-entropy=1.222718
+INFO:root:Epoch[37] Batch [50-60]	Speed: 168.22 samples/sec	accuracy=0.512500	cross-entropy=1.246349
+INFO:root:Epoch[37] Resetting Data Iterator
+INFO:root:Epoch[37] Time cost=48.956
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0038.params"
+INFO:root:Epoch[37] Validation-accuracy=0.524639
+INFO:root:Epoch[37] Validation-cross-entropy=1.262017
+INFO:root:Epoch[38] Batch [0-10]	Speed: 176.75 samples/sec	accuracy=0.525781	cross-entropy=1.219173
+INFO:root:Epoch[38] Batch [10-20]	Speed: 162.93 samples/sec	accuracy=0.536719	cross-entropy=1.198726
+INFO:root:Epoch[38] Batch [20-30]	Speed: 159.42 samples/sec	accuracy=0.532813	cross-entropy=1.242047
+INFO:root:Epoch[38] Batch [30-40]	Speed: 163.07 samples/sec	accuracy=0.544531	cross-entropy=1.193068
+INFO:root:Epoch[38] Batch [40-50]	Speed: 164.29 samples/sec	accuracy=0.540625	cross-entropy=1.188574
+INFO:root:Epoch[38] Batch [50-60]	Speed: 168.35 samples/sec	accuracy=0.531250	cross-entropy=1.240992
+INFO:root:Epoch[38] Resetting Data Iterator
+INFO:root:Epoch[38] Time cost=49.598
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0039.params"
+INFO:root:Epoch[38] Validation-accuracy=0.521034
+INFO:root:Epoch[38] Validation-cross-entropy=1.266037
+INFO:root:Epoch[39] Batch [0-10]	Speed: 177.64 samples/sec	accuracy=0.540625	cross-entropy=1.215426
+INFO:root:Epoch[39] Batch [10-20]	Speed: 162.10 samples/sec	accuracy=0.513281	cross-entropy=1.225962
+INFO:root:Epoch[39] Batch [20-30]	Speed: 162.46 samples/sec	accuracy=0.525781	cross-entropy=1.226421
+INFO:root:Epoch[39] Batch [30-40]	Speed: 162.35 samples/sec	accuracy=0.530469	cross-entropy=1.196561
+INFO:root:Epoch[39] Batch [40-50]	Speed: 164.54 samples/sec	accuracy=0.539062	cross-entropy=1.231347
+INFO:root:Epoch[39] Batch [50-60]	Speed: 167.56 samples/sec	accuracy=0.532813	cross-entropy=1.221467
+INFO:root:Epoch[39] Resetting Data Iterator
+INFO:root:Epoch[39] Time cost=48.669
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0040.params"
+INFO:root:Epoch[39] Validation-accuracy=0.525841
+INFO:root:Epoch[39] Validation-cross-entropy=1.281548
+INFO:root:Epoch[40] Batch [0-10]	Speed: 176.56 samples/sec	accuracy=0.540625	cross-entropy=1.184530
+INFO:root:Epoch[40] Batch [10-20]	Speed: 156.39 samples/sec	accuracy=0.510156	cross-entropy=1.235309
+INFO:root:Epoch[40] Batch [20-30]	Speed: 155.50 samples/sec	accuracy=0.539062	cross-entropy=1.209310
+INFO:root:Epoch[40] Batch [30-40]	Speed: 162.25 samples/sec	accuracy=0.532031	cross-entropy=1.207182
+INFO:root:Epoch[40] Batch [40-50]	Speed: 163.92 samples/sec	accuracy=0.534375	cross-entropy=1.199642
+INFO:root:Epoch[40] Batch [50-60]	Speed: 167.67 samples/sec	accuracy=0.523438	cross-entropy=1.222595
+INFO:root:Epoch[40] Resetting Data Iterator
+INFO:root:Epoch[40] Time cost=50.250
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0041.params"
+INFO:root:Epoch[40] Validation-accuracy=0.525670
+INFO:root:Epoch[40] Validation-cross-entropy=1.264734
+INFO:root:Epoch[41] Batch [0-10]	Speed: 176.91 samples/sec	accuracy=0.554688	cross-entropy=1.178032
+INFO:root:Epoch[41] Batch [10-20]	Speed: 161.02 samples/sec	accuracy=0.545312	cross-entropy=1.203408
+INFO:root:Epoch[41] Batch [20-30]	Speed: 161.22 samples/sec	accuracy=0.546094	cross-entropy=1.194085
+INFO:root:Epoch[41] Batch [30-40]	Speed: 161.65 samples/sec	accuracy=0.545312	cross-entropy=1.179024
+INFO:root:Epoch[41] Batch [40-50]	Speed: 163.95 samples/sec	accuracy=0.546875	cross-entropy=1.204007
+INFO:root:Epoch[41] Batch [50-60]	Speed: 167.78 samples/sec	accuracy=0.521875	cross-entropy=1.235038
+INFO:root:Epoch[41] Resetting Data Iterator
+INFO:root:Epoch[41] Time cost=48.905
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0042.params"
+INFO:root:Epoch[41] Validation-accuracy=0.531250
+INFO:root:Epoch[41] Validation-cross-entropy=1.240403
+INFO:root:Epoch[42] Batch [0-10]	Speed: 178.65 samples/sec	accuracy=0.553125	cross-entropy=1.193912
+INFO:root:Epoch[42] Batch [10-20]	Speed: 161.95 samples/sec	accuracy=0.530469	cross-entropy=1.194702
+INFO:root:Epoch[42] Batch [20-30]	Speed: 162.84 samples/sec	accuracy=0.540625	cross-entropy=1.184784
+INFO:root:Epoch[42] Batch [30-40]	Speed: 161.85 samples/sec	accuracy=0.547656	cross-entropy=1.188093
+INFO:root:Epoch[42] Batch [40-50]	Speed: 162.36 samples/sec	accuracy=0.547656	cross-entropy=1.189079
+INFO:root:Epoch[42] Batch [50-60]	Speed: 167.33 samples/sec	accuracy=0.541406	cross-entropy=1.228739
+INFO:root:Epoch[42] Resetting Data Iterator
+INFO:root:Epoch[42] Time cost=48.860
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0043.params"
+INFO:root:Epoch[42] Validation-accuracy=0.539062
+INFO:root:Epoch[42] Validation-cross-entropy=1.247693
+INFO:root:Epoch[43] Batch [0-10]	Speed: 175.25 samples/sec	accuracy=0.550781	cross-entropy=1.169235
+INFO:root:Epoch[43] Batch [10-20]	Speed: 162.63 samples/sec	accuracy=0.542188	cross-entropy=1.201522
+INFO:root:Epoch[43] Batch [20-30]	Speed: 162.67 samples/sec	accuracy=0.536719	cross-entropy=1.225020
+INFO:root:Epoch[43] Batch [30-40]	Speed: 163.30 samples/sec	accuracy=0.535937	cross-entropy=1.199720
+INFO:root:Epoch[43] Batch [40-50]	Speed: 164.46 samples/sec	accuracy=0.535156	cross-entropy=1.188863
+INFO:root:Epoch[43] Batch [50-60]	Speed: 168.13 samples/sec	accuracy=0.536719	cross-entropy=1.220356
+INFO:root:Epoch[43] Resetting Data Iterator
+INFO:root:Epoch[43] Time cost=49.519
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0044.params"
+INFO:root:Epoch[43] Validation-accuracy=0.535156
+INFO:root:Epoch[43] Validation-cross-entropy=1.241064
+INFO:root:Epoch[44] Batch [0-10]	Speed: 176.91 samples/sec	accuracy=0.549219	cross-entropy=1.163771
+INFO:root:Epoch[44] Batch [10-20]	Speed: 160.92 samples/sec	accuracy=0.534375	cross-entropy=1.223576
+INFO:root:Epoch[44] Batch [20-30]	Speed: 161.10 samples/sec	accuracy=0.545312	cross-entropy=1.161995
+INFO:root:Epoch[44] Batch [30-40]	Speed: 162.24 samples/sec	accuracy=0.535156	cross-entropy=1.184643
+INFO:root:Epoch[44] Batch [40-50]	Speed: 164.84 samples/sec	accuracy=0.552344	cross-entropy=1.159187
+INFO:root:Epoch[44] Batch [50-60]	Speed: 167.92 samples/sec	accuracy=0.541406	cross-entropy=1.221669
+INFO:root:Epoch[44] Resetting Data Iterator
+INFO:root:Epoch[44] Time cost=48.885
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0045.params"
+INFO:root:Epoch[44] Validation-accuracy=0.549107
+INFO:root:Epoch[44] Validation-cross-entropy=1.236883
+INFO:root:Epoch[45] Batch [0-10]	Speed: 178.90 samples/sec	accuracy=0.543750	cross-entropy=1.192356
+INFO:root:Epoch[45] Batch [10-20]	Speed: 162.26 samples/sec	accuracy=0.554688	cross-entropy=1.159069
+INFO:root:Epoch[45] Batch [20-30]	Speed: 160.68 samples/sec	accuracy=0.561719	cross-entropy=1.148293
+INFO:root:Epoch[45] Batch [30-40]	Speed: 162.72 samples/sec	accuracy=0.564063	cross-entropy=1.167324
+INFO:root:Epoch[45] Batch [40-50]	Speed: 163.91 samples/sec	accuracy=0.566406	cross-entropy=1.168723
+INFO:root:Epoch[45] Batch [50-60]	Speed: 167.57 samples/sec	accuracy=0.538281	cross-entropy=1.217812
+INFO:root:Epoch[45] Resetting Data Iterator
+INFO:root:Epoch[45] Time cost=48.785
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0046.params"
+INFO:root:Epoch[45] Validation-accuracy=0.551683
+INFO:root:Epoch[45] Validation-cross-entropy=1.180678
+INFO:root:Epoch[46] Batch [0-10]	Speed: 176.50 samples/sec	accuracy=0.565625	cross-entropy=1.160848
+INFO:root:Epoch[46] Batch [10-20]	Speed: 161.97 samples/sec	accuracy=0.541406	cross-entropy=1.151139
+INFO:root:Epoch[46] Batch [20-30]	Speed: 161.83 samples/sec	accuracy=0.563281	cross-entropy=1.211297
+INFO:root:Epoch[46] Batch [30-40]	Speed: 158.15 samples/sec	accuracy=0.561719	cross-entropy=1.141508
+INFO:root:Epoch[46] Batch [40-50]	Speed: 162.77 samples/sec	accuracy=0.542188	cross-entropy=1.148636
+INFO:root:Epoch[46] Batch [50-60]	Speed: 167.81 samples/sec	accuracy=0.531250	cross-entropy=1.188168
+INFO:root:Epoch[46] Resetting Data Iterator
+INFO:root:Epoch[46] Time cost=49.843
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0047.params"
+INFO:root:Epoch[46] Validation-accuracy=0.551082
+INFO:root:Epoch[46] Validation-cross-entropy=1.187844
+INFO:root:Epoch[47] Batch [0-10]	Speed: 179.10 samples/sec	accuracy=0.565625	cross-entropy=1.147821
+INFO:root:Epoch[47] Batch [10-20]	Speed: 162.22 samples/sec	accuracy=0.550781	cross-entropy=1.176327
+INFO:root:Epoch[47] Batch [20-30]	Speed: 162.34 samples/sec	accuracy=0.569531	cross-entropy=1.149810
+INFO:root:Epoch[47] Batch [30-40]	Speed: 161.70 samples/sec	accuracy=0.568750	cross-entropy=1.131772
+INFO:root:Epoch[47] Batch [40-50]	Speed: 164.89 samples/sec	accuracy=0.552344	cross-entropy=1.179552
+INFO:root:Epoch[47] Batch [50-60]	Speed: 168.33 samples/sec	accuracy=0.518750	cross-entropy=1.184849
+INFO:root:Epoch[47] Resetting Data Iterator
+INFO:root:Epoch[47] Time cost=48.670
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0048.params"
+INFO:root:Epoch[47] Validation-accuracy=0.552455
+INFO:root:Epoch[47] Validation-cross-entropy=1.171363
+INFO:root:Epoch[48] Batch [0-10]	Speed: 177.87 samples/sec	accuracy=0.562500	cross-entropy=1.148016
+INFO:root:Epoch[48] Batch [10-20]	Speed: 161.04 samples/sec	accuracy=0.538281	cross-entropy=1.177934
+INFO:root:Epoch[48] Batch [20-30]	Speed: 162.30 samples/sec	accuracy=0.533594	cross-entropy=1.185408
+INFO:root:Epoch[48] Batch [30-40]	Speed: 163.00 samples/sec	accuracy=0.564844	cross-entropy=1.141905
+INFO:root:Epoch[48] Batch [40-50]	Speed: 164.37 samples/sec	accuracy=0.576562	cross-entropy=1.131238
+INFO:root:Epoch[48] Batch [50-60]	Speed: 168.37 samples/sec	accuracy=0.540625	cross-entropy=1.208452
+INFO:root:Epoch[48] Resetting Data Iterator
+INFO:root:Epoch[48] Time cost=49.459
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0049.params"
+INFO:root:Epoch[48] Validation-accuracy=0.566707
+INFO:root:Epoch[48] Validation-cross-entropy=1.149811
+INFO:root:Epoch[49] Batch [0-10]	Speed: 179.36 samples/sec	accuracy=0.576562	cross-entropy=1.121809
+INFO:root:Epoch[49] Batch [10-20]	Speed: 161.38 samples/sec	accuracy=0.540625	cross-entropy=1.161464
+INFO:root:Epoch[49] Batch [20-30]	Speed: 162.57 samples/sec	accuracy=0.554688	cross-entropy=1.148486
+INFO:root:Epoch[49] Batch [30-40]	Speed: 162.01 samples/sec	accuracy=0.563281	cross-entropy=1.116763
+INFO:root:Epoch[49] Batch [40-50]	Speed: 164.86 samples/sec	accuracy=0.560937	cross-entropy=1.171064
+INFO:root:Epoch[49] Batch [50-60]	Speed: 168.16 samples/sec	accuracy=0.525000	cross-entropy=1.184332
+INFO:root:Epoch[49] Resetting Data Iterator
+INFO:root:Epoch[49] Time cost=48.639
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0050.params"
+INFO:root:Epoch[49] Validation-accuracy=0.563702
+INFO:root:Epoch[49] Validation-cross-entropy=1.161952
+INFO:root:Epoch[50] Batch [0-10]	Speed: 179.28 samples/sec	accuracy=0.585156	cross-entropy=1.098718
+INFO:root:Epoch[50] Batch [10-20]	Speed: 161.99 samples/sec	accuracy=0.549219	cross-entropy=1.155944
+INFO:root:Epoch[50] Batch [20-30]	Speed: 159.56 samples/sec	accuracy=0.551562	cross-entropy=1.141962
+INFO:root:Epoch[50] Batch [30-40]	Speed: 162.04 samples/sec	accuracy=0.556250	cross-entropy=1.111934
+INFO:root:Epoch[50] Batch [40-50]	Speed: 164.10 samples/sec	accuracy=0.573438	cross-entropy=1.138176
+INFO:root:Epoch[50] Batch [50-60]	Speed: 168.17 samples/sec	accuracy=0.552344	cross-entropy=1.166681
+INFO:root:Epoch[50] Resetting Data Iterator
+INFO:root:Epoch[50] Time cost=48.812
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0051.params"
+INFO:root:Epoch[50] Validation-accuracy=0.555889
+INFO:root:Epoch[50] Validation-cross-entropy=1.177521
+INFO:root:Epoch[51] Batch [0-10]	Speed: 178.36 samples/sec	accuracy=0.553906	cross-entropy=1.157389
+INFO:root:Epoch[51] Batch [10-20]	Speed: 163.23 samples/sec	accuracy=0.548438	cross-entropy=1.145325
+INFO:root:Epoch[51] Batch [20-30]	Speed: 162.67 samples/sec	accuracy=0.562500	cross-entropy=1.151746
+INFO:root:Epoch[51] Batch [30-40]	Speed: 163.50 samples/sec	accuracy=0.580469	cross-entropy=1.112930
+INFO:root:Epoch[51] Batch [40-50]	Speed: 164.71 samples/sec	accuracy=0.575000	cross-entropy=1.131126
+INFO:root:Epoch[51] Batch [50-60]	Speed: 168.55 samples/sec	accuracy=0.553125	cross-entropy=1.155800
+INFO:root:Epoch[51] Resetting Data Iterator
+INFO:root:Epoch[51] Time cost=49.318
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0052.params"
+INFO:root:Epoch[51] Validation-accuracy=0.561384
+INFO:root:Epoch[51] Validation-cross-entropy=1.158986
+INFO:root:Epoch[52] Batch [0-10]	Speed: 178.54 samples/sec	accuracy=0.571875	cross-entropy=1.115259
+INFO:root:Epoch[52] Batch [10-20]	Speed: 160.60 samples/sec	accuracy=0.571094	cross-entropy=1.139530
+INFO:root:Epoch[52] Batch [20-30]	Speed: 162.64 samples/sec	accuracy=0.596094	cross-entropy=1.075498
+INFO:root:Epoch[52] Batch [30-40]	Speed: 161.76 samples/sec	accuracy=0.571875	cross-entropy=1.107552
+INFO:root:Epoch[52] Batch [40-50]	Speed: 164.31 samples/sec	accuracy=0.557813	cross-entropy=1.143131
+INFO:root:Epoch[52] Batch [50-60]	Speed: 168.39 samples/sec	accuracy=0.554688	cross-entropy=1.146148
+INFO:root:Epoch[52] Resetting Data Iterator
+INFO:root:Epoch[52] Time cost=48.713
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0053.params"
+INFO:root:Epoch[52] Validation-accuracy=0.568510
+INFO:root:Epoch[52] Validation-cross-entropy=1.141235
+INFO:root:Epoch[53] Batch [0-10]	Speed: 178.40 samples/sec	accuracy=0.564844	cross-entropy=1.111026
+INFO:root:Epoch[53] Batch [10-20]	Speed: 163.45 samples/sec	accuracy=0.535937	cross-entropy=1.165168
+INFO:root:Epoch[53] Batch [20-30]	Speed: 159.95 samples/sec	accuracy=0.575000	cross-entropy=1.093828
+INFO:root:Epoch[53] Batch [30-40]	Speed: 163.22 samples/sec	accuracy=0.569531	cross-entropy=1.086952
+INFO:root:Epoch[53] Batch [40-50]	Speed: 165.13 samples/sec	accuracy=0.585156	cross-entropy=1.120491
+INFO:root:Epoch[53] Batch [50-60]	Speed: 168.60 samples/sec	accuracy=0.563281	cross-entropy=1.142490
+INFO:root:Epoch[53] Resetting Data Iterator
+INFO:root:Epoch[53] Time cost=49.348
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0054.params"
+INFO:root:Epoch[53] Validation-accuracy=0.564904
+INFO:root:Epoch[53] Validation-cross-entropy=1.150795
+INFO:root:Epoch[54] Batch [0-10]	Speed: 180.77 samples/sec	accuracy=0.557813	cross-entropy=1.124608
+INFO:root:Epoch[54] Batch [10-20]	Speed: 162.51 samples/sec	accuracy=0.555469	cross-entropy=1.116148
+INFO:root:Epoch[54] Batch [20-30]	Speed: 163.15 samples/sec	accuracy=0.576562	cross-entropy=1.107338
+INFO:root:Epoch[54] Batch [30-40]	Speed: 163.00 samples/sec	accuracy=0.588281	cross-entropy=1.094884
+INFO:root:Epoch[54] Batch [40-50]	Speed: 165.49 samples/sec	accuracy=0.576562	cross-entropy=1.104559
+INFO:root:Epoch[54] Batch [50-60]	Speed: 168.43 samples/sec	accuracy=0.570312	cross-entropy=1.115229
+INFO:root:Epoch[54] Resetting Data Iterator
+INFO:root:Epoch[54] Time cost=48.440
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0055.params"
+INFO:root:Epoch[54] Validation-accuracy=0.578726
+INFO:root:Epoch[54] Validation-cross-entropy=1.127785
+INFO:root:Epoch[55] Batch [0-10]	Speed: 179.43 samples/sec	accuracy=0.571875	cross-entropy=1.111005
+INFO:root:Epoch[55] Batch [10-20]	Speed: 162.18 samples/sec	accuracy=0.546875	cross-entropy=1.115770
+INFO:root:Epoch[55] Batch [20-30]	Speed: 162.93 samples/sec	accuracy=0.582812	cross-entropy=1.091109
+INFO:root:Epoch[55] Batch [30-40]	Speed: 163.03 samples/sec	accuracy=0.571875	cross-entropy=1.082568
+INFO:root:Epoch[55] Batch [40-50]	Speed: 164.60 samples/sec	accuracy=0.578906	cross-entropy=1.118510
+INFO:root:Epoch[55] Batch [50-60]	Speed: 168.74 samples/sec	accuracy=0.576562	cross-entropy=1.143081
+INFO:root:Epoch[55] Resetting Data Iterator
+INFO:root:Epoch[55] Time cost=48.481
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0056.params"
+INFO:root:Epoch[55] Validation-accuracy=0.569196
+INFO:root:Epoch[55] Validation-cross-entropy=1.117179
+INFO:root:Epoch[56] Batch [0-10]	Speed: 179.08 samples/sec	accuracy=0.575781	cross-entropy=1.101678
+INFO:root:Epoch[56] Batch [10-20]	Speed: 162.32 samples/sec	accuracy=0.552344	cross-entropy=1.129852
+INFO:root:Epoch[56] Batch [20-30]	Speed: 161.94 samples/sec	accuracy=0.572656	cross-entropy=1.110397
+INFO:root:Epoch[56] Batch [30-40]	Speed: 162.66 samples/sec	accuracy=0.592187	cross-entropy=1.061433
+INFO:root:Epoch[56] Batch [40-50]	Speed: 164.38 samples/sec	accuracy=0.569531	cross-entropy=1.104455
+INFO:root:Epoch[56] Batch [50-60]	Speed: 168.64 samples/sec	accuracy=0.552344	cross-entropy=1.150309
+INFO:root:Epoch[56] Resetting Data Iterator
+INFO:root:Epoch[56] Time cost=49.334
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0057.params"
+INFO:root:Epoch[56] Validation-accuracy=0.586538
+INFO:root:Epoch[56] Validation-cross-entropy=1.110420
+INFO:root:Epoch[57] Batch [0-10]	Speed: 180.36 samples/sec	accuracy=0.583594	cross-entropy=1.093763
+INFO:root:Epoch[57] Batch [10-20]	Speed: 162.76 samples/sec	accuracy=0.557031	cross-entropy=1.125741
+INFO:root:Epoch[57] Batch [20-30]	Speed: 163.10 samples/sec	accuracy=0.600781	cross-entropy=1.039271
+INFO:root:Epoch[57] Batch [30-40]	Speed: 161.70 samples/sec	accuracy=0.603125	cross-entropy=1.051637
+INFO:root:Epoch[57] Batch [40-50]	Speed: 165.06 samples/sec	accuracy=0.581250	cross-entropy=1.121246
+INFO:root:Epoch[57] Batch [50-60]	Speed: 168.67 samples/sec	accuracy=0.572656	cross-entropy=1.098179
+INFO:root:Epoch[57] Resetting Data Iterator
+INFO:root:Epoch[57] Time cost=48.460
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0058.params"
+INFO:root:Epoch[57] Validation-accuracy=0.584135
+INFO:root:Epoch[57] Validation-cross-entropy=1.124293
+INFO:root:Epoch[58] Batch [0-10]	Speed: 177.29 samples/sec	accuracy=0.579688	cross-entropy=1.076104
+INFO:root:Epoch[58] Batch [10-20]	Speed: 163.53 samples/sec	accuracy=0.564063	cross-entropy=1.115995
+INFO:root:Epoch[58] Batch [20-30]	Speed: 162.71 samples/sec	accuracy=0.590625	cross-entropy=1.078191
+INFO:root:Epoch[58] Batch [30-40]	Speed: 163.83 samples/sec	accuracy=0.576562	cross-entropy=1.076581
+INFO:root:Epoch[58] Batch [40-50]	Speed: 165.38 samples/sec	accuracy=0.572656	cross-entropy=1.104953
+INFO:root:Epoch[58] Batch [50-60]	Speed: 168.81 samples/sec	accuracy=0.566406	cross-entropy=1.134971
+INFO:root:Epoch[58] Resetting Data Iterator
+INFO:root:Epoch[58] Time cost=49.277
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0059.params"
+INFO:root:Epoch[58] Validation-accuracy=0.589286
+INFO:root:Epoch[58] Validation-cross-entropy=1.111762
+INFO:root:Epoch[59] Batch [0-10]	Speed: 178.01 samples/sec	accuracy=0.586719	cross-entropy=1.095719
+INFO:root:Epoch[59] Batch [10-20]	Speed: 162.52 samples/sec	accuracy=0.570312	cross-entropy=1.105787
+INFO:root:Epoch[59] Batch [20-30]	Speed: 162.99 samples/sec	accuracy=0.596875	cross-entropy=1.065756
+INFO:root:Epoch[59] Batch [30-40]	Speed: 162.66 samples/sec	accuracy=0.592969	cross-entropy=1.052705
+INFO:root:Epoch[59] Batch [40-50]	Speed: 165.70 samples/sec	accuracy=0.582031	cross-entropy=1.085873
+INFO:root:Epoch[59] Batch [50-60]	Speed: 168.67 samples/sec	accuracy=0.577344	cross-entropy=1.095571
+INFO:root:Epoch[59] Resetting Data Iterator
+INFO:root:Epoch[59] Time cost=48.487
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0060.params"
+INFO:root:Epoch[59] Validation-accuracy=0.575335
+INFO:root:Epoch[59] Validation-cross-entropy=1.095193
+INFO:root:Epoch[60] Batch [0-10]	Speed: 179.00 samples/sec	accuracy=0.593750	cross-entropy=1.065131
+INFO:root:Epoch[60] Batch [10-20]	Speed: 162.58 samples/sec	accuracy=0.587500	cross-entropy=1.104871
+INFO:root:Epoch[60] Batch [20-30]	Speed: 163.42 samples/sec	accuracy=0.614062	cross-entropy=1.033472
+INFO:root:Epoch[60] Batch [30-40]	Speed: 162.26 samples/sec	accuracy=0.604688	cross-entropy=1.028036
+INFO:root:Epoch[60] Batch [40-50]	Speed: 165.44 samples/sec	accuracy=0.567187	cross-entropy=1.089802
+INFO:root:Epoch[60] Batch [50-60]	Speed: 169.08 samples/sec	accuracy=0.568750	cross-entropy=1.134236
+INFO:root:Epoch[60] Resetting Data Iterator
+INFO:root:Epoch[60] Time cost=48.440
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0061.params"
+INFO:root:Epoch[60] Validation-accuracy=0.585337
+INFO:root:Epoch[60] Validation-cross-entropy=1.121248
+INFO:root:Epoch[61] Batch [0-10]	Speed: 178.93 samples/sec	accuracy=0.564844	cross-entropy=1.091069
+INFO:root:Epoch[61] Batch [10-20]	Speed: 163.68 samples/sec	accuracy=0.581250	cross-entropy=1.054705
+INFO:root:Epoch[61] Batch [20-30]	Speed: 162.47 samples/sec	accuracy=0.600781	cross-entropy=1.050509
+INFO:root:Epoch[61] Batch [30-40]	Speed: 161.08 samples/sec	accuracy=0.592187	cross-entropy=1.038702
+INFO:root:Epoch[61] Batch [40-50]	Speed: 164.58 samples/sec	accuracy=0.585938	cross-entropy=1.063061
+INFO:root:Epoch[61] Batch [50-60]	Speed: 169.01 samples/sec	accuracy=0.581250	cross-entropy=1.077812
+INFO:root:Epoch[61] Resetting Data Iterator
+INFO:root:Epoch[61] Time cost=49.307
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0062.params"
+INFO:root:Epoch[61] Validation-accuracy=0.595553
+INFO:root:Epoch[61] Validation-cross-entropy=1.068324
+INFO:root:Epoch[62] Batch [0-10]	Speed: 179.66 samples/sec	accuracy=0.602344	cross-entropy=1.036761
+INFO:root:Epoch[62] Batch [10-20]	Speed: 162.13 samples/sec	accuracy=0.589844	cross-entropy=1.031589
+INFO:root:Epoch[62] Batch [20-30]	Speed: 162.98 samples/sec	accuracy=0.589063	cross-entropy=1.048077
+INFO:root:Epoch[62] Batch [30-40]	Speed: 162.42 samples/sec	accuracy=0.598437	cross-entropy=1.031559
+INFO:root:Epoch[62] Batch [40-50]	Speed: 165.31 samples/sec	accuracy=0.598437	cross-entropy=1.051789
+INFO:root:Epoch[62] Batch [50-60]	Speed: 169.01 samples/sec	accuracy=0.570312	cross-entropy=1.108854
+INFO:root:Epoch[62] Resetting Data Iterator
+INFO:root:Epoch[62] Time cost=48.435
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0063.params"
+INFO:root:Epoch[62] Validation-accuracy=0.588728
+INFO:root:Epoch[62] Validation-cross-entropy=1.061831
+INFO:root:Epoch[63] Batch [0-10]	Speed: 179.13 samples/sec	accuracy=0.614062	cross-entropy=1.023622
+INFO:root:Epoch[63] Batch [10-20]	Speed: 162.41 samples/sec	accuracy=0.575781	cross-entropy=1.059694
+INFO:root:Epoch[63] Batch [20-30]	Speed: 162.63 samples/sec	accuracy=0.606250	cross-entropy=1.057412
+INFO:root:Epoch[63] Batch [30-40]	Speed: 163.45 samples/sec	accuracy=0.597656	cross-entropy=1.030928
+INFO:root:Epoch[63] Batch [40-50]	Speed: 165.69 samples/sec	accuracy=0.591406	cross-entropy=1.042854
+INFO:root:Epoch[63] Batch [50-60]	Speed: 168.90 samples/sec	accuracy=0.591406	cross-entropy=1.080588
+INFO:root:Epoch[63] Resetting Data Iterator
+INFO:root:Epoch[63] Time cost=48.482
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0064.params"
+INFO:root:Epoch[63] Validation-accuracy=0.590745
+INFO:root:Epoch[63] Validation-cross-entropy=1.083501
+INFO:root:Epoch[64] Batch [0-10]	Speed: 160.12 samples/sec	accuracy=0.609375	cross-entropy=1.036333
+INFO:root:Epoch[64] Batch [10-20]	Speed: 157.24 samples/sec	accuracy=0.577344	cross-entropy=1.078678
+INFO:root:Epoch[64] Batch [20-30]	Speed: 137.17 samples/sec	accuracy=0.588281	cross-entropy=1.056062
+INFO:root:Epoch[64] Batch [30-40]	Speed: 153.61 samples/sec	accuracy=0.605469	cross-entropy=1.004710
+INFO:root:Epoch[64] Batch [40-50]	Speed: 155.36 samples/sec	accuracy=0.597656	cross-entropy=1.027533
+INFO:root:Epoch[64] Batch [50-60]	Speed: 158.90 samples/sec	accuracy=0.578906	cross-entropy=1.082054
+INFO:root:Epoch[64] Resetting Data Iterator
+INFO:root:Epoch[64] Time cost=53.420
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0065.params"
+INFO:root:Epoch[64] Validation-accuracy=0.600361
+INFO:root:Epoch[64] Validation-cross-entropy=1.073852
+INFO:root:Epoch[65] Batch [0-10]	Speed: 170.88 samples/sec	accuracy=0.625000	cross-entropy=1.021444
+INFO:root:Epoch[65] Batch [10-20]	Speed: 153.82 samples/sec	accuracy=0.589063	cross-entropy=1.064136
+INFO:root:Epoch[65] Batch [20-30]	Speed: 154.40 samples/sec	accuracy=0.600781	cross-entropy=1.025829
+INFO:root:Epoch[65] Batch [30-40]	Speed: 153.65 samples/sec	accuracy=0.597656	cross-entropy=1.021103
+INFO:root:Epoch[65] Batch [40-50]	Speed: 156.11 samples/sec	accuracy=0.600000	cross-entropy=1.084320
+INFO:root:Epoch[65] Batch [50-60]	Speed: 158.85 samples/sec	accuracy=0.575781	cross-entropy=1.082530
+INFO:root:Epoch[65] Resetting Data Iterator
+INFO:root:Epoch[65] Time cost=51.286
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0066.params"
+INFO:root:Epoch[65] Validation-accuracy=0.598558
+INFO:root:Epoch[65] Validation-cross-entropy=1.062857
+INFO:root:Epoch[66] Batch [0-10]	Speed: 169.67 samples/sec	accuracy=0.612500	cross-entropy=1.017286
+INFO:root:Epoch[66] Batch [10-20]	Speed: 153.65 samples/sec	accuracy=0.582031	cross-entropy=1.046028
+INFO:root:Epoch[66] Batch [20-30]	Speed: 153.49 samples/sec	accuracy=0.603906	cross-entropy=1.024491
+INFO:root:Epoch[66] Batch [30-40]	Speed: 153.88 samples/sec	accuracy=0.596094	cross-entropy=1.022879
+INFO:root:Epoch[66] Batch [40-50]	Speed: 154.73 samples/sec	accuracy=0.615625	cross-entropy=1.035671
+INFO:root:Epoch[66] Batch [50-60]	Speed: 158.50 samples/sec	accuracy=0.588281	cross-entropy=1.055057
+INFO:root:Epoch[66] Resetting Data Iterator
+INFO:root:Epoch[66] Time cost=52.296
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0067.params"
+INFO:root:Epoch[66] Validation-accuracy=0.601004
+INFO:root:Epoch[66] Validation-cross-entropy=1.060787
+INFO:root:Epoch[67] Batch [0-10]	Speed: 169.03 samples/sec	accuracy=0.604688	cross-entropy=0.999155
+INFO:root:Epoch[67] Batch [10-20]	Speed: 153.38 samples/sec	accuracy=0.591406	cross-entropy=1.039185
+INFO:root:Epoch[67] Batch [20-30]	Speed: 154.13 samples/sec	accuracy=0.612500	cross-entropy=1.005009
+INFO:root:Epoch[67] Batch [30-40]	Speed: 153.31 samples/sec	accuracy=0.606250	cross-entropy=1.011732
+INFO:root:Epoch[67] Batch [40-50]	Speed: 156.08 samples/sec	accuracy=0.604688	cross-entropy=1.014567
+INFO:root:Epoch[67] Batch [50-60]	Speed: 156.62 samples/sec	accuracy=0.586719	cross-entropy=1.072552
+INFO:root:Epoch[67] Resetting Data Iterator
+INFO:root:Epoch[67] Time cost=51.478
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0068.params"
+INFO:root:Epoch[67] Validation-accuracy=0.591947
+INFO:root:Epoch[67] Validation-cross-entropy=1.057684
+INFO:root:Epoch[68] Batch [0-10]	Speed: 169.95 samples/sec	accuracy=0.614062	cross-entropy=1.029546
+INFO:root:Epoch[68] Batch [10-20]	Speed: 152.22 samples/sec	accuracy=0.596875	cross-entropy=1.039344
+INFO:root:Epoch[68] Batch [20-30]	Speed: 153.65 samples/sec	accuracy=0.602344	cross-entropy=1.012792
+INFO:root:Epoch[68] Batch [30-40]	Speed: 153.56 samples/sec	accuracy=0.603906	cross-entropy=1.015152
+INFO:root:Epoch[68] Batch [40-50]	Speed: 154.74 samples/sec	accuracy=0.613281	cross-entropy=1.047200
+INFO:root:Epoch[68] Batch [50-60]	Speed: 157.78 samples/sec	accuracy=0.592187	cross-entropy=1.036071
+INFO:root:Epoch[68] Resetting Data Iterator
+INFO:root:Epoch[68] Time cost=51.605
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0069.params"
+INFO:root:Epoch[68] Validation-accuracy=0.615385
+INFO:root:Epoch[68] Validation-cross-entropy=1.039995
+INFO:root:Epoch[69] Batch [0-10]	Speed: 168.93 samples/sec	accuracy=0.627344	cross-entropy=0.977956
+INFO:root:Epoch[69] Batch [10-20]	Speed: 153.50 samples/sec	accuracy=0.610156	cross-entropy=1.009381
+INFO:root:Epoch[69] Batch [20-30]	Speed: 153.25 samples/sec	accuracy=0.605469	cross-entropy=1.029720
+INFO:root:Epoch[69] Batch [30-40]	Speed: 152.23 samples/sec	accuracy=0.607812	cross-entropy=0.983365
+INFO:root:Epoch[69] Batch [40-50]	Speed: 154.88 samples/sec	accuracy=0.604688	cross-entropy=1.017483
+INFO:root:Epoch[69] Batch [50-60]	Speed: 157.82 samples/sec	accuracy=0.610938	cross-entropy=1.038113
+INFO:root:Epoch[69] Resetting Data Iterator
+INFO:root:Epoch[69] Time cost=52.402
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0070.params"
+INFO:root:Epoch[69] Validation-accuracy=0.608173
+INFO:root:Epoch[69] Validation-cross-entropy=1.060428
+INFO:root:Epoch[70] Batch [0-10]	Speed: 169.99 samples/sec	accuracy=0.612500	cross-entropy=0.992980
+INFO:root:Epoch[70] Batch [10-20]	Speed: 152.36 samples/sec	accuracy=0.614844	cross-entropy=0.989094
+INFO:root:Epoch[70] Batch [20-30]	Speed: 153.53 samples/sec	accuracy=0.626563	cross-entropy=0.974815
+INFO:root:Epoch[70] Batch [30-40]	Speed: 153.03 samples/sec	accuracy=0.625000	cross-entropy=0.973004
+INFO:root:Epoch[70] Batch [40-50]	Speed: 155.53 samples/sec	accuracy=0.585156	cross-entropy=1.035577
+INFO:root:Epoch[70] Batch [50-60]	Speed: 158.21 samples/sec	accuracy=0.619531	cross-entropy=1.013277
+INFO:root:Epoch[70] Resetting Data Iterator
+INFO:root:Epoch[70] Time cost=51.577
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0071.params"
+INFO:root:Epoch[70] Validation-accuracy=0.604353
+INFO:root:Epoch[70] Validation-cross-entropy=1.073659
+INFO:root:Epoch[71] Batch [0-10]	Speed: 168.10 samples/sec	accuracy=0.612500	cross-entropy=1.001090
+INFO:root:Epoch[71] Batch [10-20]	Speed: 147.99 samples/sec	accuracy=0.611719	cross-entropy=1.009790
+INFO:root:Epoch[71] Batch [20-30]	Speed: 147.25 samples/sec	accuracy=0.633594	cross-entropy=0.972466
+INFO:root:Epoch[71] Batch [30-40]	Speed: 148.13 samples/sec	accuracy=0.622656	cross-entropy=0.958686
+INFO:root:Epoch[71] Batch [40-50]	Speed: 151.23 samples/sec	accuracy=0.615625	cross-entropy=0.989462
+INFO:root:Epoch[71] Batch [50-60]	Speed: 158.17 samples/sec	accuracy=0.593750	cross-entropy=1.035268
+INFO:root:Epoch[71] Resetting Data Iterator
+INFO:root:Epoch[71] Time cost=53.578
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0072.params"
+INFO:root:Epoch[71] Validation-accuracy=0.612981
+INFO:root:Epoch[71] Validation-cross-entropy=1.016405
+INFO:root:Epoch[72] Batch [0-10]	Speed: 168.61 samples/sec	accuracy=0.615625	cross-entropy=0.974419
+INFO:root:Epoch[72] Batch [10-20]	Speed: 153.21 samples/sec	accuracy=0.585156	cross-entropy=1.020874
+INFO:root:Epoch[72] Batch [20-30]	Speed: 153.87 samples/sec	accuracy=0.616406	cross-entropy=0.956429
+INFO:root:Epoch[72] Batch [30-40]	Speed: 153.31 samples/sec	accuracy=0.638281	cross-entropy=0.964039
+INFO:root:Epoch[72] Batch [40-50]	Speed: 155.79 samples/sec	accuracy=0.607812	cross-entropy=1.012580
+INFO:root:Epoch[72] Batch [50-60]	Speed: 157.94 samples/sec	accuracy=0.596094	cross-entropy=1.052427
+INFO:root:Epoch[72] Resetting Data Iterator
+INFO:root:Epoch[72] Time cost=51.471
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0073.params"
+INFO:root:Epoch[72] Validation-accuracy=0.610577
+INFO:root:Epoch[72] Validation-cross-entropy=1.055798
+INFO:root:Epoch[73] Batch [0-10]	Speed: 169.89 samples/sec	accuracy=0.632812	cross-entropy=0.989035
+INFO:root:Epoch[73] Batch [10-20]	Speed: 153.31 samples/sec	accuracy=0.616406	cross-entropy=1.004804
+INFO:root:Epoch[73] Batch [20-30]	Speed: 154.20 samples/sec	accuracy=0.620313	cross-entropy=0.953734
+INFO:root:Epoch[73] Batch [30-40]	Speed: 154.08 samples/sec	accuracy=0.625781	cross-entropy=0.976878
+INFO:root:Epoch[73] Batch [40-50]	Speed: 155.44 samples/sec	accuracy=0.605469	cross-entropy=1.010749
+INFO:root:Epoch[73] Batch [50-60]	Speed: 158.29 samples/sec	accuracy=0.612500	cross-entropy=1.019444
+INFO:root:Epoch[73] Resetting Data Iterator
+INFO:root:Epoch[73] Time cost=51.415
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0074.params"
+INFO:root:Epoch[73] Validation-accuracy=0.614397
+INFO:root:Epoch[73] Validation-cross-entropy=1.069770
+INFO:root:Epoch[74] Batch [0-10]	Speed: 169.82 samples/sec	accuracy=0.621875	cross-entropy=0.992566
+INFO:root:Epoch[74] Batch [10-20]	Speed: 153.37 samples/sec	accuracy=0.632812	cross-entropy=0.963969
+INFO:root:Epoch[74] Batch [20-30]	Speed: 153.10 samples/sec	accuracy=0.638281	cross-entropy=0.983679
+INFO:root:Epoch[74] Batch [30-40]	Speed: 153.60 samples/sec	accuracy=0.622656	cross-entropy=0.987357
+INFO:root:Epoch[74] Batch [40-50]	Speed: 154.37 samples/sec	accuracy=0.625781	cross-entropy=0.981787
+INFO:root:Epoch[74] Batch [50-60]	Speed: 158.29 samples/sec	accuracy=0.611719	cross-entropy=1.018963
+INFO:root:Epoch[74] Resetting Data Iterator
+INFO:root:Epoch[74] Time cost=52.379
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0075.params"
+INFO:root:Epoch[74] Validation-accuracy=0.611049
+INFO:root:Epoch[74] Validation-cross-entropy=1.062131
+INFO:root:Epoch[75] Batch [0-10]	Speed: 169.56 samples/sec	accuracy=0.623437	cross-entropy=0.999549
+INFO:root:Epoch[75] Batch [10-20]	Speed: 152.55 samples/sec	accuracy=0.611719	cross-entropy=0.981024
+INFO:root:Epoch[75] Batch [20-30]	Speed: 153.44 samples/sec	accuracy=0.614844	cross-entropy=0.966341
+INFO:root:Epoch[75] Batch [30-40]	Speed: 152.44 samples/sec	accuracy=0.617188	cross-entropy=0.937145
+INFO:root:Epoch[75] Batch [40-50]	Speed: 155.17 samples/sec	accuracy=0.620313	cross-entropy=1.007096
+INFO:root:Epoch[75] Batch [50-60]	Speed: 158.22 samples/sec	accuracy=0.610156	cross-entropy=0.996736
+INFO:root:Epoch[75] Resetting Data Iterator
+INFO:root:Epoch[75] Time cost=51.626
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0076.params"
+INFO:root:Epoch[75] Validation-accuracy=0.612981
+INFO:root:Epoch[75] Validation-cross-entropy=1.060963
+INFO:root:Epoch[76] Batch [0-10]	Speed: 167.54 samples/sec	accuracy=0.628125	cross-entropy=0.981412
+INFO:root:Epoch[76] Batch [10-20]	Speed: 153.40 samples/sec	accuracy=0.629687	cross-entropy=0.968761
+INFO:root:Epoch[76] Batch [20-30]	Speed: 153.25 samples/sec	accuracy=0.636719	cross-entropy=0.955389
+INFO:root:Epoch[76] Batch [30-40]	Speed: 151.97 samples/sec	accuracy=0.627344	cross-entropy=0.964411
+INFO:root:Epoch[76] Batch [40-50]	Speed: 154.64 samples/sec	accuracy=0.650000	cross-entropy=0.939488
+INFO:root:Epoch[76] Batch [50-60]	Speed: 157.81 samples/sec	accuracy=0.613281	cross-entropy=0.971954
+INFO:root:Epoch[76] Resetting Data Iterator
+INFO:root:Epoch[76] Time cost=52.509
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0077.params"
+INFO:root:Epoch[76] Validation-accuracy=0.637620
+INFO:root:Epoch[76] Validation-cross-entropy=1.008539
+INFO:root:Epoch[77] Batch [0-10]	Speed: 169.69 samples/sec	accuracy=0.610938	cross-entropy=0.958981
+INFO:root:Epoch[77] Batch [10-20]	Speed: 152.70 samples/sec	accuracy=0.623437	cross-entropy=0.962131
+INFO:root:Epoch[77] Batch [20-30]	Speed: 153.65 samples/sec	accuracy=0.635156	cross-entropy=0.954923
+INFO:root:Epoch[77] Batch [30-40]	Speed: 152.75 samples/sec	accuracy=0.628906	cross-entropy=0.969024
+INFO:root:Epoch[77] Batch [40-50]	Speed: 155.55 samples/sec	accuracy=0.624219	cross-entropy=0.981541
+INFO:root:Epoch[77] Batch [50-60]	Speed: 158.12 samples/sec	accuracy=0.632031	cross-entropy=0.945609
+INFO:root:Epoch[77] Resetting Data Iterator
+INFO:root:Epoch[77] Time cost=51.576
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0078.params"
+INFO:root:Epoch[77] Validation-accuracy=0.619978
+INFO:root:Epoch[77] Validation-cross-entropy=1.026282
+INFO:root:Epoch[78] Batch [0-10]	Speed: 168.53 samples/sec	accuracy=0.649219	cross-entropy=0.940565
+INFO:root:Epoch[78] Batch [10-20]	Speed: 151.45 samples/sec	accuracy=0.628125	cross-entropy=0.951228
+INFO:root:Epoch[78] Batch [20-30]	Speed: 153.40 samples/sec	accuracy=0.633594	cross-entropy=0.945111
+INFO:root:Epoch[78] Batch [30-40]	Speed: 153.05 samples/sec	accuracy=0.637500	cross-entropy=0.941090
+INFO:root:Epoch[78] Batch [40-50]	Speed: 154.84 samples/sec	accuracy=0.621094	cross-entropy=0.971740
+INFO:root:Epoch[78] Batch [50-60]	Speed: 157.81 samples/sec	accuracy=0.613281	cross-entropy=0.993033
+INFO:root:Epoch[78] Resetting Data Iterator
+INFO:root:Epoch[78] Time cost=51.668
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0079.params"
+INFO:root:Epoch[78] Validation-accuracy=0.631696
+INFO:root:Epoch[78] Validation-cross-entropy=1.014983
+INFO:root:Epoch[79] Batch [0-10]	Speed: 170.41 samples/sec	accuracy=0.642969	cross-entropy=0.952155
+INFO:root:Epoch[79] Batch [10-20]	Speed: 153.11 samples/sec	accuracy=0.617188	cross-entropy=0.980841
+INFO:root:Epoch[79] Batch [20-30]	Speed: 153.01 samples/sec	accuracy=0.630469	cross-entropy=0.959227
+INFO:root:Epoch[79] Batch [30-40]	Speed: 153.53 samples/sec	accuracy=0.616406	cross-entropy=0.965538
+INFO:root:Epoch[79] Batch [40-50]	Speed: 154.86 samples/sec	accuracy=0.632812	cross-entropy=0.963029
+INFO:root:Epoch[79] Batch [50-60]	Speed: 157.69 samples/sec	accuracy=0.613281	cross-entropy=0.977822
+INFO:root:Epoch[79] Resetting Data Iterator
+INFO:root:Epoch[79] Time cost=52.310
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0080.params"
+INFO:root:Epoch[79] Validation-accuracy=0.640625
+INFO:root:Epoch[79] Validation-cross-entropy=1.000722
+INFO:root:Epoch[80] Batch [0-10]	Speed: 168.86 samples/sec	accuracy=0.632031	cross-entropy=0.956540
+INFO:root:Epoch[80] Batch [10-20]	Speed: 152.65 samples/sec	accuracy=0.631250	cross-entropy=0.955868
+INFO:root:Epoch[80] Batch [20-30]	Speed: 153.76 samples/sec	accuracy=0.628125	cross-entropy=0.931211
+INFO:root:Epoch[80] Batch [30-40]	Speed: 152.86 samples/sec	accuracy=0.644531	cross-entropy=0.919218
+INFO:root:Epoch[80] Batch [40-50]	Speed: 155.43 samples/sec	accuracy=0.639062	cross-entropy=0.956361
+INFO:root:Epoch[80] Batch [50-60]	Speed: 157.91 samples/sec	accuracy=0.628906	cross-entropy=0.959159
+INFO:root:Epoch[80] Resetting Data Iterator
+INFO:root:Epoch[80] Time cost=51.556
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0081.params"
+INFO:root:Epoch[80] Validation-accuracy=0.628606
+INFO:root:Epoch[80] Validation-cross-entropy=1.035600
+INFO:root:Epoch[81] Batch [0-10]	Speed: 170.08 samples/sec	accuracy=0.642188	cross-entropy=0.950809
+INFO:root:Epoch[81] Batch [10-20]	Speed: 153.29 samples/sec	accuracy=0.625000	cross-entropy=0.948174
+INFO:root:Epoch[81] Batch [20-30]	Speed: 153.26 samples/sec	accuracy=0.651563	cross-entropy=0.927078
+INFO:root:Epoch[81] Batch [30-40]	Speed: 153.59 samples/sec	accuracy=0.632031	cross-entropy=0.940233
+INFO:root:Epoch[81] Batch [40-50]	Speed: 155.10 samples/sec	accuracy=0.633594	cross-entropy=0.938169
+INFO:root:Epoch[81] Batch [50-60]	Speed: 158.30 samples/sec	accuracy=0.631250	cross-entropy=0.993259
+INFO:root:Epoch[81] Resetting Data Iterator
+INFO:root:Epoch[81] Time cost=52.265
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0082.params"
+INFO:root:Epoch[81] Validation-accuracy=0.625558
+INFO:root:Epoch[81] Validation-cross-entropy=1.064582
+INFO:root:Epoch[82] Batch [0-10]	Speed: 162.85 samples/sec	accuracy=0.644531	cross-entropy=0.931528
+INFO:root:Epoch[82] Batch [10-20]	Speed: 153.14 samples/sec	accuracy=0.606250	cross-entropy=0.969896
+INFO:root:Epoch[82] Batch [20-30]	Speed: 150.57 samples/sec	accuracy=0.661719	cross-entropy=0.893288
+INFO:root:Epoch[82] Batch [30-40]	Speed: 149.77 samples/sec	accuracy=0.659375	cross-entropy=0.907000
+INFO:root:Epoch[82] Batch [40-50]	Speed: 154.74 samples/sec	accuracy=0.633594	cross-entropy=0.950147
+INFO:root:Epoch[82] Batch [50-60]	Speed: 157.68 samples/sec	accuracy=0.626563	cross-entropy=0.981640
+INFO:root:Epoch[82] Resetting Data Iterator
+INFO:root:Epoch[82] Time cost=52.270
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0083.params"
+INFO:root:Epoch[82] Validation-accuracy=0.621995
+INFO:root:Epoch[82] Validation-cross-entropy=1.062582
+INFO:root:Epoch[83] Batch [0-10]	Speed: 169.61 samples/sec	accuracy=0.646094	cross-entropy=0.945339
+INFO:root:Epoch[83] Batch [10-20]	Speed: 151.52 samples/sec	accuracy=0.620313	cross-entropy=0.968790
+INFO:root:Epoch[83] Batch [20-30]	Speed: 153.10 samples/sec	accuracy=0.647656	cross-entropy=0.900399
+INFO:root:Epoch[83] Batch [30-40]	Speed: 152.11 samples/sec	accuracy=0.634375	cross-entropy=0.918627
+INFO:root:Epoch[83] Batch [40-50]	Speed: 154.99 samples/sec	accuracy=0.631250	cross-entropy=0.946634
+INFO:root:Epoch[83] Batch [50-60]	Speed: 151.51 samples/sec	accuracy=0.621875	cross-entropy=0.993698
+INFO:root:Epoch[83] Resetting Data Iterator
+INFO:root:Epoch[83] Time cost=52.193
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0084.params"
+INFO:root:Epoch[83] Validation-accuracy=0.631611
+INFO:root:Epoch[83] Validation-cross-entropy=1.008237
+INFO:root:Epoch[84] Batch [0-10]	Speed: 157.75 samples/sec	accuracy=0.652344	cross-entropy=0.897538
+INFO:root:Epoch[84] Batch [10-20]	Speed: 143.35 samples/sec	accuracy=0.637500	cross-entropy=0.917373
+INFO:root:Epoch[84] Batch [20-30]	Speed: 142.86 samples/sec	accuracy=0.628906	cross-entropy=0.940598
+INFO:root:Epoch[84] Batch [30-40]	Speed: 143.52 samples/sec	accuracy=0.646875	cross-entropy=0.920422
+INFO:root:Epoch[84] Batch [40-50]	Speed: 144.91 samples/sec	accuracy=0.628906	cross-entropy=0.915526
+INFO:root:Epoch[84] Batch [50-60]	Speed: 147.43 samples/sec	accuracy=0.632812	cross-entropy=0.969613
+INFO:root:Epoch[84] Resetting Data Iterator
+INFO:root:Epoch[84] Time cost=56.019
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0085.params"
+INFO:root:Epoch[84] Validation-accuracy=0.646635
+INFO:root:Epoch[84] Validation-cross-entropy=1.002185
+INFO:root:Epoch[85] Batch [0-10]	Speed: 158.28 samples/sec	accuracy=0.655469	cross-entropy=0.915780
+INFO:root:Epoch[85] Batch [10-20]	Speed: 142.83 samples/sec	accuracy=0.633594	cross-entropy=0.954473
+INFO:root:Epoch[85] Batch [20-30]	Speed: 143.47 samples/sec	accuracy=0.646875	cross-entropy=0.894015
+INFO:root:Epoch[85] Batch [30-40]	Speed: 142.94 samples/sec	accuracy=0.659375	cross-entropy=0.894729
+INFO:root:Epoch[85] Batch [40-50]	Speed: 145.22 samples/sec	accuracy=0.630469	cross-entropy=0.962156
+INFO:root:Epoch[85] Batch [50-60]	Speed: 147.77 samples/sec	accuracy=0.643750	cross-entropy=0.953636
+INFO:root:Epoch[85] Resetting Data Iterator
+INFO:root:Epoch[85] Time cost=55.121
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0086.params"
+INFO:root:Epoch[85] Validation-accuracy=0.636161
+INFO:root:Epoch[85] Validation-cross-entropy=0.998388
+INFO:root:Epoch[86] Batch [0-10]	Speed: 157.13 samples/sec	accuracy=0.657031	cross-entropy=0.890703
+INFO:root:Epoch[86] Batch [10-20]	Speed: 142.85 samples/sec	accuracy=0.622656	cross-entropy=0.945512
+INFO:root:Epoch[86] Batch [20-30]	Speed: 143.02 samples/sec	accuracy=0.653125	cross-entropy=0.928713
+INFO:root:Epoch[86] Batch [30-40]	Speed: 142.46 samples/sec	accuracy=0.651563	cross-entropy=0.882051
+INFO:root:Epoch[86] Batch [40-50]	Speed: 144.77 samples/sec	accuracy=0.637500	cross-entropy=0.929677
+INFO:root:Epoch[86] Batch [50-60]	Speed: 147.82 samples/sec	accuracy=0.608594	cross-entropy=0.984136
+INFO:root:Epoch[86] Resetting Data Iterator
+INFO:root:Epoch[86] Time cost=55.272
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0087.params"
+INFO:root:Epoch[86] Validation-accuracy=0.633413
+INFO:root:Epoch[86] Validation-cross-entropy=1.019863
+INFO:root:Epoch[87] Batch [0-10]	Speed: 156.63 samples/sec	accuracy=0.657813	cross-entropy=0.900729
+INFO:root:Epoch[87] Batch [10-20]	Speed: 142.55 samples/sec	accuracy=0.624219	cross-entropy=0.942720
+INFO:root:Epoch[87] Batch [20-30]	Speed: 143.02 samples/sec	accuracy=0.655469	cross-entropy=0.898877
+INFO:root:Epoch[87] Batch [30-40]	Speed: 143.36 samples/sec	accuracy=0.660156	cross-entropy=0.861273
+INFO:root:Epoch[87] Batch [40-50]	Speed: 144.54 samples/sec	accuracy=0.646875	cross-entropy=0.932987
+INFO:root:Epoch[87] Batch [50-60]	Speed: 147.54 samples/sec	accuracy=0.642188	cross-entropy=0.925198
+INFO:root:Epoch[87] Resetting Data Iterator
+INFO:root:Epoch[87] Time cost=56.170
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0088.params"
+INFO:root:Epoch[87] Validation-accuracy=0.634615
+INFO:root:Epoch[87] Validation-cross-entropy=1.039618
+INFO:root:Epoch[88] Batch [0-10]	Speed: 158.20 samples/sec	accuracy=0.653906	cross-entropy=0.899495
+INFO:root:Epoch[88] Batch [10-20]	Speed: 142.65 samples/sec	accuracy=0.660156	cross-entropy=0.918593
+INFO:root:Epoch[88] Batch [20-30]	Speed: 143.43 samples/sec	accuracy=0.675781	cross-entropy=0.868097
+INFO:root:Epoch[88] Batch [30-40]	Speed: 142.77 samples/sec	accuracy=0.658594	cross-entropy=0.893917
+INFO:root:Epoch[88] Batch [40-50]	Speed: 145.04 samples/sec	accuracy=0.617188	cross-entropy=0.950055
+INFO:root:Epoch[88] Batch [50-60]	Speed: 147.73 samples/sec	accuracy=0.642188	cross-entropy=0.931598
+INFO:root:Epoch[88] Resetting Data Iterator
+INFO:root:Epoch[88] Time cost=55.276
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0089.params"
+INFO:root:Epoch[88] Validation-accuracy=0.643415
+INFO:root:Epoch[88] Validation-cross-entropy=0.980883
+INFO:root:Epoch[89] Batch [0-10]	Speed: 155.88 samples/sec	accuracy=0.662500	cross-entropy=0.892220
+INFO:root:Epoch[89] Batch [10-20]	Speed: 142.99 samples/sec	accuracy=0.625781	cross-entropy=0.950515
+INFO:root:Epoch[89] Batch [20-30]	Speed: 143.11 samples/sec	accuracy=0.667188	cross-entropy=0.887487
+INFO:root:Epoch[89] Batch [30-40]	Speed: 143.40 samples/sec	accuracy=0.671875	cross-entropy=0.866866
+INFO:root:Epoch[89] Batch [40-50]	Speed: 144.68 samples/sec	accuracy=0.664844	cross-entropy=0.885043
+INFO:root:Epoch[89] Batch [50-60]	Speed: 147.85 samples/sec	accuracy=0.646875	cross-entropy=0.921547
+INFO:root:Epoch[89] Resetting Data Iterator
+INFO:root:Epoch[89] Time cost=56.125
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0090.params"
+INFO:root:Epoch[89] Validation-accuracy=0.649554
+INFO:root:Epoch[89] Validation-cross-entropy=0.967065
+INFO:root:Epoch[90] Batch [0-10]	Speed: 158.03 samples/sec	accuracy=0.664062	cross-entropy=0.886825
+INFO:root:Epoch[90] Batch [10-20]	Speed: 143.10 samples/sec	accuracy=0.635938	cross-entropy=0.902547
+INFO:root:Epoch[90] Batch [20-30]	Speed: 143.55 samples/sec	accuracy=0.674219	cross-entropy=0.883761
+INFO:root:Epoch[90] Batch [30-40]	Speed: 143.19 samples/sec	accuracy=0.671094	cross-entropy=0.878845
+INFO:root:Epoch[90] Batch [40-50]	Speed: 145.15 samples/sec	accuracy=0.650000	cross-entropy=0.899305
+INFO:root:Epoch[90] Batch [50-60]	Speed: 147.62 samples/sec	accuracy=0.639062	cross-entropy=0.923742
+INFO:root:Epoch[90] Resetting Data Iterator
+INFO:root:Epoch[90] Time cost=55.106
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0091.params"
+INFO:root:Epoch[90] Validation-accuracy=0.641827
+INFO:root:Epoch[90] Validation-cross-entropy=0.997778
+INFO:root:Epoch[91] Batch [0-10]	Speed: 158.57 samples/sec	accuracy=0.650000	cross-entropy=0.875310
+INFO:root:Epoch[91] Batch [10-20]	Speed: 142.60 samples/sec	accuracy=0.641406	cross-entropy=0.883674
+INFO:root:Epoch[91] Batch [20-30]	Speed: 143.36 samples/sec	accuracy=0.678906	cross-entropy=0.834999
+INFO:root:Epoch[91] Batch [30-40]	Speed: 143.89 samples/sec	accuracy=0.656250	cross-entropy=0.886340
+INFO:root:Epoch[91] Batch [40-50]	Speed: 145.20 samples/sec	accuracy=0.666406	cross-entropy=0.892096
+INFO:root:Epoch[91] Batch [50-60]	Speed: 148.28 samples/sec	accuracy=0.657031	cross-entropy=0.896025
+INFO:root:Epoch[91] Resetting Data Iterator
+INFO:root:Epoch[91] Time cost=55.123
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0092.params"
+INFO:root:Epoch[91] Validation-accuracy=0.636418
+INFO:root:Epoch[91] Validation-cross-entropy=1.032414
+INFO:root:Epoch[92] Batch [0-10]	Speed: 157.85 samples/sec	accuracy=0.678125	cross-entropy=0.861408
+INFO:root:Epoch[92] Batch [10-20]	Speed: 143.69 samples/sec	accuracy=0.654687	cross-entropy=0.887537
+INFO:root:Epoch[92] Batch [20-30]	Speed: 143.47 samples/sec	accuracy=0.664062	cross-entropy=0.874462
+INFO:root:Epoch[92] Batch [30-40]	Speed: 143.91 samples/sec	accuracy=0.657813	cross-entropy=0.865010
+INFO:root:Epoch[92] Batch [40-50]	Speed: 145.12 samples/sec	accuracy=0.657813	cross-entropy=0.916946
+INFO:root:Epoch[92] Batch [50-60]	Speed: 147.93 samples/sec	accuracy=0.649219	cross-entropy=0.889196
+INFO:root:Epoch[92] Resetting Data Iterator
+INFO:root:Epoch[92] Time cost=55.880
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0093.params"
+INFO:root:Epoch[92] Validation-accuracy=0.640625
+INFO:root:Epoch[92] Validation-cross-entropy=0.980534
+INFO:root:Epoch[93] Batch [0-10]	Speed: 159.17 samples/sec	accuracy=0.679688	cross-entropy=0.872581
+INFO:root:Epoch[93] Batch [10-20]	Speed: 143.18 samples/sec	accuracy=0.654687	cross-entropy=0.882557
+INFO:root:Epoch[93] Batch [20-30]	Speed: 143.12 samples/sec	accuracy=0.667969	cross-entropy=0.864539
+INFO:root:Epoch[93] Batch [30-40]	Speed: 143.14 samples/sec	accuracy=0.652344	cross-entropy=0.863659
+INFO:root:Epoch[93] Batch [40-50]	Speed: 145.52 samples/sec	accuracy=0.657813	cross-entropy=0.912480
+INFO:root:Epoch[93] Batch [50-60]	Speed: 147.79 samples/sec	accuracy=0.655469	cross-entropy=0.886167
+INFO:root:Epoch[93] Resetting Data Iterator
+INFO:root:Epoch[93] Time cost=55.089
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0094.params"
+INFO:root:Epoch[93] Validation-accuracy=0.640067
+INFO:root:Epoch[93] Validation-cross-entropy=0.973981
+INFO:root:Epoch[94] Batch [0-10]	Speed: 157.79 samples/sec	accuracy=0.674219	cross-entropy=0.847301
+INFO:root:Epoch[94] Batch [10-20]	Speed: 143.91 samples/sec	accuracy=0.662500	cross-entropy=0.882142
+INFO:root:Epoch[94] Batch [20-30]	Speed: 143.86 samples/sec	accuracy=0.674219	cross-entropy=0.867560
+INFO:root:Epoch[94] Batch [30-40]	Speed: 143.88 samples/sec	accuracy=0.683594	cross-entropy=0.822833
+INFO:root:Epoch[94] Batch [40-50]	Speed: 143.22 samples/sec	accuracy=0.671094	cross-entropy=0.877211
+INFO:root:Epoch[94] Batch [50-60]	Speed: 147.85 samples/sec	accuracy=0.639844	cross-entropy=0.922472
+INFO:root:Epoch[94] Resetting Data Iterator
+INFO:root:Epoch[94] Time cost=56.048
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0095.params"
+INFO:root:Epoch[94] Validation-accuracy=0.655048
+INFO:root:Epoch[94] Validation-cross-entropy=0.958475
+INFO:root:Epoch[95] Batch [0-10]	Speed: 157.83 samples/sec	accuracy=0.671094	cross-entropy=0.865119
+INFO:root:Epoch[95] Batch [10-20]	Speed: 143.05 samples/sec	accuracy=0.653906	cross-entropy=0.874283
+INFO:root:Epoch[95] Batch [20-30]	Speed: 143.58 samples/sec	accuracy=0.701562	cross-entropy=0.822442
+INFO:root:Epoch[95] Batch [30-40]	Speed: 143.00 samples/sec	accuracy=0.676562	cross-entropy=0.850168
+INFO:root:Epoch[95] Batch [40-50]	Speed: 145.18 samples/sec	accuracy=0.660156	cross-entropy=0.899791
+INFO:root:Epoch[95] Batch [50-60]	Speed: 147.36 samples/sec	accuracy=0.662500	cross-entropy=0.865338
+INFO:root:Epoch[95] Resetting Data Iterator
+INFO:root:Epoch[95] Time cost=55.156
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0096.params"
+INFO:root:Epoch[95] Validation-accuracy=0.656250
+INFO:root:Epoch[95] Validation-cross-entropy=0.950187
+INFO:root:Epoch[96] Batch [0-10]	Speed: 157.94 samples/sec	accuracy=0.669531	cross-entropy=0.858235
+INFO:root:Epoch[96] Batch [10-20]	Speed: 142.88 samples/sec	accuracy=0.651563	cross-entropy=0.883551
+INFO:root:Epoch[96] Batch [20-30]	Speed: 143.62 samples/sec	accuracy=0.692187	cross-entropy=0.833407
+INFO:root:Epoch[96] Batch [30-40]	Speed: 141.27 samples/sec	accuracy=0.670312	cross-entropy=0.839430
+INFO:root:Epoch[96] Batch [40-50]	Speed: 143.23 samples/sec	accuracy=0.642969	cross-entropy=0.904998
+INFO:root:Epoch[96] Batch [50-60]	Speed: 147.72 samples/sec	accuracy=0.658594	cross-entropy=0.898779
+INFO:root:Epoch[96] Resetting Data Iterator
+INFO:root:Epoch[96] Time cost=55.482
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0097.params"
+INFO:root:Epoch[96] Validation-accuracy=0.646205
+INFO:root:Epoch[96] Validation-cross-entropy=1.004439
+INFO:root:Epoch[97] Batch [0-10]	Speed: 139.77 samples/sec	accuracy=0.666406	cross-entropy=0.854440
+INFO:root:Epoch[97] Batch [10-20]	Speed: 127.63 samples/sec	accuracy=0.666406	cross-entropy=0.862753
+INFO:root:Epoch[97] Batch [20-30]	Speed: 127.39 samples/sec	accuracy=0.673438	cross-entropy=0.848866
+INFO:root:Epoch[97] Batch [30-40]	Speed: 127.75 samples/sec	accuracy=0.659375	cross-entropy=0.869416
+INFO:root:Epoch[97] Batch [40-50]	Speed: 129.01 samples/sec	accuracy=0.654687	cross-entropy=0.887122
+INFO:root:Epoch[97] Batch [50-60]	Speed: 131.82 samples/sec	accuracy=0.663281	cross-entropy=0.865083
+INFO:root:Epoch[97] Resetting Data Iterator
+INFO:root:Epoch[97] Time cost=62.959
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0098.params"
+INFO:root:Epoch[97] Validation-accuracy=0.652644
+INFO:root:Epoch[97] Validation-cross-entropy=0.967887
+INFO:root:Epoch[98] Batch [0-10]	Speed: 141.77 samples/sec	accuracy=0.685156	cross-entropy=0.830789
+INFO:root:Epoch[98] Batch [10-20]	Speed: 127.66 samples/sec	accuracy=0.681250	cross-entropy=0.873309
+INFO:root:Epoch[98] Batch [20-30]	Speed: 128.66 samples/sec	accuracy=0.680469	cross-entropy=0.837684
+INFO:root:Epoch[98] Batch [30-40]	Speed: 127.80 samples/sec	accuracy=0.674219	cross-entropy=0.838217
+INFO:root:Epoch[98] Batch [40-50]	Speed: 129.99 samples/sec	accuracy=0.675781	cross-entropy=0.850525
+INFO:root:Epoch[98] Batch [50-60]	Speed: 131.93 samples/sec	accuracy=0.657031	cross-entropy=0.881614
+INFO:root:Epoch[98] Resetting Data Iterator
+INFO:root:Epoch[98] Time cost=61.704
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0099.params"
+INFO:root:Epoch[98] Validation-accuracy=0.655048
+INFO:root:Epoch[98] Validation-cross-entropy=0.989162
+INFO:root:Epoch[99] Batch [0-10]	Speed: 139.72 samples/sec	accuracy=0.682813	cross-entropy=0.818734
+INFO:root:Epoch[99] Batch [10-20]	Speed: 101.20 samples/sec	accuracy=0.650781	cross-entropy=0.871755
+INFO:root:Epoch[99] Batch [20-30]	Speed: 129.24 samples/sec	accuracy=0.689063	cross-entropy=0.818249
+INFO:root:Epoch[99] Batch [30-40]	Speed: 128.11 samples/sec	accuracy=0.671094	cross-entropy=0.823351
+INFO:root:Epoch[99] Batch [40-50]	Speed: 129.08 samples/sec	accuracy=0.649219	cross-entropy=0.902760
+INFO:root:Epoch[99] Batch [50-60]	Speed: 131.94 samples/sec	accuracy=0.654687	cross-entropy=0.905541
+INFO:root:Epoch[99] Resetting Data Iterator
+INFO:root:Epoch[99] Time cost=65.342
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0100.params"
+INFO:root:Epoch[99] Validation-accuracy=0.655649
+INFO:root:Epoch[99] Validation-cross-entropy=0.967145
+INFO:root:Epoch[100] Batch [0-10]	Speed: 140.75 samples/sec	accuracy=0.685937	cross-entropy=0.836389
+INFO:root:Epoch[100] Batch [10-20]	Speed: 128.51 samples/sec	accuracy=0.688281	cross-entropy=0.823474
+INFO:root:Epoch[100] Batch [20-30]	Speed: 128.05 samples/sec	accuracy=0.689063	cross-entropy=0.798928
+INFO:root:Epoch[100] Batch [30-40]	Speed: 127.78 samples/sec	accuracy=0.671875	cross-entropy=0.838306
+INFO:root:Epoch[100] Batch [40-50]	Speed: 129.87 samples/sec	accuracy=0.662500	cross-entropy=0.861519
+INFO:root:Epoch[100] Batch [50-60]	Speed: 131.94 samples/sec	accuracy=0.668750	cross-entropy=0.836590
+INFO:root:Epoch[100] Resetting Data Iterator
+INFO:root:Epoch[100] Time cost=61.671
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0101.params"
+INFO:root:Epoch[100] Validation-accuracy=0.645647
+INFO:root:Epoch[100] Validation-cross-entropy=0.967203
+INFO:root:Epoch[101] Batch [0-10]	Speed: 142.12 samples/sec	accuracy=0.685937	cross-entropy=0.814860
+INFO:root:Epoch[101] Batch [10-20]	Speed: 127.15 samples/sec	accuracy=0.677344	cross-entropy=0.822293
+INFO:root:Epoch[101] Batch [20-30]	Speed: 124.08 samples/sec	accuracy=0.691406	cross-entropy=0.800311
+INFO:root:Epoch[101] Batch [30-40]	Speed: 127.36 samples/sec	accuracy=0.671094	cross-entropy=0.850257
+INFO:root:Epoch[101] Batch [40-50]	Speed: 129.59 samples/sec	accuracy=0.667188	cross-entropy=0.873977
+INFO:root:Epoch[101] Batch [50-60]	Speed: 131.67 samples/sec	accuracy=0.663281	cross-entropy=0.884913
+INFO:root:Epoch[101] Resetting Data Iterator
+INFO:root:Epoch[101] Time cost=62.193
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0102.params"
+INFO:root:Epoch[101] Validation-accuracy=0.655649
+INFO:root:Epoch[101] Validation-cross-entropy=0.975989
+INFO:root:Epoch[102] Batch [0-10]	Speed: 139.72 samples/sec	accuracy=0.678125	cross-entropy=0.842000
+INFO:root:Epoch[102] Batch [10-20]	Speed: 128.15 samples/sec	accuracy=0.662500	cross-entropy=0.851711
+INFO:root:Epoch[102] Batch [20-30]	Speed: 127.82 samples/sec	accuracy=0.694531	cross-entropy=0.802918
+INFO:root:Epoch[102] Batch [30-40]	Speed: 128.41 samples/sec	accuracy=0.682031	cross-entropy=0.825583
+INFO:root:Epoch[102] Batch [40-50]	Speed: 129.35 samples/sec	accuracy=0.680469	cross-entropy=0.835216
+INFO:root:Epoch[102] Batch [50-60]	Speed: 117.83 samples/sec	accuracy=0.666406	cross-entropy=0.854001
+INFO:root:Epoch[102] Resetting Data Iterator
+INFO:root:Epoch[102] Time cost=64.307
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0103.params"
+INFO:root:Epoch[102] Validation-accuracy=0.659856
+INFO:root:Epoch[102] Validation-cross-entropy=0.967530
+INFO:root:Epoch[103] Batch [0-10]	Speed: 133.49 samples/sec	accuracy=0.689063	cross-entropy=0.849294
+INFO:root:Epoch[103] Batch [10-20]	Speed: 115.15 samples/sec	accuracy=0.682813	cross-entropy=0.837726
+INFO:root:Epoch[103] Batch [20-30]	Speed: 123.63 samples/sec	accuracy=0.689063	cross-entropy=0.800792
+INFO:root:Epoch[103] Batch [30-40]	Speed: 128.63 samples/sec	accuracy=0.671875	cross-entropy=0.837828
+INFO:root:Epoch[103] Batch [40-50]	Speed: 130.53 samples/sec	accuracy=0.674219	cross-entropy=0.831101
+INFO:root:Epoch[103] Batch [50-60]	Speed: 133.11 samples/sec	accuracy=0.675000	cross-entropy=0.855094
+INFO:root:Epoch[103] Resetting Data Iterator
+INFO:root:Epoch[103] Time cost=63.459
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0104.params"
+INFO:root:Epoch[103] Validation-accuracy=0.658053
+INFO:root:Epoch[103] Validation-cross-entropy=0.946219
+INFO:root:Epoch[104] Batch [0-10]	Speed: 141.34 samples/sec	accuracy=0.684375	cross-entropy=0.801293
+INFO:root:Epoch[104] Batch [10-20]	Speed: 126.70 samples/sec	accuracy=0.668750	cross-entropy=0.840872
+INFO:root:Epoch[104] Batch [20-30]	Speed: 127.63 samples/sec	accuracy=0.698438	cross-entropy=0.790548
+INFO:root:Epoch[104] Batch [30-40]	Speed: 128.10 samples/sec	accuracy=0.693750	cross-entropy=0.807977
+INFO:root:Epoch[104] Batch [40-50]	Speed: 128.93 samples/sec	accuracy=0.657813	cross-entropy=0.843132
+INFO:root:Epoch[104] Batch [50-60]	Speed: 131.38 samples/sec	accuracy=0.667969	cross-entropy=0.862357
+INFO:root:Epoch[104] Resetting Data Iterator
+INFO:root:Epoch[104] Time cost=62.904
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0105.params"
+INFO:root:Epoch[104] Validation-accuracy=0.646763
+INFO:root:Epoch[104] Validation-cross-entropy=0.974115
+INFO:root:Epoch[105] Batch [0-10]	Speed: 139.01 samples/sec	accuracy=0.690625	cross-entropy=0.804082
+INFO:root:Epoch[105] Batch [10-20]	Speed: 126.76 samples/sec	accuracy=0.679688	cross-entropy=0.829818
+INFO:root:Epoch[105] Batch [20-30]	Speed: 125.35 samples/sec	accuracy=0.698438	cross-entropy=0.816182
+INFO:root:Epoch[105] Batch [30-40]	Speed: 124.92 samples/sec	accuracy=0.691406	cross-entropy=0.802434
+INFO:root:Epoch[105] Batch [40-50]	Speed: 128.06 samples/sec	accuracy=0.671875	cross-entropy=0.842151
+INFO:root:Epoch[105] Batch [50-60]	Speed: 132.72 samples/sec	accuracy=0.685937	cross-entropy=0.848298
+INFO:root:Epoch[105] Resetting Data Iterator
+INFO:root:Epoch[105] Time cost=62.461
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0106.params"
+INFO:root:Epoch[105] Validation-accuracy=0.663462
+INFO:root:Epoch[105] Validation-cross-entropy=0.960252
+INFO:root:Epoch[106] Batch [0-10]	Speed: 142.22 samples/sec	accuracy=0.687500	cross-entropy=0.805346
+INFO:root:Epoch[106] Batch [10-20]	Speed: 128.96 samples/sec	accuracy=0.685937	cross-entropy=0.813697
+INFO:root:Epoch[106] Batch [20-30]	Speed: 129.24 samples/sec	accuracy=0.706250	cross-entropy=0.778707
+INFO:root:Epoch[106] Batch [30-40]	Speed: 128.30 samples/sec	accuracy=0.679688	cross-entropy=0.817355
+INFO:root:Epoch[106] Batch [40-50]	Speed: 130.38 samples/sec	accuracy=0.667188	cross-entropy=0.852106
+INFO:root:Epoch[106] Batch [50-60]	Speed: 132.37 samples/sec	accuracy=0.667188	cross-entropy=0.852727
+INFO:root:Epoch[106] Resetting Data Iterator
+INFO:root:Epoch[106] Time cost=61.331
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0107.params"
+INFO:root:Epoch[106] Validation-accuracy=0.659255
+INFO:root:Epoch[106] Validation-cross-entropy=0.962382
+INFO:root:Epoch[107] Batch [0-10]	Speed: 141.04 samples/sec	accuracy=0.700000	cross-entropy=0.804518
+INFO:root:Epoch[107] Batch [10-20]	Speed: 127.87 samples/sec	accuracy=0.676562	cross-entropy=0.817031
+INFO:root:Epoch[107] Batch [20-30]	Speed: 125.44 samples/sec	accuracy=0.694531	cross-entropy=0.795032
+INFO:root:Epoch[107] Batch [30-40]	Speed: 126.69 samples/sec	accuracy=0.696875	cross-entropy=0.802970
+INFO:root:Epoch[107] Batch [40-50]	Speed: 128.76 samples/sec	accuracy=0.689844	cross-entropy=0.842625
+INFO:root:Epoch[107] Batch [50-60]	Speed: 131.94 samples/sec	accuracy=0.669531	cross-entropy=0.841238
+INFO:root:Epoch[107] Resetting Data Iterator
+INFO:root:Epoch[107] Time cost=63.154
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0108.params"
+INFO:root:Epoch[107] Validation-accuracy=0.648996
+INFO:root:Epoch[107] Validation-cross-entropy=0.990705
+INFO:root:Epoch[108] Batch [0-10]	Speed: 142.04 samples/sec	accuracy=0.703125	cross-entropy=0.789081
+INFO:root:Epoch[108] Batch [10-20]	Speed: 128.20 samples/sec	accuracy=0.678125	cross-entropy=0.819307
+INFO:root:Epoch[108] Batch [20-30]	Speed: 128.84 samples/sec	accuracy=0.699219	cross-entropy=0.787746
+INFO:root:Epoch[108] Batch [30-40]	Speed: 128.07 samples/sec	accuracy=0.690625	cross-entropy=0.813244
+INFO:root:Epoch[108] Batch [40-50]	Speed: 130.53 samples/sec	accuracy=0.657031	cross-entropy=0.842214
+INFO:root:Epoch[108] Batch [50-60]	Speed: 132.53 samples/sec	accuracy=0.681250	cross-entropy=0.828230
+INFO:root:Epoch[108] Resetting Data Iterator
+INFO:root:Epoch[108] Time cost=61.417
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0109.params"
+INFO:root:Epoch[108] Validation-accuracy=0.644531
+INFO:root:Epoch[108] Validation-cross-entropy=0.999656
+INFO:root:Epoch[109] Batch [0-10]	Speed: 141.13 samples/sec	accuracy=0.703906	cross-entropy=0.796789
+INFO:root:Epoch[109] Batch [10-20]	Speed: 127.77 samples/sec	accuracy=0.690625	cross-entropy=0.803453
+INFO:root:Epoch[109] Batch [20-30]	Speed: 128.28 samples/sec	accuracy=0.703125	cross-entropy=0.774587
+INFO:root:Epoch[109] Batch [30-40]	Speed: 128.01 samples/sec	accuracy=0.682813	cross-entropy=0.791351
+INFO:root:Epoch[109] Batch [40-50]	Speed: 128.61 samples/sec	accuracy=0.671875	cross-entropy=0.847518
+INFO:root:Epoch[109] Batch [50-60]	Speed: 131.43 samples/sec	accuracy=0.670312	cross-entropy=0.843513
+INFO:root:Epoch[109] Resetting Data Iterator
+INFO:root:Epoch[109] Time cost=61.817
+INFO:root:Saved checkpoint to "checkpoints/age/agenet-0110.params"
+INFO:root:Epoch[109] Validation-accuracy=0.655649
+INFO:root:Epoch[109] Validation-cross-entropy=0.978791

@@ -1,0 +1,892 @@
+INFO:root:Start training with [cpu(0)]
+INFO:root:Epoch[0] Batch [0-10]	Speed: 170.52 samples/sec	accuracy=0.559375	cross-entropy=1.174369
+INFO:root:Epoch[0] Batch [10-20]	Speed: 162.75 samples/sec	accuracy=0.562500	cross-entropy=0.988800
+INFO:root:Epoch[0] Batch [20-30]	Speed: 151.80 samples/sec	accuracy=0.573438	cross-entropy=0.900433
+INFO:root:Epoch[0] Batch [30-40]	Speed: 165.28 samples/sec	accuracy=0.605469	cross-entropy=0.782505
+INFO:root:Epoch[0] Batch [40-50]	Speed: 167.22 samples/sec	accuracy=0.602344	cross-entropy=0.749797
+INFO:root:Epoch[0] Batch [50-60]	Speed: 171.19 samples/sec	accuracy=0.605469	cross-entropy=0.740091
+INFO:root:Epoch[0] Resetting Data Iterator
+INFO:root:Epoch[0] Time cost=50.392
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0001.params"
+INFO:root:Epoch[0] Validation-accuracy=0.572716
+INFO:root:Epoch[0] Validation-cross-entropy=0.704137
+INFO:root:Epoch[1] Batch [0-10]	Speed: 172.77 samples/sec	accuracy=0.577344	cross-entropy=0.784322
+INFO:root:Epoch[1] Batch [10-20]	Speed: 161.38 samples/sec	accuracy=0.588281	cross-entropy=0.761701
+INFO:root:Epoch[1] Batch [20-30]	Speed: 164.88 samples/sec	accuracy=0.615625	cross-entropy=0.715939
+INFO:root:Epoch[1] Batch [30-40]	Speed: 164.19 samples/sec	accuracy=0.634375	cross-entropy=0.722255
+INFO:root:Epoch[1] Batch [40-50]	Speed: 166.50 samples/sec	accuracy=0.623437	cross-entropy=0.716221
+INFO:root:Epoch[1] Batch [50-60]	Speed: 170.23 samples/sec	accuracy=0.613281	cross-entropy=0.725312
+INFO:root:Epoch[1] Resetting Data Iterator
+INFO:root:Epoch[1] Time cost=48.630
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0002.params"
+INFO:root:Epoch[1] Validation-accuracy=0.633413
+INFO:root:Epoch[1] Validation-cross-entropy=0.705199
+INFO:root:Epoch[2] Batch [0-10]	Speed: 182.24 samples/sec	accuracy=0.658594	cross-entropy=0.691038
+INFO:root:Epoch[2] Batch [10-20]	Speed: 165.09 samples/sec	accuracy=0.640625	cross-entropy=0.699294
+INFO:root:Epoch[2] Batch [20-30]	Speed: 164.04 samples/sec	accuracy=0.629687	cross-entropy=0.708206
+INFO:root:Epoch[2] Batch [30-40]	Speed: 164.50 samples/sec	accuracy=0.644531	cross-entropy=0.684867
+INFO:root:Epoch[2] Batch [40-50]	Speed: 166.15 samples/sec	accuracy=0.661719	cross-entropy=0.680492
+INFO:root:Epoch[2] Batch [50-60]	Speed: 170.62 samples/sec	accuracy=0.635156	cross-entropy=0.700471
+INFO:root:Epoch[2] Resetting Data Iterator
+INFO:root:Epoch[2] Time cost=48.800
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0003.params"
+INFO:root:Epoch[2] Validation-accuracy=0.647879
+INFO:root:Epoch[2] Validation-cross-entropy=0.660571
+INFO:root:Epoch[3] Batch [0-10]	Speed: 179.75 samples/sec	accuracy=0.638281	cross-entropy=0.678409
+INFO:root:Epoch[3] Batch [10-20]	Speed: 165.33 samples/sec	accuracy=0.682031	cross-entropy=0.669861
+INFO:root:Epoch[3] Batch [20-30]	Speed: 165.63 samples/sec	accuracy=0.656250	cross-entropy=0.676641
+INFO:root:Epoch[3] Batch [30-40]	Speed: 164.44 samples/sec	accuracy=0.671875	cross-entropy=0.653326
+INFO:root:Epoch[3] Batch [40-50]	Speed: 167.66 samples/sec	accuracy=0.669531	cross-entropy=0.653140
+INFO:root:Epoch[3] Batch [50-60]	Speed: 170.82 samples/sec	accuracy=0.671875	cross-entropy=0.647384
+INFO:root:Epoch[3] Resetting Data Iterator
+INFO:root:Epoch[3] Time cost=47.974
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0004.params"
+INFO:root:Epoch[3] Validation-accuracy=0.691707
+INFO:root:Epoch[3] Validation-cross-entropy=0.593714
+INFO:root:Epoch[4] Batch [0-10]	Speed: 183.37 samples/sec	accuracy=0.696094	cross-entropy=0.644583
+INFO:root:Epoch[4] Batch [10-20]	Speed: 165.03 samples/sec	accuracy=0.693750	cross-entropy=0.632498
+INFO:root:Epoch[4] Batch [20-30]	Speed: 164.75 samples/sec	accuracy=0.685156	cross-entropy=0.646794
+INFO:root:Epoch[4] Batch [30-40]	Speed: 165.96 samples/sec	accuracy=0.700781	cross-entropy=0.609849
+INFO:root:Epoch[4] Batch [40-50]	Speed: 167.28 samples/sec	accuracy=0.701562	cross-entropy=0.599393
+INFO:root:Epoch[4] Batch [50-60]	Speed: 170.96 samples/sec	accuracy=0.685156	cross-entropy=0.651523
+INFO:root:Epoch[4] Resetting Data Iterator
+INFO:root:Epoch[4] Time cost=48.521
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0005.params"
+INFO:root:Epoch[4] Validation-accuracy=0.718149
+INFO:root:Epoch[4] Validation-cross-entropy=0.541759
+INFO:root:Epoch[5] Batch [0-10]	Speed: 183.06 samples/sec	accuracy=0.710938	cross-entropy=0.591824
+INFO:root:Epoch[5] Batch [10-20]	Speed: 165.62 samples/sec	accuracy=0.707031	cross-entropy=0.601061
+INFO:root:Epoch[5] Batch [20-30]	Speed: 164.73 samples/sec	accuracy=0.703125	cross-entropy=0.605842
+INFO:root:Epoch[5] Batch [30-40]	Speed: 165.23 samples/sec	accuracy=0.709375	cross-entropy=0.587330
+INFO:root:Epoch[5] Batch [40-50]	Speed: 167.64 samples/sec	accuracy=0.716406	cross-entropy=0.602186
+INFO:root:Epoch[5] Batch [50-60]	Speed: 170.53 samples/sec	accuracy=0.683594	cross-entropy=0.642309
+INFO:root:Epoch[5] Resetting Data Iterator
+INFO:root:Epoch[5] Time cost=47.777
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0006.params"
+INFO:root:Epoch[5] Validation-accuracy=0.747596
+INFO:root:Epoch[5] Validation-cross-entropy=0.502209
+INFO:root:Epoch[6] Batch [0-10]	Speed: 183.13 samples/sec	accuracy=0.701562	cross-entropy=0.594833
+INFO:root:Epoch[6] Batch [10-20]	Speed: 165.05 samples/sec	accuracy=0.721875	cross-entropy=0.587608
+INFO:root:Epoch[6] Batch [20-30]	Speed: 165.52 samples/sec	accuracy=0.721094	cross-entropy=0.576644
+INFO:root:Epoch[6] Batch [30-40]	Speed: 165.04 samples/sec	accuracy=0.739844	cross-entropy=0.564473
+INFO:root:Epoch[6] Batch [40-50]	Speed: 166.69 samples/sec	accuracy=0.723437	cross-entropy=0.569625
+INFO:root:Epoch[6] Batch [50-60]	Speed: 170.68 samples/sec	accuracy=0.710938	cross-entropy=0.591635
+INFO:root:Epoch[6] Resetting Data Iterator
+INFO:root:Epoch[6] Time cost=48.579
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0007.params"
+INFO:root:Epoch[6] Validation-accuracy=0.745536
+INFO:root:Epoch[6] Validation-cross-entropy=0.532245
+INFO:root:Epoch[7] Batch [0-10]	Speed: 182.85 samples/sec	accuracy=0.725000	cross-entropy=0.578358
+INFO:root:Epoch[7] Batch [10-20]	Speed: 165.61 samples/sec	accuracy=0.735156	cross-entropy=0.565911
+INFO:root:Epoch[7] Batch [20-30]	Speed: 164.72 samples/sec	accuracy=0.716406	cross-entropy=0.554642
+INFO:root:Epoch[7] Batch [30-40]	Speed: 164.54 samples/sec	accuracy=0.742969	cross-entropy=0.535477
+INFO:root:Epoch[7] Batch [40-50]	Speed: 167.41 samples/sec	accuracy=0.728906	cross-entropy=0.536562
+INFO:root:Epoch[7] Batch [50-60]	Speed: 170.49 samples/sec	accuracy=0.743750	cross-entropy=0.555157
+INFO:root:Epoch[7] Resetting Data Iterator
+INFO:root:Epoch[7] Time cost=47.838
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0008.params"
+INFO:root:Epoch[7] Validation-accuracy=0.751202
+INFO:root:Epoch[7] Validation-cross-entropy=0.505092
+INFO:root:Epoch[8] Batch [0-10]	Speed: 183.59 samples/sec	accuracy=0.744531	cross-entropy=0.523054
+INFO:root:Epoch[8] Batch [10-20]	Speed: 164.37 samples/sec	accuracy=0.731250	cross-entropy=0.562910
+INFO:root:Epoch[8] Batch [20-30]	Speed: 165.09 samples/sec	accuracy=0.715625	cross-entropy=0.573109
+INFO:root:Epoch[8] Batch [30-40]	Speed: 163.69 samples/sec	accuracy=0.767969	cross-entropy=0.524631
+INFO:root:Epoch[8] Batch [40-50]	Speed: 167.23 samples/sec	accuracy=0.746094	cross-entropy=0.543867
+INFO:root:Epoch[8] Batch [50-60]	Speed: 170.36 samples/sec	accuracy=0.735156	cross-entropy=0.559201
+INFO:root:Epoch[8] Resetting Data Iterator
+INFO:root:Epoch[8] Time cost=47.961
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0009.params"
+INFO:root:Epoch[8] Validation-accuracy=0.732572
+INFO:root:Epoch[8] Validation-cross-entropy=0.540528
+INFO:root:Epoch[9] Batch [0-10]	Speed: 181.46 samples/sec	accuracy=0.742188	cross-entropy=0.518624
+INFO:root:Epoch[9] Batch [10-20]	Speed: 163.89 samples/sec	accuracy=0.758594	cross-entropy=0.525680
+INFO:root:Epoch[9] Batch [20-30]	Speed: 161.15 samples/sec	accuracy=0.742969	cross-entropy=0.556331
+INFO:root:Epoch[9] Batch [30-40]	Speed: 165.42 samples/sec	accuracy=0.751563	cross-entropy=0.512643
+INFO:root:Epoch[9] Batch [40-50]	Speed: 164.81 samples/sec	accuracy=0.745313	cross-entropy=0.532584
+INFO:root:Epoch[9] Batch [50-60]	Speed: 168.45 samples/sec	accuracy=0.743750	cross-entropy=0.549933
+INFO:root:Epoch[9] Resetting Data Iterator
+INFO:root:Epoch[9] Time cost=49.200
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0010.params"
+INFO:root:Epoch[9] Validation-accuracy=0.746995
+INFO:root:Epoch[9] Validation-cross-entropy=0.515421
+INFO:root:Epoch[10] Batch [0-10]	Speed: 176.97 samples/sec	accuracy=0.747656	cross-entropy=0.524390
+INFO:root:Epoch[10] Batch [10-20]	Speed: 164.42 samples/sec	accuracy=0.763281	cross-entropy=0.523807
+INFO:root:Epoch[10] Batch [20-30]	Speed: 165.07 samples/sec	accuracy=0.744531	cross-entropy=0.519173
+INFO:root:Epoch[10] Batch [30-40]	Speed: 164.54 samples/sec	accuracy=0.775000	cross-entropy=0.503271
+INFO:root:Epoch[10] Batch [40-50]	Speed: 158.47 samples/sec	accuracy=0.773438	cross-entropy=0.490589
+INFO:root:Epoch[10] Batch [50-60]	Speed: 170.33 samples/sec	accuracy=0.741406	cross-entropy=0.530736
+INFO:root:Epoch[10] Resetting Data Iterator
+INFO:root:Epoch[10] Time cost=48.590
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0011.params"
+INFO:root:Epoch[10] Validation-accuracy=0.761719
+INFO:root:Epoch[10] Validation-cross-entropy=0.495537
+INFO:root:Epoch[11] Batch [0-10]	Speed: 182.58 samples/sec	accuracy=0.774219	cross-entropy=0.487173
+INFO:root:Epoch[11] Batch [10-20]	Speed: 164.33 samples/sec	accuracy=0.767188	cross-entropy=0.502401
+INFO:root:Epoch[11] Batch [20-30]	Speed: 164.88 samples/sec	accuracy=0.743750	cross-entropy=0.534054
+INFO:root:Epoch[11] Batch [30-40]	Speed: 164.92 samples/sec	accuracy=0.783594	cross-entropy=0.494835
+INFO:root:Epoch[11] Batch [40-50]	Speed: 166.18 samples/sec	accuracy=0.770312	cross-entropy=0.492268
+INFO:root:Epoch[11] Batch [50-60]	Speed: 170.20 samples/sec	accuracy=0.773438	cross-entropy=0.491237
+INFO:root:Epoch[11] Resetting Data Iterator
+INFO:root:Epoch[11] Time cost=48.735
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0012.params"
+INFO:root:Epoch[11] Validation-accuracy=0.807692
+INFO:root:Epoch[11] Validation-cross-entropy=0.446185
+INFO:root:Epoch[12] Batch [0-10]	Speed: 182.66 samples/sec	accuracy=0.783594	cross-entropy=0.481586
+INFO:root:Epoch[12] Batch [10-20]	Speed: 165.17 samples/sec	accuracy=0.793750	cross-entropy=0.459494
+INFO:root:Epoch[12] Batch [20-30]	Speed: 164.47 samples/sec	accuracy=0.760156	cross-entropy=0.513722
+INFO:root:Epoch[12] Batch [30-40]	Speed: 164.01 samples/sec	accuracy=0.797656	cross-entropy=0.440221
+INFO:root:Epoch[12] Batch [40-50]	Speed: 167.14 samples/sec	accuracy=0.791406	cross-entropy=0.451838
+INFO:root:Epoch[12] Batch [50-60]	Speed: 170.43 samples/sec	accuracy=0.780469	cross-entropy=0.479568
+INFO:root:Epoch[12] Resetting Data Iterator
+INFO:root:Epoch[12] Time cost=47.979
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0013.params"
+INFO:root:Epoch[12] Validation-accuracy=0.790865
+INFO:root:Epoch[12] Validation-cross-entropy=0.457005
+INFO:root:Epoch[13] Batch [0-10]	Speed: 182.46 samples/sec	accuracy=0.785156	cross-entropy=0.455478
+INFO:root:Epoch[13] Batch [10-20]	Speed: 163.78 samples/sec	accuracy=0.796094	cross-entropy=0.461786
+INFO:root:Epoch[13] Batch [20-30]	Speed: 164.39 samples/sec	accuracy=0.786719	cross-entropy=0.471094
+INFO:root:Epoch[13] Batch [30-40]	Speed: 163.79 samples/sec	accuracy=0.787500	cross-entropy=0.448840
+INFO:root:Epoch[13] Batch [40-50]	Speed: 166.62 samples/sec	accuracy=0.811719	cross-entropy=0.424738
+INFO:root:Epoch[13] Batch [50-60]	Speed: 170.55 samples/sec	accuracy=0.798438	cross-entropy=0.487017
+INFO:root:Epoch[13] Resetting Data Iterator
+INFO:root:Epoch[13] Time cost=48.799
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0014.params"
+INFO:root:Epoch[13] Validation-accuracy=0.778846
+INFO:root:Epoch[13] Validation-cross-entropy=0.480757
+INFO:root:Epoch[14] Batch [0-10]	Speed: 180.04 samples/sec	accuracy=0.771094	cross-entropy=0.487239
+INFO:root:Epoch[14] Batch [10-20]	Speed: 165.38 samples/sec	accuracy=0.798438	cross-entropy=0.448860
+INFO:root:Epoch[14] Batch [20-30]	Speed: 164.63 samples/sec	accuracy=0.781250	cross-entropy=0.472081
+INFO:root:Epoch[14] Batch [30-40]	Speed: 165.39 samples/sec	accuracy=0.795312	cross-entropy=0.464202
+INFO:root:Epoch[14] Batch [40-50]	Speed: 167.46 samples/sec	accuracy=0.791406	cross-entropy=0.444242
+INFO:root:Epoch[14] Batch [50-60]	Speed: 164.09 samples/sec	accuracy=0.796094	cross-entropy=0.473162
+INFO:root:Epoch[14] Resetting Data Iterator
+INFO:root:Epoch[14] Time cost=48.280
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0015.params"
+INFO:root:Epoch[14] Validation-accuracy=0.799107
+INFO:root:Epoch[14] Validation-cross-entropy=0.465308
+INFO:root:Epoch[15] Batch [0-10]	Speed: 183.72 samples/sec	accuracy=0.775781	cross-entropy=0.462904
+INFO:root:Epoch[15] Batch [10-20]	Speed: 164.65 samples/sec	accuracy=0.778125	cross-entropy=0.457454
+INFO:root:Epoch[15] Batch [20-30]	Speed: 164.67 samples/sec	accuracy=0.796875	cross-entropy=0.456900
+INFO:root:Epoch[15] Batch [30-40]	Speed: 164.68 samples/sec	accuracy=0.806250	cross-entropy=0.417521
+INFO:root:Epoch[15] Batch [40-50]	Speed: 167.19 samples/sec	accuracy=0.810937	cross-entropy=0.428243
+INFO:root:Epoch[15] Batch [50-60]	Speed: 170.64 samples/sec	accuracy=0.797656	cross-entropy=0.461022
+INFO:root:Epoch[15] Resetting Data Iterator
+INFO:root:Epoch[15] Time cost=47.957
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0016.params"
+INFO:root:Epoch[15] Validation-accuracy=0.802284
+INFO:root:Epoch[15] Validation-cross-entropy=0.456436
+INFO:root:Epoch[16] Batch [0-10]	Speed: 182.72 samples/sec	accuracy=0.792188	cross-entropy=0.446275
+INFO:root:Epoch[16] Batch [10-20]	Speed: 165.34 samples/sec	accuracy=0.827344	cross-entropy=0.394916
+INFO:root:Epoch[16] Batch [20-30]	Speed: 164.85 samples/sec	accuracy=0.800781	cross-entropy=0.446535
+INFO:root:Epoch[16] Batch [30-40]	Speed: 165.07 samples/sec	accuracy=0.808594	cross-entropy=0.406039
+INFO:root:Epoch[16] Batch [40-50]	Speed: 166.63 samples/sec	accuracy=0.810156	cross-entropy=0.399969
+INFO:root:Epoch[16] Batch [50-60]	Speed: 170.55 samples/sec	accuracy=0.814844	cross-entropy=0.399927
+INFO:root:Epoch[16] Resetting Data Iterator
+INFO:root:Epoch[16] Time cost=48.686
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0017.params"
+INFO:root:Epoch[16] Validation-accuracy=0.814904
+INFO:root:Epoch[16] Validation-cross-entropy=0.442163
+INFO:root:Epoch[17] Batch [0-10]	Speed: 180.59 samples/sec	accuracy=0.807031	cross-entropy=0.412709
+INFO:root:Epoch[17] Batch [10-20]	Speed: 164.69 samples/sec	accuracy=0.810937	cross-entropy=0.405905
+INFO:root:Epoch[17] Batch [20-30]	Speed: 165.09 samples/sec	accuracy=0.818750	cross-entropy=0.415020
+INFO:root:Epoch[17] Batch [30-40]	Speed: 164.20 samples/sec	accuracy=0.819531	cross-entropy=0.405002
+INFO:root:Epoch[17] Batch [40-50]	Speed: 166.19 samples/sec	accuracy=0.841406	cross-entropy=0.372876
+INFO:root:Epoch[17] Batch [50-60]	Speed: 170.98 samples/sec	accuracy=0.807031	cross-entropy=0.444248
+INFO:root:Epoch[17] Resetting Data Iterator
+INFO:root:Epoch[17] Time cost=48.077
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0018.params"
+INFO:root:Epoch[17] Validation-accuracy=0.841346
+INFO:root:Epoch[17] Validation-cross-entropy=0.371269
+INFO:root:Epoch[18] Batch [0-10]	Speed: 182.23 samples/sec	accuracy=0.814063	cross-entropy=0.407636
+INFO:root:Epoch[18] Batch [10-20]	Speed: 163.91 samples/sec	accuracy=0.816406	cross-entropy=0.403934
+INFO:root:Epoch[18] Batch [20-30]	Speed: 164.56 samples/sec	accuracy=0.822656	cross-entropy=0.402309
+INFO:root:Epoch[18] Batch [30-40]	Speed: 164.57 samples/sec	accuracy=0.835938	cross-entropy=0.384769
+INFO:root:Epoch[18] Batch [40-50]	Speed: 166.19 samples/sec	accuracy=0.832031	cross-entropy=0.409475
+INFO:root:Epoch[18] Batch [50-60]	Speed: 170.30 samples/sec	accuracy=0.827344	cross-entropy=0.383404
+INFO:root:Epoch[18] Resetting Data Iterator
+INFO:root:Epoch[18] Time cost=48.820
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0019.params"
+INFO:root:Epoch[18] Validation-accuracy=0.830357
+INFO:root:Epoch[18] Validation-cross-entropy=0.398422
+INFO:root:Epoch[19] Batch [0-10]	Speed: 183.94 samples/sec	accuracy=0.832031	cross-entropy=0.371407
+INFO:root:Epoch[19] Batch [10-20]	Speed: 164.36 samples/sec	accuracy=0.821094	cross-entropy=0.406463
+INFO:root:Epoch[19] Batch [20-30]	Speed: 165.90 samples/sec	accuracy=0.828906	cross-entropy=0.375400
+INFO:root:Epoch[19] Batch [30-40]	Speed: 165.00 samples/sec	accuracy=0.828906	cross-entropy=0.360931
+INFO:root:Epoch[19] Batch [40-50]	Speed: 167.71 samples/sec	accuracy=0.836719	cross-entropy=0.367214
+INFO:root:Epoch[19] Batch [50-60]	Speed: 159.65 samples/sec	accuracy=0.810937	cross-entropy=0.429670
+INFO:root:Epoch[19] Resetting Data Iterator
+INFO:root:Epoch[19] Time cost=49.136
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0020.params"
+INFO:root:Epoch[19] Validation-accuracy=0.856971
+INFO:root:Epoch[19] Validation-cross-entropy=0.352426
+INFO:root:Epoch[20] Batch [0-10]	Speed: 170.25 samples/sec	accuracy=0.850781	cross-entropy=0.352972
+INFO:root:Epoch[20] Batch [10-20]	Speed: 153.89 samples/sec	accuracy=0.842187	cross-entropy=0.367007
+INFO:root:Epoch[20] Batch [20-30]	Speed: 154.48 samples/sec	accuracy=0.833594	cross-entropy=0.375678
+INFO:root:Epoch[20] Batch [30-40]	Speed: 154.56 samples/sec	accuracy=0.855469	cross-entropy=0.329345
+INFO:root:Epoch[20] Batch [40-50]	Speed: 156.08 samples/sec	accuracy=0.842187	cross-entropy=0.359137
+INFO:root:Epoch[20] Batch [50-60]	Speed: 159.61 samples/sec	accuracy=0.843750	cross-entropy=0.358066
+INFO:root:Epoch[20] Resetting Data Iterator
+INFO:root:Epoch[20] Time cost=52.013
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0021.params"
+INFO:root:Epoch[20] Validation-accuracy=0.843149
+INFO:root:Epoch[20] Validation-cross-entropy=0.385551
+INFO:root:Epoch[21] Batch [0-10]	Speed: 171.07 samples/sec	accuracy=0.825781	cross-entropy=0.374933
+INFO:root:Epoch[21] Batch [10-20]	Speed: 154.81 samples/sec	accuracy=0.853125	cross-entropy=0.346253
+INFO:root:Epoch[21] Batch [20-30]	Speed: 154.04 samples/sec	accuracy=0.846094	cross-entropy=0.371241
+INFO:root:Epoch[21] Batch [30-40]	Speed: 154.52 samples/sec	accuracy=0.839844	cross-entropy=0.344107
+INFO:root:Epoch[21] Batch [40-50]	Speed: 156.32 samples/sec	accuracy=0.850781	cross-entropy=0.337720
+INFO:root:Epoch[21] Batch [50-60]	Speed: 159.40 samples/sec	accuracy=0.845313	cross-entropy=0.355288
+INFO:root:Epoch[21] Resetting Data Iterator
+INFO:root:Epoch[21] Time cost=51.187
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0022.params"
+INFO:root:Epoch[21] Validation-accuracy=0.862380
+INFO:root:Epoch[21] Validation-cross-entropy=0.352979
+INFO:root:Epoch[22] Batch [0-10]	Speed: 172.06 samples/sec	accuracy=0.828125	cross-entropy=0.380159
+INFO:root:Epoch[22] Batch [10-20]	Speed: 153.59 samples/sec	accuracy=0.852344	cross-entropy=0.342674
+INFO:root:Epoch[22] Batch [20-30]	Speed: 154.90 samples/sec	accuracy=0.842187	cross-entropy=0.334138
+INFO:root:Epoch[22] Batch [30-40]	Speed: 153.66 samples/sec	accuracy=0.856250	cross-entropy=0.320087
+INFO:root:Epoch[22] Batch [40-50]	Speed: 156.03 samples/sec	accuracy=0.862500	cross-entropy=0.321527
+INFO:root:Epoch[22] Batch [50-60]	Speed: 159.72 samples/sec	accuracy=0.847656	cross-entropy=0.336490
+INFO:root:Epoch[22] Resetting Data Iterator
+INFO:root:Epoch[22] Time cost=51.217
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0023.params"
+INFO:root:Epoch[22] Validation-accuracy=0.833147
+INFO:root:Epoch[22] Validation-cross-entropy=0.463982
+INFO:root:Epoch[23] Batch [0-10]	Speed: 171.88 samples/sec	accuracy=0.857812	cross-entropy=0.337250
+INFO:root:Epoch[23] Batch [10-20]	Speed: 155.12 samples/sec	accuracy=0.852344	cross-entropy=0.333564
+INFO:root:Epoch[23] Batch [20-30]	Speed: 154.74 samples/sec	accuracy=0.857812	cross-entropy=0.333304
+INFO:root:Epoch[23] Batch [30-40]	Speed: 155.01 samples/sec	accuracy=0.835938	cross-entropy=0.347521
+INFO:root:Epoch[23] Batch [40-50]	Speed: 156.27 samples/sec	accuracy=0.858594	cross-entropy=0.298021
+INFO:root:Epoch[23] Batch [50-60]	Speed: 159.79 samples/sec	accuracy=0.852344	cross-entropy=0.353706
+INFO:root:Epoch[23] Resetting Data Iterator
+INFO:root:Epoch[23] Time cost=51.786
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0024.params"
+INFO:root:Epoch[23] Validation-accuracy=0.840745
+INFO:root:Epoch[23] Validation-cross-entropy=0.416559
+INFO:root:Epoch[24] Batch [0-10]	Speed: 172.25 samples/sec	accuracy=0.848437	cross-entropy=0.330219
+INFO:root:Epoch[24] Batch [10-20]	Speed: 154.41 samples/sec	accuracy=0.850781	cross-entropy=0.346374
+INFO:root:Epoch[24] Batch [20-30]	Speed: 154.91 samples/sec	accuracy=0.860938	cross-entropy=0.333940
+INFO:root:Epoch[24] Batch [30-40]	Speed: 154.31 samples/sec	accuracy=0.867188	cross-entropy=0.324307
+INFO:root:Epoch[24] Batch [40-50]	Speed: 156.68 samples/sec	accuracy=0.851562	cross-entropy=0.335052
+INFO:root:Epoch[24] Batch [50-60]	Speed: 159.63 samples/sec	accuracy=0.850781	cross-entropy=0.355078
+INFO:root:Epoch[24] Resetting Data Iterator
+INFO:root:Epoch[24] Time cost=51.044
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0025.params"
+INFO:root:Epoch[24] Validation-accuracy=0.861779
+INFO:root:Epoch[24] Validation-cross-entropy=0.333126
+INFO:root:Epoch[25] Batch [0-10]	Speed: 170.76 samples/sec	accuracy=0.848437	cross-entropy=0.341288
+INFO:root:Epoch[25] Batch [10-20]	Speed: 153.50 samples/sec	accuracy=0.856250	cross-entropy=0.320612
+INFO:root:Epoch[25] Batch [20-30]	Speed: 155.25 samples/sec	accuracy=0.884375	cross-entropy=0.288880
+INFO:root:Epoch[25] Batch [30-40]	Speed: 154.87 samples/sec	accuracy=0.859375	cross-entropy=0.316010
+INFO:root:Epoch[25] Batch [40-50]	Speed: 154.74 samples/sec	accuracy=0.864062	cross-entropy=0.306976
+INFO:root:Epoch[25] Batch [50-60]	Speed: 159.73 samples/sec	accuracy=0.851562	cross-entropy=0.335503
+INFO:root:Epoch[25] Resetting Data Iterator
+INFO:root:Epoch[25] Time cost=52.023
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0026.params"
+INFO:root:Epoch[25] Validation-accuracy=0.864183
+INFO:root:Epoch[25] Validation-cross-entropy=0.360892
+INFO:root:Epoch[26] Batch [0-10]	Speed: 172.82 samples/sec	accuracy=0.850781	cross-entropy=0.327547
+INFO:root:Epoch[26] Batch [10-20]	Speed: 154.65 samples/sec	accuracy=0.867969	cross-entropy=0.307996
+INFO:root:Epoch[26] Batch [20-30]	Speed: 155.13 samples/sec	accuracy=0.863281	cross-entropy=0.305552
+INFO:root:Epoch[26] Batch [30-40]	Speed: 154.27 samples/sec	accuracy=0.870313	cross-entropy=0.303178
+INFO:root:Epoch[26] Batch [40-50]	Speed: 156.97 samples/sec	accuracy=0.871875	cross-entropy=0.314535
+INFO:root:Epoch[26] Batch [50-60]	Speed: 159.99 samples/sec	accuracy=0.866406	cross-entropy=0.336747
+INFO:root:Epoch[26] Resetting Data Iterator
+INFO:root:Epoch[26] Time cost=50.969
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0027.params"
+INFO:root:Epoch[26] Validation-accuracy=0.870536
+INFO:root:Epoch[26] Validation-cross-entropy=0.320001
+INFO:root:Epoch[27] Batch [0-10]	Speed: 171.74 samples/sec	accuracy=0.855469	cross-entropy=0.332524
+INFO:root:Epoch[27] Batch [10-20]	Speed: 154.17 samples/sec	accuracy=0.860938	cross-entropy=0.307303
+INFO:root:Epoch[27] Batch [20-30]	Speed: 154.85 samples/sec	accuracy=0.863281	cross-entropy=0.320382
+INFO:root:Epoch[27] Batch [30-40]	Speed: 154.53 samples/sec	accuracy=0.874219	cross-entropy=0.294904
+INFO:root:Epoch[27] Batch [40-50]	Speed: 156.22 samples/sec	accuracy=0.876563	cross-entropy=0.288467
+INFO:root:Epoch[27] Batch [50-60]	Speed: 159.67 samples/sec	accuracy=0.872656	cross-entropy=0.310754
+INFO:root:Epoch[27] Resetting Data Iterator
+INFO:root:Epoch[27] Time cost=51.948
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0028.params"
+INFO:root:Epoch[27] Validation-accuracy=0.855769
+INFO:root:Epoch[27] Validation-cross-entropy=0.353470
+INFO:root:Epoch[28] Batch [0-10]	Speed: 171.74 samples/sec	accuracy=0.857812	cross-entropy=0.315980
+INFO:root:Epoch[28] Batch [10-20]	Speed: 154.84 samples/sec	accuracy=0.890625	cross-entropy=0.274790
+INFO:root:Epoch[28] Batch [20-30]	Speed: 154.14 samples/sec	accuracy=0.878906	cross-entropy=0.283616
+INFO:root:Epoch[28] Batch [30-40]	Speed: 154.89 samples/sec	accuracy=0.879687	cross-entropy=0.276253
+INFO:root:Epoch[28] Batch [40-50]	Speed: 156.62 samples/sec	accuracy=0.869531	cross-entropy=0.299508
+INFO:root:Epoch[28] Batch [50-60]	Speed: 160.00 samples/sec	accuracy=0.876563	cross-entropy=0.312933
+INFO:root:Epoch[28] Resetting Data Iterator
+INFO:root:Epoch[28] Time cost=51.077
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0029.params"
+INFO:root:Epoch[28] Validation-accuracy=0.867788
+INFO:root:Epoch[28] Validation-cross-entropy=0.322238
+INFO:root:Epoch[29] Batch [0-10]	Speed: 172.34 samples/sec	accuracy=0.865625	cross-entropy=0.296722
+INFO:root:Epoch[29] Batch [10-20]	Speed: 154.46 samples/sec	accuracy=0.881250	cross-entropy=0.282952
+INFO:root:Epoch[29] Batch [20-30]	Speed: 154.91 samples/sec	accuracy=0.864844	cross-entropy=0.295209
+INFO:root:Epoch[29] Batch [30-40]	Speed: 154.54 samples/sec	accuracy=0.879687	cross-entropy=0.292071
+INFO:root:Epoch[29] Batch [40-50]	Speed: 156.57 samples/sec	accuracy=0.892969	cross-entropy=0.261831
+INFO:root:Epoch[29] Batch [50-60]	Speed: 160.09 samples/sec	accuracy=0.879687	cross-entropy=0.293762
+INFO:root:Epoch[29] Resetting Data Iterator
+INFO:root:Epoch[29] Time cost=51.050
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0030.params"
+INFO:root:Epoch[29] Validation-accuracy=0.839543
+INFO:root:Epoch[29] Validation-cross-entropy=0.386836
+INFO:root:Epoch[30] Batch [0-10]	Speed: 171.09 samples/sec	accuracy=0.875781	cross-entropy=0.290998
+INFO:root:Epoch[30] Batch [10-20]	Speed: 154.64 samples/sec	accuracy=0.879687	cross-entropy=0.285021
+INFO:root:Epoch[30] Batch [20-30]	Speed: 154.25 samples/sec	accuracy=0.874219	cross-entropy=0.289277
+INFO:root:Epoch[30] Batch [30-40]	Speed: 155.04 samples/sec	accuracy=0.891406	cross-entropy=0.272894
+INFO:root:Epoch[30] Batch [40-50]	Speed: 156.18 samples/sec	accuracy=0.884375	cross-entropy=0.281615
+INFO:root:Epoch[30] Batch [50-60]	Speed: 160.13 samples/sec	accuracy=0.866406	cross-entropy=0.289926
+INFO:root:Epoch[30] Resetting Data Iterator
+INFO:root:Epoch[30] Time cost=51.875
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0031.params"
+INFO:root:Epoch[30] Validation-accuracy=0.870536
+INFO:root:Epoch[30] Validation-cross-entropy=0.324721
+INFO:root:Epoch[31] Batch [0-10]	Speed: 170.37 samples/sec	accuracy=0.884375	cross-entropy=0.274574
+INFO:root:Epoch[31] Batch [10-20]	Speed: 154.57 samples/sec	accuracy=0.878125	cross-entropy=0.287777
+INFO:root:Epoch[31] Batch [20-30]	Speed: 154.86 samples/sec	accuracy=0.890625	cross-entropy=0.271591
+INFO:root:Epoch[31] Batch [30-40]	Speed: 154.46 samples/sec	accuracy=0.897656	cross-entropy=0.255551
+INFO:root:Epoch[31] Batch [40-50]	Speed: 156.16 samples/sec	accuracy=0.889062	cross-entropy=0.263644
+INFO:root:Epoch[31] Batch [50-60]	Speed: 160.08 samples/sec	accuracy=0.889844	cross-entropy=0.261942
+INFO:root:Epoch[31] Resetting Data Iterator
+INFO:root:Epoch[31] Time cost=51.158
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0032.params"
+INFO:root:Epoch[31] Validation-accuracy=0.873197
+INFO:root:Epoch[31] Validation-cross-entropy=0.334827
+INFO:root:Epoch[32] Batch [0-10]	Speed: 171.40 samples/sec	accuracy=0.884375	cross-entropy=0.283343
+INFO:root:Epoch[32] Batch [10-20]	Speed: 153.21 samples/sec	accuracy=0.876563	cross-entropy=0.282488
+INFO:root:Epoch[32] Batch [20-30]	Speed: 155.23 samples/sec	accuracy=0.878906	cross-entropy=0.267819
+INFO:root:Epoch[32] Batch [30-40]	Speed: 154.86 samples/sec	accuracy=0.892969	cross-entropy=0.246823
+INFO:root:Epoch[32] Batch [40-50]	Speed: 156.06 samples/sec	accuracy=0.891406	cross-entropy=0.237344
+INFO:root:Epoch[32] Batch [50-60]	Speed: 159.80 samples/sec	accuracy=0.896875	cross-entropy=0.254665
+INFO:root:Epoch[32] Resetting Data Iterator
+INFO:root:Epoch[32] Time cost=51.970
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0033.params"
+INFO:root:Epoch[32] Validation-accuracy=0.872596
+INFO:root:Epoch[32] Validation-cross-entropy=0.301200
+INFO:root:Epoch[33] Batch [0-10]	Speed: 171.63 samples/sec	accuracy=0.900781	cross-entropy=0.255292
+INFO:root:Epoch[33] Batch [10-20]	Speed: 154.46 samples/sec	accuracy=0.882031	cross-entropy=0.271663
+INFO:root:Epoch[33] Batch [20-30]	Speed: 154.83 samples/sec	accuracy=0.875781	cross-entropy=0.256587
+INFO:root:Epoch[33] Batch [30-40]	Speed: 154.39 samples/sec	accuracy=0.903906	cross-entropy=0.233182
+INFO:root:Epoch[33] Batch [40-50]	Speed: 156.92 samples/sec	accuracy=0.884375	cross-entropy=0.268332
+INFO:root:Epoch[33] Batch [50-60]	Speed: 159.78 samples/sec	accuracy=0.883594	cross-entropy=0.262518
+INFO:root:Epoch[33] Resetting Data Iterator
+INFO:root:Epoch[33] Time cost=51.066
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0034.params"
+INFO:root:Epoch[33] Validation-accuracy=0.866587
+INFO:root:Epoch[33] Validation-cross-entropy=0.324639
+INFO:root:Epoch[34] Batch [0-10]	Speed: 171.56 samples/sec	accuracy=0.900000	cross-entropy=0.252123
+INFO:root:Epoch[34] Batch [10-20]	Speed: 154.51 samples/sec	accuracy=0.886719	cross-entropy=0.265680
+INFO:root:Epoch[34] Batch [20-30]	Speed: 155.33 samples/sec	accuracy=0.897656	cross-entropy=0.234189
+INFO:root:Epoch[34] Batch [30-40]	Speed: 154.88 samples/sec	accuracy=0.911719	cross-entropy=0.223308
+INFO:root:Epoch[34] Batch [40-50]	Speed: 156.17 samples/sec	accuracy=0.901563	cross-entropy=0.236718
+INFO:root:Epoch[34] Batch [50-60]	Speed: 159.82 samples/sec	accuracy=0.892188	cross-entropy=0.248567
+INFO:root:Epoch[34] Resetting Data Iterator
+INFO:root:Epoch[34] Time cost=51.867
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0035.params"
+INFO:root:Epoch[34] Validation-accuracy=0.875000
+INFO:root:Epoch[34] Validation-cross-entropy=0.320266
+INFO:root:Epoch[35] Batch [0-10]	Speed: 171.59 samples/sec	accuracy=0.881250	cross-entropy=0.274547
+INFO:root:Epoch[35] Batch [10-20]	Speed: 154.96 samples/sec	accuracy=0.876563	cross-entropy=0.271117
+INFO:root:Epoch[35] Batch [20-30]	Speed: 154.13 samples/sec	accuracy=0.899219	cross-entropy=0.247029
+INFO:root:Epoch[35] Batch [30-40]	Speed: 154.94 samples/sec	accuracy=0.912500	cross-entropy=0.207511
+INFO:root:Epoch[35] Batch [40-50]	Speed: 156.80 samples/sec	accuracy=0.906250	cross-entropy=0.218233
+INFO:root:Epoch[35] Batch [50-60]	Speed: 159.84 samples/sec	accuracy=0.894531	cross-entropy=0.234245
+INFO:root:Epoch[35] Resetting Data Iterator
+INFO:root:Epoch[35] Time cost=51.014
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0036.params"
+INFO:root:Epoch[35] Validation-accuracy=0.888822
+INFO:root:Epoch[35] Validation-cross-entropy=0.293745
+INFO:root:Epoch[36] Batch [0-10]	Speed: 172.16 samples/sec	accuracy=0.889062	cross-entropy=0.256295
+INFO:root:Epoch[36] Batch [10-20]	Speed: 154.39 samples/sec	accuracy=0.889062	cross-entropy=0.262830
+INFO:root:Epoch[36] Batch [20-30]	Speed: 155.17 samples/sec	accuracy=0.902344	cross-entropy=0.232241
+INFO:root:Epoch[36] Batch [30-40]	Speed: 154.03 samples/sec	accuracy=0.902344	cross-entropy=0.244101
+INFO:root:Epoch[36] Batch [40-50]	Speed: 156.87 samples/sec	accuracy=0.909375	cross-entropy=0.222244
+INFO:root:Epoch[36] Batch [50-60]	Speed: 159.81 samples/sec	accuracy=0.890625	cross-entropy=0.258793
+INFO:root:Epoch[36] Resetting Data Iterator
+INFO:root:Epoch[36] Time cost=51.068
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0037.params"
+INFO:root:Epoch[36] Validation-accuracy=0.879808
+INFO:root:Epoch[36] Validation-cross-entropy=0.293958
+INFO:root:Epoch[37] Batch [0-10]	Speed: 171.95 samples/sec	accuracy=0.894531	cross-entropy=0.241304
+INFO:root:Epoch[37] Batch [10-20]	Speed: 155.37 samples/sec	accuracy=0.906250	cross-entropy=0.225423
+INFO:root:Epoch[37] Batch [20-30]	Speed: 154.70 samples/sec	accuracy=0.891406	cross-entropy=0.253538
+INFO:root:Epoch[37] Batch [30-40]	Speed: 155.17 samples/sec	accuracy=0.896875	cross-entropy=0.235727
+INFO:root:Epoch[37] Batch [40-50]	Speed: 156.20 samples/sec	accuracy=0.892188	cross-entropy=0.246882
+INFO:root:Epoch[37] Batch [50-60]	Speed: 160.38 samples/sec	accuracy=0.894531	cross-entropy=0.259625
+INFO:root:Epoch[37] Resetting Data Iterator
+INFO:root:Epoch[37] Time cost=51.750
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0038.params"
+INFO:root:Epoch[37] Validation-accuracy=0.868990
+INFO:root:Epoch[37] Validation-cross-entropy=0.334986
+INFO:root:Epoch[38] Batch [0-10]	Speed: 172.30 samples/sec	accuracy=0.898438	cross-entropy=0.232983
+INFO:root:Epoch[38] Batch [10-20]	Speed: 154.10 samples/sec	accuracy=0.903906	cross-entropy=0.237843
+INFO:root:Epoch[38] Batch [20-30]	Speed: 154.93 samples/sec	accuracy=0.899219	cross-entropy=0.223470
+INFO:root:Epoch[38] Batch [30-40]	Speed: 154.20 samples/sec	accuracy=0.912500	cross-entropy=0.203777
+INFO:root:Epoch[38] Batch [40-50]	Speed: 156.24 samples/sec	accuracy=0.907813	cross-entropy=0.225280
+INFO:root:Epoch[38] Batch [50-60]	Speed: 160.00 samples/sec	accuracy=0.894531	cross-entropy=0.230695
+INFO:root:Epoch[38] Resetting Data Iterator
+INFO:root:Epoch[38] Time cost=51.096
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0039.params"
+INFO:root:Epoch[38] Validation-accuracy=0.892857
+INFO:root:Epoch[38] Validation-cross-entropy=0.271418
+INFO:root:Epoch[39] Batch [0-10]	Speed: 171.39 samples/sec	accuracy=0.899219	cross-entropy=0.244201
+INFO:root:Epoch[39] Batch [10-20]	Speed: 154.49 samples/sec	accuracy=0.903125	cross-entropy=0.228163
+INFO:root:Epoch[39] Batch [20-30]	Speed: 154.11 samples/sec	accuracy=0.900000	cross-entropy=0.244378
+INFO:root:Epoch[39] Batch [30-40]	Speed: 154.99 samples/sec	accuracy=0.908594	cross-entropy=0.233489
+INFO:root:Epoch[39] Batch [40-50]	Speed: 156.28 samples/sec	accuracy=0.910937	cross-entropy=0.233679
+INFO:root:Epoch[39] Batch [50-60]	Speed: 158.38 samples/sec	accuracy=0.902344	cross-entropy=0.222234
+INFO:root:Epoch[39] Resetting Data Iterator
+INFO:root:Epoch[39] Time cost=51.991
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0040.params"
+INFO:root:Epoch[39] Validation-accuracy=0.897837
+INFO:root:Epoch[39] Validation-cross-entropy=0.267501
+INFO:root:Epoch[40] Batch [0-10]	Speed: 172.24 samples/sec	accuracy=0.900000	cross-entropy=0.240630
+INFO:root:Epoch[40] Batch [10-20]	Speed: 153.96 samples/sec	accuracy=0.898438	cross-entropy=0.223425
+INFO:root:Epoch[40] Batch [20-30]	Speed: 155.07 samples/sec	accuracy=0.898438	cross-entropy=0.224083
+INFO:root:Epoch[40] Batch [30-40]	Speed: 154.15 samples/sec	accuracy=0.922656	cross-entropy=0.178037
+INFO:root:Epoch[40] Batch [40-50]	Speed: 156.45 samples/sec	accuracy=0.923438	cross-entropy=0.208461
+INFO:root:Epoch[40] Batch [50-60]	Speed: 160.05 samples/sec	accuracy=0.901563	cross-entropy=0.233513
+INFO:root:Epoch[40] Resetting Data Iterator
+INFO:root:Epoch[40] Time cost=51.100
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0041.params"
+INFO:root:Epoch[40] Validation-accuracy=0.896034
+INFO:root:Epoch[40] Validation-cross-entropy=0.272953
+INFO:root:Epoch[41] Batch [0-10]	Speed: 168.20 samples/sec	accuracy=0.902344	cross-entropy=0.220184
+INFO:root:Epoch[41] Batch [10-20]	Speed: 154.64 samples/sec	accuracy=0.917188	cross-entropy=0.207881
+INFO:root:Epoch[41] Batch [20-30]	Speed: 153.60 samples/sec	accuracy=0.886719	cross-entropy=0.258921
+INFO:root:Epoch[41] Batch [30-40]	Speed: 154.89 samples/sec	accuracy=0.913281	cross-entropy=0.197419
+INFO:root:Epoch[41] Batch [40-50]	Speed: 156.00 samples/sec	accuracy=0.914844	cross-entropy=0.210106
+INFO:root:Epoch[41] Batch [50-60]	Speed: 159.95 samples/sec	accuracy=0.907031	cross-entropy=0.216293
+INFO:root:Epoch[41] Resetting Data Iterator
+INFO:root:Epoch[41] Time cost=52.255
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0042.params"
+INFO:root:Epoch[41] Validation-accuracy=0.893630
+INFO:root:Epoch[41] Validation-cross-entropy=0.277127
+INFO:root:Epoch[42] Batch [0-10]	Speed: 163.53 samples/sec	accuracy=0.907813	cross-entropy=0.210703
+INFO:root:Epoch[42] Batch [10-20]	Speed: 154.39 samples/sec	accuracy=0.921094	cross-entropy=0.194873
+INFO:root:Epoch[42] Batch [20-30]	Speed: 154.37 samples/sec	accuracy=0.912500	cross-entropy=0.210958
+INFO:root:Epoch[42] Batch [30-40]	Speed: 153.84 samples/sec	accuracy=0.921094	cross-entropy=0.193224
+INFO:root:Epoch[42] Batch [40-50]	Speed: 156.21 samples/sec	accuracy=0.909375	cross-entropy=0.215742
+INFO:root:Epoch[42] Batch [50-60]	Speed: 159.27 samples/sec	accuracy=0.910156	cross-entropy=0.210251
+INFO:root:Epoch[42] Resetting Data Iterator
+INFO:root:Epoch[42] Time cost=51.576
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0043.params"
+INFO:root:Epoch[42] Validation-accuracy=0.892857
+INFO:root:Epoch[42] Validation-cross-entropy=0.286506
+INFO:root:Epoch[43] Batch [0-10]	Speed: 172.14 samples/sec	accuracy=0.921094	cross-entropy=0.201563
+INFO:root:Epoch[43] Batch [10-20]	Speed: 154.13 samples/sec	accuracy=0.907813	cross-entropy=0.224029
+INFO:root:Epoch[43] Batch [20-30]	Speed: 154.33 samples/sec	accuracy=0.914844	cross-entropy=0.195413
+INFO:root:Epoch[43] Batch [30-40]	Speed: 151.37 samples/sec	accuracy=0.912500	cross-entropy=0.201660
+INFO:root:Epoch[43] Batch [40-50]	Speed: 155.10 samples/sec	accuracy=0.922656	cross-entropy=0.192972
+INFO:root:Epoch[43] Batch [50-60]	Speed: 159.25 samples/sec	accuracy=0.909375	cross-entropy=0.213444
+INFO:root:Epoch[43] Resetting Data Iterator
+INFO:root:Epoch[43] Time cost=51.445
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0044.params"
+INFO:root:Epoch[43] Validation-accuracy=0.903846
+INFO:root:Epoch[43] Validation-cross-entropy=0.251327
+INFO:root:Epoch[44] Batch [0-10]	Speed: 168.97 samples/sec	accuracy=0.914062	cross-entropy=0.207846
+INFO:root:Epoch[44] Batch [10-20]	Speed: 153.95 samples/sec	accuracy=0.910156	cross-entropy=0.218831
+INFO:root:Epoch[44] Batch [20-30]	Speed: 154.05 samples/sec	accuracy=0.916406	cross-entropy=0.208501
+INFO:root:Epoch[44] Batch [30-40]	Speed: 154.14 samples/sec	accuracy=0.917188	cross-entropy=0.209981
+INFO:root:Epoch[44] Batch [40-50]	Speed: 155.59 samples/sec	accuracy=0.920312	cross-entropy=0.207117
+INFO:root:Epoch[44] Batch [50-60]	Speed: 159.15 samples/sec	accuracy=0.930469	cross-entropy=0.185717
+INFO:root:Epoch[44] Resetting Data Iterator
+INFO:root:Epoch[44] Time cost=52.199
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0045.params"
+INFO:root:Epoch[44] Validation-accuracy=0.902043
+INFO:root:Epoch[44] Validation-cross-entropy=0.293117
+INFO:root:Epoch[45] Batch [0-10]	Speed: 172.05 samples/sec	accuracy=0.916406	cross-entropy=0.180283
+INFO:root:Epoch[45] Batch [10-20]	Speed: 153.28 samples/sec	accuracy=0.921094	cross-entropy=0.196624
+INFO:root:Epoch[45] Batch [20-30]	Speed: 154.28 samples/sec	accuracy=0.926562	cross-entropy=0.172064
+INFO:root:Epoch[45] Batch [30-40]	Speed: 146.93 samples/sec	accuracy=0.928125	cross-entropy=0.169156
+INFO:root:Epoch[45] Batch [40-50]	Speed: 146.16 samples/sec	accuracy=0.919531	cross-entropy=0.189738
+INFO:root:Epoch[45] Batch [50-60]	Speed: 149.04 samples/sec	accuracy=0.910156	cross-entropy=0.225951
+INFO:root:Epoch[45] Resetting Data Iterator
+INFO:root:Epoch[45] Time cost=52.895
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0046.params"
+INFO:root:Epoch[45] Validation-accuracy=0.891226
+INFO:root:Epoch[45] Validation-cross-entropy=0.281065
+INFO:root:Epoch[46] Batch [0-10]	Speed: 159.68 samples/sec	accuracy=0.920312	cross-entropy=0.193936
+INFO:root:Epoch[46] Batch [10-20]	Speed: 140.05 samples/sec	accuracy=0.925000	cross-entropy=0.178246
+INFO:root:Epoch[46] Batch [20-30]	Speed: 140.68 samples/sec	accuracy=0.927344	cross-entropy=0.173519
+INFO:root:Epoch[46] Batch [30-40]	Speed: 144.36 samples/sec	accuracy=0.926562	cross-entropy=0.191621
+INFO:root:Epoch[46] Batch [40-50]	Speed: 145.03 samples/sec	accuracy=0.916406	cross-entropy=0.199102
+INFO:root:Epoch[46] Batch [50-60]	Speed: 149.84 samples/sec	accuracy=0.914062	cross-entropy=0.203423
+INFO:root:Epoch[46] Resetting Data Iterator
+INFO:root:Epoch[46] Time cost=56.202
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0047.params"
+INFO:root:Epoch[46] Validation-accuracy=0.888951
+INFO:root:Epoch[46] Validation-cross-entropy=0.306005
+INFO:root:Epoch[47] Batch [0-10]	Speed: 158.39 samples/sec	accuracy=0.913281	cross-entropy=0.206645
+INFO:root:Epoch[47] Batch [10-20]	Speed: 143.43 samples/sec	accuracy=0.918750	cross-entropy=0.186578
+INFO:root:Epoch[47] Batch [20-30]	Speed: 142.96 samples/sec	accuracy=0.917188	cross-entropy=0.193373
+INFO:root:Epoch[47] Batch [30-40]	Speed: 144.45 samples/sec	accuracy=0.933594	cross-entropy=0.175791
+INFO:root:Epoch[47] Batch [40-50]	Speed: 146.56 samples/sec	accuracy=0.928906	cross-entropy=0.170894
+INFO:root:Epoch[47] Batch [50-60]	Speed: 149.49 samples/sec	accuracy=0.921094	cross-entropy=0.212971
+INFO:root:Epoch[47] Resetting Data Iterator
+INFO:root:Epoch[47] Time cost=54.964
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0048.params"
+INFO:root:Epoch[47] Validation-accuracy=0.905048
+INFO:root:Epoch[47] Validation-cross-entropy=0.261880
+INFO:root:Epoch[48] Batch [0-10]	Speed: 158.38 samples/sec	accuracy=0.927344	cross-entropy=0.171255
+INFO:root:Epoch[48] Batch [10-20]	Speed: 144.40 samples/sec	accuracy=0.921094	cross-entropy=0.178995
+INFO:root:Epoch[48] Batch [20-30]	Speed: 144.97 samples/sec	accuracy=0.912500	cross-entropy=0.194666
+INFO:root:Epoch[48] Batch [30-40]	Speed: 143.69 samples/sec	accuracy=0.933594	cross-entropy=0.171051
+INFO:root:Epoch[48] Batch [40-50]	Speed: 146.09 samples/sec	accuracy=0.928125	cross-entropy=0.169117
+INFO:root:Epoch[48] Batch [50-60]	Speed: 149.77 samples/sec	accuracy=0.927344	cross-entropy=0.169273
+INFO:root:Epoch[48] Resetting Data Iterator
+INFO:root:Epoch[48] Time cost=55.621
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0049.params"
+INFO:root:Epoch[48] Validation-accuracy=0.895433
+INFO:root:Epoch[48] Validation-cross-entropy=0.273853
+INFO:root:Epoch[49] Batch [0-10]	Speed: 161.18 samples/sec	accuracy=0.913281	cross-entropy=0.201024
+INFO:root:Epoch[49] Batch [10-20]	Speed: 145.37 samples/sec	accuracy=0.909375	cross-entropy=0.200452
+INFO:root:Epoch[49] Batch [20-30]	Speed: 145.04 samples/sec	accuracy=0.913281	cross-entropy=0.194195
+INFO:root:Epoch[49] Batch [30-40]	Speed: 144.33 samples/sec	accuracy=0.943750	cross-entropy=0.144949
+INFO:root:Epoch[49] Batch [40-50]	Speed: 144.49 samples/sec	accuracy=0.928906	cross-entropy=0.177945
+INFO:root:Epoch[49] Batch [50-60]	Speed: 150.17 samples/sec	accuracy=0.912500	cross-entropy=0.191450
+INFO:root:Epoch[49] Resetting Data Iterator
+INFO:root:Epoch[49] Time cost=54.609
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0050.params"
+INFO:root:Epoch[49] Validation-accuracy=0.897236
+INFO:root:Epoch[49] Validation-cross-entropy=0.267758
+INFO:root:Epoch[50] Batch [0-10]	Speed: 160.73 samples/sec	accuracy=0.939063	cross-entropy=0.168473
+INFO:root:Epoch[50] Batch [10-20]	Speed: 145.16 samples/sec	accuracy=0.926562	cross-entropy=0.193090
+INFO:root:Epoch[50] Batch [20-30]	Speed: 145.49 samples/sec	accuracy=0.925781	cross-entropy=0.167498
+INFO:root:Epoch[50] Batch [30-40]	Speed: 144.46 samples/sec	accuracy=0.935937	cross-entropy=0.167287
+INFO:root:Epoch[50] Batch [40-50]	Speed: 146.45 samples/sec	accuracy=0.930469	cross-entropy=0.162901
+INFO:root:Epoch[50] Batch [50-60]	Speed: 150.17 samples/sec	accuracy=0.932031	cross-entropy=0.176848
+INFO:root:Epoch[50] Resetting Data Iterator
+INFO:root:Epoch[50] Time cost=54.475
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0051.params"
+INFO:root:Epoch[50] Validation-accuracy=0.902344
+INFO:root:Epoch[50] Validation-cross-entropy=0.261258
+INFO:root:Epoch[51] Batch [0-10]	Speed: 161.03 samples/sec	accuracy=0.922656	cross-entropy=0.187804
+INFO:root:Epoch[51] Batch [10-20]	Speed: 145.87 samples/sec	accuracy=0.938281	cross-entropy=0.148143
+INFO:root:Epoch[51] Batch [20-30]	Speed: 145.21 samples/sec	accuracy=0.928125	cross-entropy=0.163669
+INFO:root:Epoch[51] Batch [30-40]	Speed: 145.68 samples/sec	accuracy=0.920312	cross-entropy=0.183888
+INFO:root:Epoch[51] Batch [40-50]	Speed: 146.70 samples/sec	accuracy=0.925000	cross-entropy=0.168985
+INFO:root:Epoch[51] Batch [50-60]	Speed: 150.29 samples/sec	accuracy=0.934375	cross-entropy=0.171149
+INFO:root:Epoch[51] Resetting Data Iterator
+INFO:root:Epoch[51] Time cost=55.239
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0052.params"
+INFO:root:Epoch[51] Validation-accuracy=0.911058
+INFO:root:Epoch[51] Validation-cross-entropy=0.251252
+INFO:root:Epoch[52] Batch [0-10]	Speed: 160.46 samples/sec	accuracy=0.921875	cross-entropy=0.176311
+INFO:root:Epoch[52] Batch [10-20]	Speed: 145.20 samples/sec	accuracy=0.931250	cross-entropy=0.173849
+INFO:root:Epoch[52] Batch [20-30]	Speed: 145.54 samples/sec	accuracy=0.938281	cross-entropy=0.149376
+INFO:root:Epoch[52] Batch [30-40]	Speed: 145.18 samples/sec	accuracy=0.943750	cross-entropy=0.148729
+INFO:root:Epoch[52] Batch [40-50]	Speed: 147.19 samples/sec	accuracy=0.927344	cross-entropy=0.169386
+INFO:root:Epoch[52] Batch [50-60]	Speed: 150.38 samples/sec	accuracy=0.927344	cross-entropy=0.182387
+INFO:root:Epoch[52] Resetting Data Iterator
+INFO:root:Epoch[52] Time cost=54.344
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0053.params"
+INFO:root:Epoch[52] Validation-accuracy=0.907452
+INFO:root:Epoch[52] Validation-cross-entropy=0.253474
+INFO:root:Epoch[53] Batch [0-10]	Speed: 161.37 samples/sec	accuracy=0.921875	cross-entropy=0.187167
+INFO:root:Epoch[53] Batch [10-20]	Speed: 145.26 samples/sec	accuracy=0.939844	cross-entropy=0.157959
+INFO:root:Epoch[53] Batch [20-30]	Speed: 146.01 samples/sec	accuracy=0.919531	cross-entropy=0.185932
+INFO:root:Epoch[53] Batch [30-40]	Speed: 145.74 samples/sec	accuracy=0.932031	cross-entropy=0.151098
+INFO:root:Epoch[53] Batch [40-50]	Speed: 146.97 samples/sec	accuracy=0.916406	cross-entropy=0.183522
+INFO:root:Epoch[53] Batch [50-60]	Speed: 150.35 samples/sec	accuracy=0.926562	cross-entropy=0.180567
+INFO:root:Epoch[53] Resetting Data Iterator
+INFO:root:Epoch[53] Time cost=55.116
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0054.params"
+INFO:root:Epoch[53] Validation-accuracy=0.898438
+INFO:root:Epoch[53] Validation-cross-entropy=0.275373
+INFO:root:Epoch[54] Batch [0-10]	Speed: 157.52 samples/sec	accuracy=0.934375	cross-entropy=0.152928
+INFO:root:Epoch[54] Batch [10-20]	Speed: 144.13 samples/sec	accuracy=0.934375	cross-entropy=0.162169
+INFO:root:Epoch[54] Batch [20-30]	Speed: 145.71 samples/sec	accuracy=0.931250	cross-entropy=0.162658
+INFO:root:Epoch[54] Batch [30-40]	Speed: 145.01 samples/sec	accuracy=0.923438	cross-entropy=0.164757
+INFO:root:Epoch[54] Batch [40-50]	Speed: 147.53 samples/sec	accuracy=0.939844	cross-entropy=0.159920
+INFO:root:Epoch[54] Batch [50-60]	Speed: 150.30 samples/sec	accuracy=0.929688	cross-entropy=0.191489
+INFO:root:Epoch[54] Resetting Data Iterator
+INFO:root:Epoch[54] Time cost=54.533
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0055.params"
+INFO:root:Epoch[54] Validation-accuracy=0.909040
+INFO:root:Epoch[54] Validation-cross-entropy=0.255948
+INFO:root:Epoch[55] Batch [0-10]	Speed: 161.98 samples/sec	accuracy=0.927344	cross-entropy=0.166038
+INFO:root:Epoch[55] Batch [10-20]	Speed: 144.17 samples/sec	accuracy=0.927344	cross-entropy=0.170414
+INFO:root:Epoch[55] Batch [20-30]	Speed: 145.14 samples/sec	accuracy=0.942187	cross-entropy=0.145803
+INFO:root:Epoch[55] Batch [30-40]	Speed: 144.94 samples/sec	accuracy=0.939844	cross-entropy=0.138279
+INFO:root:Epoch[55] Batch [40-50]	Speed: 146.83 samples/sec	accuracy=0.938281	cross-entropy=0.159480
+INFO:root:Epoch[55] Batch [50-60]	Speed: 150.43 samples/sec	accuracy=0.935156	cross-entropy=0.160156
+INFO:root:Epoch[55] Resetting Data Iterator
+INFO:root:Epoch[55] Time cost=55.320
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0056.params"
+INFO:root:Epoch[55] Validation-accuracy=0.912861
+INFO:root:Epoch[55] Validation-cross-entropy=0.239641
+INFO:root:Epoch[56] Batch [0-10]	Speed: 161.05 samples/sec	accuracy=0.926562	cross-entropy=0.168293
+INFO:root:Epoch[56] Batch [10-20]	Speed: 145.39 samples/sec	accuracy=0.939063	cross-entropy=0.163094
+INFO:root:Epoch[56] Batch [20-30]	Speed: 145.53 samples/sec	accuracy=0.941406	cross-entropy=0.146189
+INFO:root:Epoch[56] Batch [30-40]	Speed: 144.74 samples/sec	accuracy=0.942187	cross-entropy=0.127767
+INFO:root:Epoch[56] Batch [40-50]	Speed: 147.37 samples/sec	accuracy=0.953906	cross-entropy=0.119642
+INFO:root:Epoch[56] Batch [50-60]	Speed: 150.44 samples/sec	accuracy=0.939063	cross-entropy=0.171592
+INFO:root:Epoch[56] Resetting Data Iterator
+INFO:root:Epoch[56] Time cost=54.364
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0057.params"
+INFO:root:Epoch[56] Validation-accuracy=0.915865
+INFO:root:Epoch[56] Validation-cross-entropy=0.245092
+INFO:root:Epoch[57] Batch [0-10]	Speed: 162.41 samples/sec	accuracy=0.942969	cross-entropy=0.135586
+INFO:root:Epoch[57] Batch [10-20]	Speed: 144.45 samples/sec	accuracy=0.941406	cross-entropy=0.150622
+INFO:root:Epoch[57] Batch [20-30]	Speed: 145.93 samples/sec	accuracy=0.940625	cross-entropy=0.134954
+INFO:root:Epoch[57] Batch [30-40]	Speed: 145.31 samples/sec	accuracy=0.938281	cross-entropy=0.152261
+INFO:root:Epoch[57] Batch [40-50]	Speed: 147.02 samples/sec	accuracy=0.936719	cross-entropy=0.159951
+INFO:root:Epoch[57] Batch [50-60]	Speed: 150.04 samples/sec	accuracy=0.934375	cross-entropy=0.157217
+INFO:root:Epoch[57] Resetting Data Iterator
+INFO:root:Epoch[57] Time cost=54.283
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0058.params"
+INFO:root:Epoch[57] Validation-accuracy=0.906250
+INFO:root:Epoch[57] Validation-cross-entropy=0.256210
+INFO:root:Epoch[58] Batch [0-10]	Speed: 145.23 samples/sec	accuracy=0.943750	cross-entropy=0.143412
+INFO:root:Epoch[58] Batch [10-20]	Speed: 127.55 samples/sec	accuracy=0.932031	cross-entropy=0.149032
+INFO:root:Epoch[58] Batch [20-30]	Speed: 126.42 samples/sec	accuracy=0.939063	cross-entropy=0.151217
+INFO:root:Epoch[58] Batch [30-40]	Speed: 129.63 samples/sec	accuracy=0.941406	cross-entropy=0.140668
+INFO:root:Epoch[58] Batch [40-50]	Speed: 130.85 samples/sec	accuracy=0.939063	cross-entropy=0.152435
+INFO:root:Epoch[58] Batch [50-60]	Speed: 133.78 samples/sec	accuracy=0.933594	cross-entropy=0.162527
+INFO:root:Epoch[58] Resetting Data Iterator
+INFO:root:Epoch[58] Time cost=62.168
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0059.params"
+INFO:root:Epoch[58] Validation-accuracy=0.905692
+INFO:root:Epoch[58] Validation-cross-entropy=0.258706
+INFO:root:Epoch[59] Batch [0-10]	Speed: 143.52 samples/sec	accuracy=0.942187	cross-entropy=0.139293
+INFO:root:Epoch[59] Batch [10-20]	Speed: 129.27 samples/sec	accuracy=0.949219	cross-entropy=0.134281
+INFO:root:Epoch[59] Batch [20-30]	Speed: 129.79 samples/sec	accuracy=0.943750	cross-entropy=0.151590
+INFO:root:Epoch[59] Batch [30-40]	Speed: 129.55 samples/sec	accuracy=0.948438	cross-entropy=0.119190
+INFO:root:Epoch[59] Batch [40-50]	Speed: 131.08 samples/sec	accuracy=0.941406	cross-entropy=0.153431
+INFO:root:Epoch[59] Batch [50-60]	Speed: 133.66 samples/sec	accuracy=0.936719	cross-entropy=0.152526
+INFO:root:Epoch[59] Resetting Data Iterator
+INFO:root:Epoch[59] Time cost=61.028
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0060.params"
+INFO:root:Epoch[59] Validation-accuracy=0.909255
+INFO:root:Epoch[59] Validation-cross-entropy=0.252422
+INFO:root:Epoch[60] Batch [0-10]	Speed: 144.31 samples/sec	accuracy=0.939063	cross-entropy=0.161522
+INFO:root:Epoch[60] Batch [10-20]	Speed: 92.27 samples/sec	accuracy=0.949219	cross-entropy=0.136266
+INFO:root:Epoch[60] Batch [20-30]	Speed: 136.25 samples/sec	accuracy=0.942969	cross-entropy=0.150525
+INFO:root:Epoch[60] Batch [30-40]	Speed: 167.08 samples/sec	accuracy=0.946094	cross-entropy=0.131787
+INFO:root:Epoch[60] Batch [40-50]	Speed: 168.06 samples/sec	accuracy=0.942969	cross-entropy=0.139083
+INFO:root:Epoch[60] Batch [50-60]	Speed: 170.96 samples/sec	accuracy=0.944531	cross-entropy=0.140319
+INFO:root:Epoch[60] Resetting Data Iterator
+INFO:root:Epoch[60] Time cost=58.321
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0061.params"
+INFO:root:Epoch[60] Validation-accuracy=0.909255
+INFO:root:Epoch[60] Validation-cross-entropy=0.279582
+INFO:root:Epoch[61] Batch [0-10]	Speed: 181.70 samples/sec	accuracy=0.935937	cross-entropy=0.155234
+INFO:root:Epoch[61] Batch [10-20]	Speed: 163.50 samples/sec	accuracy=0.942187	cross-entropy=0.154725
+INFO:root:Epoch[61] Batch [20-30]	Speed: 164.14 samples/sec	accuracy=0.941406	cross-entropy=0.151718
+INFO:root:Epoch[61] Batch [30-40]	Speed: 163.22 samples/sec	accuracy=0.950781	cross-entropy=0.128959
+INFO:root:Epoch[61] Batch [40-50]	Speed: 166.15 samples/sec	accuracy=0.956250	cross-entropy=0.115001
+INFO:root:Epoch[61] Batch [50-60]	Speed: 169.77 samples/sec	accuracy=0.945312	cross-entropy=0.140023
+INFO:root:Epoch[61] Resetting Data Iterator
+INFO:root:Epoch[61] Time cost=48.249
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0062.params"
+INFO:root:Epoch[61] Validation-accuracy=0.907452
+INFO:root:Epoch[61] Validation-cross-entropy=0.282658
+INFO:root:Epoch[62] Batch [0-10]	Speed: 182.51 samples/sec	accuracy=0.948438	cross-entropy=0.137012
+INFO:root:Epoch[62] Batch [10-20]	Speed: 164.58 samples/sec	accuracy=0.947656	cross-entropy=0.127031
+INFO:root:Epoch[62] Batch [20-30]	Speed: 164.98 samples/sec	accuracy=0.947656	cross-entropy=0.124114
+INFO:root:Epoch[62] Batch [30-40]	Speed: 165.24 samples/sec	accuracy=0.942969	cross-entropy=0.135198
+INFO:root:Epoch[62] Batch [40-50]	Speed: 166.86 samples/sec	accuracy=0.953906	cross-entropy=0.119987
+INFO:root:Epoch[62] Batch [50-60]	Speed: 170.68 samples/sec	accuracy=0.942187	cross-entropy=0.149514
+INFO:root:Epoch[62] Resetting Data Iterator
+INFO:root:Epoch[62] Time cost=48.636
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0063.params"
+INFO:root:Epoch[62] Validation-accuracy=0.898996
+INFO:root:Epoch[62] Validation-cross-entropy=0.294692
+INFO:root:Epoch[63] Batch [0-10]	Speed: 182.21 samples/sec	accuracy=0.948438	cross-entropy=0.137889
+INFO:root:Epoch[63] Batch [10-20]	Speed: 164.49 samples/sec	accuracy=0.943750	cross-entropy=0.129595
+INFO:root:Epoch[63] Batch [20-30]	Speed: 165.45 samples/sec	accuracy=0.935937	cross-entropy=0.156331
+INFO:root:Epoch[63] Batch [30-40]	Speed: 162.86 samples/sec	accuracy=0.939844	cross-entropy=0.148908
+INFO:root:Epoch[63] Batch [40-50]	Speed: 165.89 samples/sec	accuracy=0.950781	cross-entropy=0.123527
+INFO:root:Epoch[63] Batch [50-60]	Speed: 170.42 samples/sec	accuracy=0.935937	cross-entropy=0.147637
+INFO:root:Epoch[63] Resetting Data Iterator
+INFO:root:Epoch[63] Time cost=48.095
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0064.params"
+INFO:root:Epoch[63] Validation-accuracy=0.917668
+INFO:root:Epoch[63] Validation-cross-entropy=0.252775
+INFO:root:Epoch[64] Batch [0-10]	Speed: 183.35 samples/sec	accuracy=0.942969	cross-entropy=0.146211
+INFO:root:Epoch[64] Batch [10-20]	Speed: 164.61 samples/sec	accuracy=0.953125	cross-entropy=0.130907
+INFO:root:Epoch[64] Batch [20-30]	Speed: 164.99 samples/sec	accuracy=0.949219	cross-entropy=0.127363
+INFO:root:Epoch[64] Batch [30-40]	Speed: 164.06 samples/sec	accuracy=0.946094	cross-entropy=0.130589
+INFO:root:Epoch[64] Batch [40-50]	Speed: 166.41 samples/sec	accuracy=0.929688	cross-entropy=0.155230
+INFO:root:Epoch[64] Batch [50-60]	Speed: 170.58 samples/sec	accuracy=0.944531	cross-entropy=0.141476
+INFO:root:Epoch[64] Resetting Data Iterator
+INFO:root:Epoch[64] Time cost=47.983
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0065.params"
+INFO:root:Epoch[64] Validation-accuracy=0.912260
+INFO:root:Epoch[64] Validation-cross-entropy=0.257979
+INFO:root:Epoch[65] Batch [0-10]	Speed: 179.90 samples/sec	accuracy=0.940625	cross-entropy=0.129668
+INFO:root:Epoch[65] Batch [10-20]	Speed: 164.97 samples/sec	accuracy=0.946875	cross-entropy=0.140776
+INFO:root:Epoch[65] Batch [20-30]	Speed: 164.33 samples/sec	accuracy=0.948438	cross-entropy=0.131177
+INFO:root:Epoch[65] Batch [30-40]	Speed: 165.05 samples/sec	accuracy=0.942969	cross-entropy=0.137566
+INFO:root:Epoch[65] Batch [40-50]	Speed: 166.54 samples/sec	accuracy=0.935937	cross-entropy=0.143840
+INFO:root:Epoch[65] Batch [50-60]	Speed: 170.75 samples/sec	accuracy=0.933594	cross-entropy=0.152487
+INFO:root:Epoch[65] Resetting Data Iterator
+INFO:root:Epoch[65] Time cost=48.842
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0066.params"
+INFO:root:Epoch[65] Validation-accuracy=0.916466
+INFO:root:Epoch[65] Validation-cross-entropy=0.256081
+INFO:root:Epoch[66] Batch [0-10]	Speed: 182.97 samples/sec	accuracy=0.937500	cross-entropy=0.141381
+INFO:root:Epoch[66] Batch [10-20]	Speed: 163.63 samples/sec	accuracy=0.957031	cross-entropy=0.115825
+INFO:root:Epoch[66] Batch [20-30]	Speed: 164.00 samples/sec	accuracy=0.960938	cross-entropy=0.098147
+INFO:root:Epoch[66] Batch [30-40]	Speed: 163.29 samples/sec	accuracy=0.935156	cross-entropy=0.146812
+INFO:root:Epoch[66] Batch [40-50]	Speed: 166.50 samples/sec	accuracy=0.948438	cross-entropy=0.123112
+INFO:root:Epoch[66] Batch [50-60]	Speed: 170.39 samples/sec	accuracy=0.937500	cross-entropy=0.153738
+INFO:root:Epoch[66] Resetting Data Iterator
+INFO:root:Epoch[66] Time cost=48.129
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0067.params"
+INFO:root:Epoch[66] Validation-accuracy=0.917411
+INFO:root:Epoch[66] Validation-cross-entropy=0.257727
+INFO:root:Epoch[67] Batch [0-10]	Speed: 182.47 samples/sec	accuracy=0.938281	cross-entropy=0.146958
+INFO:root:Epoch[67] Batch [10-20]	Speed: 164.63 samples/sec	accuracy=0.952344	cross-entropy=0.121309
+INFO:root:Epoch[67] Batch [20-30]	Speed: 162.26 samples/sec	accuracy=0.949219	cross-entropy=0.149016
+INFO:root:Epoch[67] Batch [30-40]	Speed: 164.86 samples/sec	accuracy=0.946875	cross-entropy=0.129104
+INFO:root:Epoch[67] Batch [40-50]	Speed: 166.39 samples/sec	accuracy=0.950000	cross-entropy=0.122915
+INFO:root:Epoch[67] Batch [50-60]	Speed: 170.48 samples/sec	accuracy=0.942187	cross-entropy=0.136099
+INFO:root:Epoch[67] Resetting Data Iterator
+INFO:root:Epoch[67] Time cost=48.871
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0068.params"
+INFO:root:Epoch[67] Validation-accuracy=0.915865
+INFO:root:Epoch[67] Validation-cross-entropy=0.271524
+INFO:root:Epoch[68] Batch [0-10]	Speed: 183.24 samples/sec	accuracy=0.957031	cross-entropy=0.131773
+INFO:root:Epoch[68] Batch [10-20]	Speed: 163.90 samples/sec	accuracy=0.948438	cross-entropy=0.138008
+INFO:root:Epoch[68] Batch [20-30]	Speed: 164.57 samples/sec	accuracy=0.942969	cross-entropy=0.132672
+INFO:root:Epoch[68] Batch [30-40]	Speed: 163.72 samples/sec	accuracy=0.950781	cross-entropy=0.132912
+INFO:root:Epoch[68] Batch [40-50]	Speed: 166.55 samples/sec	accuracy=0.945312	cross-entropy=0.122103
+INFO:root:Epoch[68] Batch [50-60]	Speed: 170.62 samples/sec	accuracy=0.950781	cross-entropy=0.119893
+INFO:root:Epoch[68] Resetting Data Iterator
+INFO:root:Epoch[68] Time cost=48.068
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0069.params"
+INFO:root:Epoch[68] Validation-accuracy=0.918870
+INFO:root:Epoch[68] Validation-cross-entropy=0.260662
+INFO:root:Epoch[69] Batch [0-10]	Speed: 181.83 samples/sec	accuracy=0.946875	cross-entropy=0.127104
+INFO:root:Epoch[69] Batch [10-20]	Speed: 161.91 samples/sec	accuracy=0.956250	cross-entropy=0.113167
+INFO:root:Epoch[69] Batch [20-30]	Speed: 164.53 samples/sec	accuracy=0.946875	cross-entropy=0.126995
+INFO:root:Epoch[69] Batch [30-40]	Speed: 164.19 samples/sec	accuracy=0.953125	cross-entropy=0.125355
+INFO:root:Epoch[69] Batch [40-50]	Speed: 165.26 samples/sec	accuracy=0.953906	cross-entropy=0.112948
+INFO:root:Epoch[69] Batch [50-60]	Speed: 170.14 samples/sec	accuracy=0.950781	cross-entropy=0.131026
+INFO:root:Epoch[69] Resetting Data Iterator
+INFO:root:Epoch[69] Time cost=49.036
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0070.params"
+INFO:root:Epoch[69] Validation-accuracy=0.925481
+INFO:root:Epoch[69] Validation-cross-entropy=0.248782
+INFO:root:Epoch[70] Batch [0-10]	Speed: 181.74 samples/sec	accuracy=0.940625	cross-entropy=0.150438
+INFO:root:Epoch[70] Batch [10-20]	Speed: 164.32 samples/sec	accuracy=0.947656	cross-entropy=0.126860
+INFO:root:Epoch[70] Batch [20-30]	Speed: 164.11 samples/sec	accuracy=0.940625	cross-entropy=0.150290
+INFO:root:Epoch[70] Batch [30-40]	Speed: 162.82 samples/sec	accuracy=0.957812	cross-entropy=0.099970
+INFO:root:Epoch[70] Batch [40-50]	Speed: 164.62 samples/sec	accuracy=0.962500	cross-entropy=0.103632
+INFO:root:Epoch[70] Batch [50-60]	Speed: 169.96 samples/sec	accuracy=0.941406	cross-entropy=0.144645
+INFO:root:Epoch[70] Resetting Data Iterator
+INFO:root:Epoch[70] Time cost=48.270
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0071.params"
+INFO:root:Epoch[70] Validation-accuracy=0.914062
+INFO:root:Epoch[70] Validation-cross-entropy=0.275778
+INFO:root:Epoch[71] Batch [0-10]	Speed: 182.89 samples/sec	accuracy=0.960156	cross-entropy=0.106357
+INFO:root:Epoch[71] Batch [10-20]	Speed: 159.59 samples/sec	accuracy=0.959375	cross-entropy=0.105651
+INFO:root:Epoch[71] Batch [20-30]	Speed: 165.09 samples/sec	accuracy=0.961719	cross-entropy=0.089350
+INFO:root:Epoch[71] Batch [30-40]	Speed: 164.41 samples/sec	accuracy=0.945312	cross-entropy=0.143750
+INFO:root:Epoch[71] Batch [40-50]	Speed: 166.84 samples/sec	accuracy=0.946094	cross-entropy=0.131432
+INFO:root:Epoch[71] Batch [50-60]	Speed: 169.74 samples/sec	accuracy=0.957031	cross-entropy=0.118281
+INFO:root:Epoch[71] Resetting Data Iterator
+INFO:root:Epoch[71] Time cost=48.273
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0072.params"
+INFO:root:Epoch[71] Validation-accuracy=0.920673
+INFO:root:Epoch[71] Validation-cross-entropy=0.226501
+INFO:root:Epoch[72] Batch [0-10]	Speed: 183.32 samples/sec	accuracy=0.954688	cross-entropy=0.110189
+INFO:root:Epoch[72] Batch [10-20]	Speed: 165.03 samples/sec	accuracy=0.952344	cross-entropy=0.115149
+INFO:root:Epoch[72] Batch [20-30]	Speed: 164.54 samples/sec	accuracy=0.958594	cross-entropy=0.104329
+INFO:root:Epoch[72] Batch [30-40]	Speed: 165.23 samples/sec	accuracy=0.946094	cross-entropy=0.132235
+INFO:root:Epoch[72] Batch [40-50]	Speed: 166.58 samples/sec	accuracy=0.958594	cross-entropy=0.109432
+INFO:root:Epoch[72] Batch [50-60]	Speed: 170.57 samples/sec	accuracy=0.957812	cross-entropy=0.117345
+INFO:root:Epoch[72] Resetting Data Iterator
+INFO:root:Epoch[72] Time cost=48.677
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0073.params"
+INFO:root:Epoch[72] Validation-accuracy=0.920673
+INFO:root:Epoch[72] Validation-cross-entropy=0.258524
+INFO:root:Epoch[73] Batch [0-10]	Speed: 183.59 samples/sec	accuracy=0.960156	cross-entropy=0.093512
+INFO:root:Epoch[73] Batch [10-20]	Speed: 164.49 samples/sec	accuracy=0.965625	cross-entropy=0.102001
+INFO:root:Epoch[73] Batch [20-30]	Speed: 164.93 samples/sec	accuracy=0.954688	cross-entropy=0.110737
+INFO:root:Epoch[73] Batch [30-40]	Speed: 164.28 samples/sec	accuracy=0.942969	cross-entropy=0.120119
+INFO:root:Epoch[73] Batch [40-50]	Speed: 163.09 samples/sec	accuracy=0.957812	cross-entropy=0.100548
+INFO:root:Epoch[73] Batch [50-60]	Speed: 170.24 samples/sec	accuracy=0.947656	cross-entropy=0.139959
+INFO:root:Epoch[73] Resetting Data Iterator
+INFO:root:Epoch[73] Time cost=48.166
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0074.params"
+INFO:root:Epoch[73] Validation-accuracy=0.921875
+INFO:root:Epoch[73] Validation-cross-entropy=0.245432
+INFO:root:Epoch[74] Batch [0-10]	Speed: 182.63 samples/sec	accuracy=0.956250	cross-entropy=0.109223
+INFO:root:Epoch[74] Batch [10-20]	Speed: 164.85 samples/sec	accuracy=0.953125	cross-entropy=0.115099
+INFO:root:Epoch[74] Batch [20-30]	Speed: 164.44 samples/sec	accuracy=0.957031	cross-entropy=0.109568
+INFO:root:Epoch[74] Batch [30-40]	Speed: 164.56 samples/sec	accuracy=0.958594	cross-entropy=0.114588
+INFO:root:Epoch[74] Batch [40-50]	Speed: 166.21 samples/sec	accuracy=0.957031	cross-entropy=0.122021
+INFO:root:Epoch[74] Batch [50-60]	Speed: 170.40 samples/sec	accuracy=0.955469	cross-entropy=0.104589
+INFO:root:Epoch[74] Resetting Data Iterator
+INFO:root:Epoch[74] Time cost=48.808
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0075.params"
+INFO:root:Epoch[74] Validation-accuracy=0.919085
+INFO:root:Epoch[74] Validation-cross-entropy=0.235078
+INFO:root:Epoch[75] Batch [0-10]	Speed: 183.68 samples/sec	accuracy=0.957812	cross-entropy=0.115501
+INFO:root:Epoch[75] Batch [10-20]	Speed: 164.31 samples/sec	accuracy=0.964844	cross-entropy=0.098041
+INFO:root:Epoch[75] Batch [20-30]	Speed: 164.85 samples/sec	accuracy=0.957031	cross-entropy=0.100404
+INFO:root:Epoch[75] Batch [30-40]	Speed: 163.82 samples/sec	accuracy=0.959375	cross-entropy=0.111125
+INFO:root:Epoch[75] Batch [40-50]	Speed: 166.45 samples/sec	accuracy=0.947656	cross-entropy=0.135337
+INFO:root:Epoch[75] Batch [50-60]	Speed: 169.95 samples/sec	accuracy=0.942187	cross-entropy=0.155788
+INFO:root:Epoch[75] Resetting Data Iterator
+INFO:root:Epoch[75] Time cost=48.019
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0076.params"
+INFO:root:Epoch[75] Validation-accuracy=0.917668
+INFO:root:Epoch[75] Validation-cross-entropy=0.238203
+INFO:root:Epoch[76] Batch [0-10]	Speed: 181.39 samples/sec	accuracy=0.951562	cross-entropy=0.122184
+INFO:root:Epoch[76] Batch [10-20]	Speed: 162.88 samples/sec	accuracy=0.957812	cross-entropy=0.111212
+INFO:root:Epoch[76] Batch [20-30]	Speed: 161.35 samples/sec	accuracy=0.969531	cross-entropy=0.090123
+INFO:root:Epoch[76] Batch [30-40]	Speed: 164.90 samples/sec	accuracy=0.955469	cross-entropy=0.101833
+INFO:root:Epoch[76] Batch [40-50]	Speed: 166.53 samples/sec	accuracy=0.956250	cross-entropy=0.124120
+INFO:root:Epoch[76] Batch [50-60]	Speed: 170.12 samples/sec	accuracy=0.951562	cross-entropy=0.133210
+INFO:root:Epoch[76] Resetting Data Iterator
+INFO:root:Epoch[76] Time cost=48.992
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0077.params"
+INFO:root:Epoch[76] Validation-accuracy=0.911659
+INFO:root:Epoch[76] Validation-cross-entropy=0.257041
+INFO:root:Epoch[77] Batch [0-10]	Speed: 180.39 samples/sec	accuracy=0.950000	cross-entropy=0.113080
+INFO:root:Epoch[77] Batch [10-20]	Speed: 160.93 samples/sec	accuracy=0.957031	cross-entropy=0.106859
+INFO:root:Epoch[77] Batch [20-30]	Speed: 164.92 samples/sec	accuracy=0.962500	cross-entropy=0.110912
+INFO:root:Epoch[77] Batch [30-40]	Speed: 163.16 samples/sec	accuracy=0.963281	cross-entropy=0.102483
+INFO:root:Epoch[77] Batch [40-50]	Speed: 162.81 samples/sec	accuracy=0.957031	cross-entropy=0.101559
+INFO:root:Epoch[77] Batch [50-60]	Speed: 170.29 samples/sec	accuracy=0.964844	cross-entropy=0.094079
+INFO:root:Epoch[77] Resetting Data Iterator
+INFO:root:Epoch[77] Time cost=48.511
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0078.params"
+INFO:root:Epoch[77] Validation-accuracy=0.921274
+INFO:root:Epoch[77] Validation-cross-entropy=0.279990
+INFO:root:Epoch[78] Batch [0-10]	Speed: 183.29 samples/sec	accuracy=0.959375	cross-entropy=0.093519
+INFO:root:Epoch[78] Batch [10-20]	Speed: 164.32 samples/sec	accuracy=0.958594	cross-entropy=0.107178
+INFO:root:Epoch[78] Batch [20-30]	Speed: 164.61 samples/sec	accuracy=0.957031	cross-entropy=0.115384
+INFO:root:Epoch[78] Batch [30-40]	Speed: 163.74 samples/sec	accuracy=0.957812	cross-entropy=0.106828
+INFO:root:Epoch[78] Batch [40-50]	Speed: 165.82 samples/sec	accuracy=0.959375	cross-entropy=0.109432
+INFO:root:Epoch[78] Batch [50-60]	Speed: 169.05 samples/sec	accuracy=0.947656	cross-entropy=0.123164
+INFO:root:Epoch[78] Resetting Data Iterator
+INFO:root:Epoch[78] Time cost=48.146
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0079.params"
+INFO:root:Epoch[78] Validation-accuracy=0.924107
+INFO:root:Epoch[78] Validation-cross-entropy=0.257486
+INFO:root:Epoch[79] Batch [0-10]	Speed: 181.06 samples/sec	accuracy=0.948438	cross-entropy=0.124578
+INFO:root:Epoch[79] Batch [10-20]	Speed: 159.34 samples/sec	accuracy=0.959375	cross-entropy=0.103511
+INFO:root:Epoch[79] Batch [20-30]	Speed: 156.45 samples/sec	accuracy=0.957812	cross-entropy=0.114636
+INFO:root:Epoch[79] Batch [30-40]	Speed: 154.67 samples/sec	accuracy=0.956250	cross-entropy=0.108796
+INFO:root:Epoch[79] Batch [40-50]	Speed: 160.70 samples/sec	accuracy=0.955469	cross-entropy=0.110344
+INFO:root:Epoch[79] Batch [50-60]	Speed: 163.64 samples/sec	accuracy=0.957812	cross-entropy=0.119457
+INFO:root:Epoch[79] Resetting Data Iterator
+INFO:root:Epoch[79] Time cost=50.699
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0080.params"
+INFO:root:Epoch[79] Validation-accuracy=0.919471
+INFO:root:Epoch[79] Validation-cross-entropy=0.261421
+INFO:root:Epoch[80] Batch [0-10]	Speed: 173.68 samples/sec	accuracy=0.964063	cross-entropy=0.108982
+INFO:root:Epoch[80] Batch [10-20]	Speed: 156.93 samples/sec	accuracy=0.963281	cross-entropy=0.102257
+INFO:root:Epoch[80] Batch [20-30]	Speed: 160.66 samples/sec	accuracy=0.961719	cross-entropy=0.096727
+INFO:root:Epoch[80] Batch [30-40]	Speed: 160.47 samples/sec	accuracy=0.964844	cross-entropy=0.106685
+INFO:root:Epoch[80] Batch [40-50]	Speed: 157.32 samples/sec	accuracy=0.956250	cross-entropy=0.098389
+INFO:root:Epoch[80] Batch [50-60]	Speed: 160.91 samples/sec	accuracy=0.958594	cross-entropy=0.099770
+INFO:root:Epoch[80] Resetting Data Iterator
+INFO:root:Epoch[80] Time cost=50.128
+INFO:root:Saved checkpoint to "checkpoints/gender/gendernet-0081.params"
+INFO:root:Epoch[80] Validation-accuracy=0.914062
+INFO:root:Epoch[80] Validation-cross-entropy=0.283269

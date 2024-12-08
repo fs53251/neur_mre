@@ -1,0 +1,376 @@
+Dokumentacija za Projekt: Klasifikacija Godina i Spola
+
+Ova dokumentacija detaljno opisuje implementaciju sustava za klasifikaciju godina i spola pomoću Adience dataseta. Projekt se temelji na dubokim konvolucijskim neuronskim mrežama (CNN), a obuhvaća pripremu podataka, implementaciju modela, trening i evaluaciju. Cilj je pružiti sveobuhvatne smjernice za reproduciranje rezultata i proširenje projekta.
+1. Preuzimanje i Organizacija Dataseta
+
+Adience dataset pruža kvalitetan skup slika lica s informacijama o godinama i spolu. Kako biste započeli rad s ovim projektom, slijedite dolje opisane korake.
+1.1 Preuzimanje Dataseta
+
+Dataset možete preuzeti s Adience stranice. Slijedite upute:
+
+    Ispunite obrazac za preuzimanje upisivanjem imena i e-mail adrese.
+    Preuzmite datoteke:
+        aligned.tar.gz: Sadrži poravnate slike lica.
+        fold_frontal_*_data.txt: Tekstualne datoteke s oznakama (foldovima).
+
+1.2 Ekstrakcija Datoteka
+
+Ekstraktirajte preuzete datoteke koristeći terminal:
+
+$ tar -xvf aligned.tar.gz
+
+1.3 Organizacija Dataseta
+
+Predlažemo sljedeću strukturu direktorija za pohranu i organizaciju dataseta:
+
+adience/
+|--- aligned/   # Sadrži poddirektorije s licima
+|--- folds/     # fold_frontal_*_data.txt datoteke
+|--- lists/     # Generirane .lst datoteke
+|--- rec/       # MXNet zapisnici (record) baza
+
+2. Konfiguracija Projekta
+
+Projekt koristi modularnu arhitekturu kako bi se olakšalo upravljanje i proširenje. Direktorij projekta izgleda ovako:
+
+age_gender/
+|--- config/                # Konfiguracijske datoteke
+|--- checkpoints/           # Spremanje modela tijekom treninga
+|--- scripts/               # Skripte za trening i evaluaciju
+
+2.1 Detalji Direktorija
+
+    config/: Sadrži konfiguracijske datoteke potrebne za trening modela.
+        age_gender_config.py: Postavke za modele.
+        age_gender_deploy.py: Postavke za implementaciju modela.
+
+    checkpoints/: Pohranjuje težine modela tijekom treninga.
+        age/: Težine za model predikcije godina.
+        gender/: Težine za model predikcije spola.
+
+    scripts/: Skripte za generiranje dataset formata, trening, evaluaciju i predikciju.
+
+3. Preprocesiranje Podataka
+
+Preprocesiranje je ključni dio rada s Adience datasetom jer podaci sadrže varijacije u osvjetljenju, kutevima i kvaliteti.
+3.1 Detekcija i Poravnanje Lica
+
+Za konzistentnost ulaznih podataka koristimo sljedeće korake:
+
+    Detekcija lica: Algoritmi poput Dlib ili OpenCV koriste se za prepoznavanje lica na slikama.
+    Poravnanje lica: Pomoću ključnih točaka (facial landmarks) poravnavaju se lica prema standardnom okviru.
+    Normalizacija:
+        Skaliranje vrijednosti piksela u raspon [0, 1].
+        Promjena dimenzija slika na 224x224 piksela.
+
+3.2 Generiranje .lst i .rec Datoteka
+
+Za trening modela generiraju se .lst i .rec datoteke pomoću MXNet alata:
+
+    .lst datoteke sadrže listu slika i njihove oznake.
+    .rec datoteke su binarni zapisi optimizirani za brže učitavanje podataka.
+
+4. Arhitektura Modela
+4.1 MxAgeGenderNet
+
+Glavna arhitektura temelji se na istraživanju Levi et al. i uključuje:
+
+    Konvolucijski slojevi: Za izdvajanje značajki s ulaznih slika.
+    ReLU aktivacija: Osigurava nelinearnost.
+    Potpuno povezani slojevi: Za predikciju klasa (dob/spol).
+
+4.2 Specifičnosti Modela
+
+    Predikcija spola: Dvoklasni problem (muški/ženski).
+    Predikcija godina: Osam klasa (dobne skupine: 0–2, 4–6, itd.).
+
+4.3 Postavke Treninga
+
+    Optimizator: Adam
+    Gubitak: Kategorijski unakrsni entropijski gubitak
+    Metričke performanse:
+        Točnost (accuracy)
+        Preciznost i odziv
+
+5. Skripte i Implementacija
+5.1 Konfiguracija (age_gender_config.py)
+
+Primjer ključnih varijabli:
+
+DATASET_TYPE = "age"  # ili "gender"
+BASE_PATH = "/path/to/adience"
+OUTPUT_BASE = "/path/to/output"
+
+BATCH_SIZE = 128
+NUM_CLASSES = 8 if DATASET_TYPE == "age" else 2
+
+TRAIN_MX_LIST = "path/to/train.lst"
+VAL_MX_LIST = "path/to/val.lst"
+TEST_MX_LIST = "path/to/test.lst"
+
+DATASET_MEAN = "path/to/dataset_mean.json"
+
+
+Dokumentacija za Implementaciju Arhitekture Mreže za Predikciju Dobi i Spola
+
+Ovaj dio projekta implementira arhitekturu konvolucijske neuronske mreže (CNN) nazvanu MxAgeGenderNet, prilagođenu predikciji dobi i spola na temelju slika iz Adience skupa podataka. Cilj ove arhitekture je pružiti preciznu klasifikaciju uz minimalan overfitting i optimalnu efikasnost u obradi slika.
+1. Struktura Arhitekture
+
+Arhitektura MxAgeGenderNet temelji se na modificiranom AlexNet modelu. Ključne karakteristike uključuju:
+
+    Plitkija mreža – Uklonjene su kompleksne sekvence slojeva.
+    Manje parametara – Skriveni slojevi imaju manji broj čvorova u odnosu na AlexNet.
+    Batch Normalization (BN) – Koristi se za stabilizaciju učenja i ubrzanje konvergencije.
+    Dropout – Implementiran nakon svakog pooling sloja kako bi se spriječio overfitting.
+
+2. Organizacija Direktiva
+
+Struktura direktorija za implementaciju arhitekture:
+
+pyimagesearch/
+├── __init__.py
+├── nn/
+│   ├── __init__.py
+│   ├── mxconv/
+│       ├── __init__.py
+│       ├── mxagegendernet.py
+│       ├── mxalexnet.py
+│       ├── mxgooglenet.py
+│       ├── mxresnet.py
+│       ├── mxsqueezenet.py
+│       ├── mxvggnet.py
+
+3. Implementacija MxAgeGenderNet
+
+Datoteka mxagegendernet.py sadrži definiciju arhitekture modela.
+3.1 Ključne Funkcije
+
+    build: Funkcija koja gradi model CNN-a koristeći MXNet simbolički API.
+        Ulazi:
+            dataShape (tuple): Oblik ulaznih podataka (npr., (3, 256, 256) za RGB slike veličine 256x256 piksela).
+            numClasses (int): Broj izlaznih klasa (npr., 2 za spol, 8 za dobne grupe).
+            dropout (float): Vrijednost dropout-a (npr., 0.5 za 50%).
+        Izlaz:
+            Simbolički model spreman za treniranje.
+
+3.2 Slojevi Arhitekture
+Redni Broj	Tip Sloja	Detalji
+1	Ulazni sloj	RGB slika, veličina 256x256 piksela.
+2	CONV	96 filtera veličine 11x11, stride=4, padding=2, BN, ReLU.
+3	POOL	MaxPooling veličine 3x3, stride=2.
+4	CONV	256 filtera veličine 5x5, stride=1, padding=2, BN, ReLU.
+5	POOL	MaxPooling veličine 3x3, stride=2.
+6	CONV	384 filtera veličine 3x3, stride=1, padding=1, BN, ReLU.
+7	CONV	384 filtera veličine 3x3, stride=1, padding=1, BN, ReLU.
+8	CONV	256 filtera veličine 3x3, stride=1, padding=1, BN, ReLU.
+9	POOL	MaxPooling veličine 3x3, stride=2.
+10	Fully Connected (FC)	512 čvorova, ReLU, Dropout.
+11	Fully Connected (FC)	512 čvorova, ReLU, Dropout.
+12	Izlazni sloj	Broj klasa (Softmax za klasifikaciju).
+4. Skripta train.py
+4.1 Funkcionalnosti Skripte
+
+    Inicijalizacija:
+        Učitava konfiguraciju iz datoteke config.py.
+        Parsira argumente naredbenog retka (npr., --type za odabir predikcije dobi ili spola).
+    Priprema podataka:
+        Učitava .rec datoteke za treniranje, validaciju i testiranje.
+        Normalizira podatke koristeći prosječne vrijednosti RGB kanala.
+    Kompilacija modela:
+        Kreira model koristeći MxAgeGenderNet.build.
+        Dodaje optimizator (npr., SGD ili Adam) i definira loss funkciju.
+    Trening:
+        Izvodi iterativno treniranje na ulaznim podacima.
+        Sprema najbolje checkpointove u direktorij checkpoints/.
+    Validacija i logiranje:
+        Računa točnost na validacijskom skupu nakon svake epohe.
+        Sprema logove u format prikladan za TensorBoard.
+
+4.2 Primjer Pokretanja
+
+python train.py --type gender --output checkpoints/gender
+
+5. Evaluacija Modela
+5.1 Skripta test_accuracy.py
+
+    Funkcija: Evaluira točnost treniranog modela na testnom skupu.
+    Metodologije Evaluacije:
+        Spol: Klasična točnost (korektna klasifikacija).
+        Dob: "One-off" točnost – predikcija je točna ako je u trenutnoj ili susjednoj dobnoj grupi.
+    Izlazi:
+        Ukupna točnost.
+        Detaljan izvještaj o metriki po klasama.
+
+5.2 Primjer Pokretanja
+
+python test_accuracy.py --type age --model checkpoints/age/best_model.params
+
+6. Vizualizacija Rezultata
+6.1 Skripta vis_classification.py
+
+    Funkcija: Vizualizira predikcije modela na datasetu.
+    Izlazi:
+        Prikazuje slike sa stvarnim i predviđenim klasama.
+        Generira distribuciju predikcija za analizu.
+
+6.2 Primjer Pokretanja
+
+python vis_classification.py --type gender --model checkpoints/gender/best_model.params
+
+6.3 Skripta test_prediction.py
+
+    Funkcija: Koristi trenirani model za klasifikaciju slika izvan Adience dataseta.
+    Izlazi:
+        Lista predikcija sa stupnjem povjerenja.
+        Mogućnost spremanja rezultata u CSV format.
+
+6.4 Primjer Pokretanja
+
+python test_prediction.py --input my_images/ --output predictions.csv
+
+7. Zaključak
+
+Arhitektura MxAgeGenderNet i pripadajuće skripte osiguravaju modularnu i učinkovitu implementaciju za predikciju dobi i spola. Projekt je organiziran tako da omogućuje:
+
+    Jednostavnu replikaciju rezultata.
+    Brzu prilagodbu za druge datasetove ili zadatke klasifikacije.
+    Intuitivno vizualiziranje i analizu rezultata.
+    
+    
+    Dokumentacija za MxAgeGenderNet
+
+Ovaj dokument pruža sveobuhvatan pregled implementacije i upotrebe mreže MxAgeGenderNet, dizajnirane za prepoznavanje dobi i spola. Mreža je implementirana korištenjem MXNet frameworka i podržava obuku i evaluaciju na prilagodljiv način.
+1. Uvod
+
+Cilj projekta je razviti i evaluirati konvolucijsku neuronsku mrežu (CNN) za zadatke klasifikacije spola i procjene dobi. MxAgeGenderNet omogućuje precizne predikcije koristeći pristup dubokog učenja, a u izvedbi se oslanja na istraživanje Levi et al.
+2. Implementacija MxAgeGenderNet arhitekture
+2.1. Osnovni elementi mreže
+
+MxAgeGenderNet sastoji se od tri glavna dijela:
+
+    Konvolucijski blokovi: Ekstrahiraju značajke iz ulaznih slika kroz slojeve konvolucije, aktivacije (RELU), normalizacije i max-poolinga.
+    Potpuno povezani slojevi: Kombiniraju značajke iz konvolucijskih slojeva za donošenje odluka.
+    Softmax sloj: Pretvara izlaz mreže u vjerojatnosti za klasifikaciju.
+
+2.2. Struktura mreže
+
+Mreža je implementirana unutar klase MxAgeGenderNet, a glavni dijelovi su:
+2.2.1. Prvi konvolucijski blok (CONV => RELU => POOL)
+
+    Konvolucijski sloj: 96 filtera veličine 7×77×7, stride 4×44×4.
+    Aktivacija: RELU.
+    Batch normalizacija: Stabilizacija učenja.
+    Max pooling: Kernel veličine 3×33×3, stride 2×22×2.
+    Dropout: Vjerojatnost 25% za smanjenje prekomjernog učenja.
+
+conv1_1 = mx.sym.Convolution(data=data, kernel=(7, 7), stride=(4, 4), num_filter=96)
+act1_1 = mx.sym.Activation(data=conv1_1, act_type="relu")
+bn1_1 = mx.sym.BatchNorm(data=act1_1)
+pool1 = mx.sym.Pooling(data=bn1_1, pool_type="max", kernel=(3, 3), stride=(2, 2))
+do1 = mx.sym.Dropout(data=pool1, p=0.25)
+
+2.2.2. Drugi konvolucijski blok
+
+    Konvolucijski sloj: 256 filtera veličine 5×55×5, padding 2×22×2.
+    Struktura je slična prvom bloku.
+
+conv2_1 = mx.sym.Convolution(data=do1, kernel=(5, 5), pad=(2, 2), num_filter=256)
+act2_1 = mx.sym.Activation(data=conv2_1, act_type="relu")
+bn2_1 = mx.sym.BatchNorm(data=act2_1)
+pool2 = mx.sym.Pooling(data=bn2_1, pool_type="max", kernel=(3, 3), stride=(2, 2))
+do2 = mx.sym.Dropout(data=pool2, p=0.25)
+
+2.2.3. Treći konvolucijski blok
+
+    Konvolucijski sloj: 384 filtera veličine 3×33×3, padding 1×11×1.
+
+conv3_1 = mx.sym.Convolution(data=do2, kernel=(3, 3), pad=(1, 1), num_filter=384)
+act3_1 = mx.sym.Activation(data=conv3_1, act_type="relu")
+bn3_1 = mx.sym.BatchNorm(data=act3_1)
+pool3 = mx.sym.Pooling(data=bn3_1, pool_type="max", kernel=(3, 3), stride=(2, 2))
+do3 = mx.sym.Dropout(data=pool3, p=0.25)
+
+2.2.4. Potpuno povezani slojevi
+
+Nakon konvolucijskih blokova:
+
+    Flatten: Preoblikovanje izlaza u jednodimenzionalni niz.
+    Dva potpuno povezana sloja sa 512 čvorova, RELU aktivacijom, batch normalizacijom i dropoutom.
+
+flatten = mx.sym.Flatten(data=do3)
+fc1 = mx.sym.FullyConnected(data=flatten, num_hidden=512)
+act4_1 = mx.sym.Activation(data=fc1, act_type="relu")
+bn4_1 = mx.sym.BatchNorm(data=act4_1)
+do4 = mx.sym.Dropout(data=bn4_1, p=0.5)
+
+fc2 = mx.sym.FullyConnected(data=do4, num_hidden=512)
+act5_1 = mx.sym.Activation(data=fc2, act_type="relu")
+bn5_1 = mx.sym.BatchNorm(data=act5_1)
+do5 = mx.sym.Dropout(data=bn5_1, p=0.5)
+
+2.2.5. Izlazni sloj i softmax klasifikacija
+
+    Softmax sloj vraća vjerojatnosti za klase.
+
+fc3 = mx.sym.FullyConnected(data=do5, num_hidden=classes)
+model = mx.sym.SoftmaxOutput(data=fc3, name="softmax")
+
+2.2.6. Povratak mreže
+
+Mreža se vraća kao simbol:
+
+return model
+
+3. Obuka modela
+
+Skripta train.py implementira proces obuke za mrežu.
+3.1. Glavni koraci
+
+    Import modula:
+        MxAgeGenderNet: Klasa s definicijom mreže.
+        AgeGenderHelper: Za pripremu podataka i evaluaciju.
+        one_off_callback: Callback za praćenje točnosti tijekom obuke.
+    Argumenti naredbenog retka:
+        --checkpoints: Mjesto za spremanje težina.
+        --start-epoch: Početna epoha (za nastavak obuke).
+    Postavke obuke:
+        Batch veličina i broj GPU uređaja.
+        Normalizacija ulaznih podataka.
+    Optimizator:
+        SGD s početnom brzinom učenja, momentom i regularizacijom.
+    Evaluacija:
+        Praćenje rank-1 i one-off točnosti.
+
+3.2. Pokretanje obuke
+
+Model se trenira pomoću fit() metode koja koristi iteratore za trening i validaciju.
+4. Evaluacija modela
+
+Skripta test_accuracy.py koristi se za evaluaciju točnosti modela.
+4.1. Mjere točnosti
+
+    Rank-1 točnost: Klasična metrika točnosti.
+    One-off točnost: Predviđanje se smatra točnim ako je predviđena dob ±1 od stvarne kategorije.
+
+4.2. Proces evaluacije
+
+    Učitavanje modela s prethodno spremljenim težinama.
+    Evaluacija na testnom skupu uz pomoć model.score().
+
+5. Rezultati
+5.1. Predikcija dobi
+
+    Rank-1 točnost: 71.15% (testni skup).
+    One-off točnost: 88.28% (testni skup).
+
+5.2. Predikcija spola
+
+    Rank-1 točnost: 90.29% (testni skup).
+
+6. Zaključak
+
+MxAgeGenderNet je visoko učinkovita CNN arhitektura za zadatke predikcije dobi i spola. Jednostavnost implementacije, modularnost i visoka točnost čine je izvrsnim izborom za slične probleme klasifikacije.
+
+Za proširenje, moguće je prilagoditi mrežu za slične zadatke poput prepoznavanja emocija ili analize drugih demografskih karakteristika.
+
+

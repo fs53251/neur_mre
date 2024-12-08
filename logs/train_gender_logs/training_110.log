@@ -1,0 +1,2 @@
+INFO:root:Start training with [cpu(0)]
+INFO:root:Epoch[110] Batch [0-10]	Speed: 172.76 samples/sec	accuracy=0.982031	cross-entropy=0.046636
