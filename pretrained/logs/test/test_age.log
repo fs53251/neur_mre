@@ -1,0 +1,31 @@
+2025-01-07 17:50:38,659 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_7.params
+2025-01-07 17:52:11,887 - One-Off Accuracy = 0.8738
+2025-01-07 17:52:11,889 - Test Loss = 0.7729, Test Accuracy = 0.7645
+
+2025-01-07 17:52:39,895 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_8.params
+2025-01-07 17:52:54,560 - One-Off Accuracy = 0.8738
+2025-01-07 17:52:54,560 - Test Loss = 0.7777, Test Accuracy = 0.7714
+
+2025-01-07 17:56:24,618 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_9.params
+2025-01-07 17:56:39,238 - One-Off Accuracy = 0.8762
+2025-01-07 17:56:39,239 - Test Loss = 0.7717, Test Accuracy = 0.7778
+
+2025-01-07 17:57:16,470 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_10.params
+2025-01-07 17:57:31,073 - One-Off Accuracy = 0.8773
+2025-01-07 17:57:31,073 - Test Loss = 0.7700, Test Accuracy = 0.7789
+
+2025-01-07 17:58:03,273 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_11.params
+2025-01-07 17:58:18,033 - One-Off Accuracy = 0.8814
+2025-01-07 17:58:18,033 - Test Loss = 0.7678, Test Accuracy = 0.7789
+
+2025-01-07 17:58:41,195 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_12.params
+2025-01-07 17:58:55,870 - One-Off Accuracy = 0.8831
+2025-01-07 17:58:55,870 - Test Loss = 0.7839, Test Accuracy = 0.7876
+
+2025-01-07 17:59:22,084 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_13.params
+2025-01-07 17:59:36,717 - One-Off Accuracy = 0.8872
+2025-01-07 17:59:36,717 - Test Loss = 0.7719, Test Accuracy = 0.7928
+
+2025-01-07 17:59:57,077 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\age_epoch_14.params
+2025-01-07 18:00:11,796 - One-Off Accuracy = 0.8802
+2025-01-07 18:00:11,797 - Test Loss = 0.7670, Test Accuracy = 0.7841

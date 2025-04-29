@@ -1,0 +1,8 @@
+2025-01-07 19:12:56,603 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\gender_epoch_7.params
+2025-01-07 19:13:12,377 - Test Loss = 0.1776, Test Accuracy = 0.9444
+
+2025-01-07 19:13:36,722 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\gender_epoch_8.params
+2025-01-07 19:13:51,848 - Test Loss = 0.1722, Test Accuracy = 0.9491
+
+2025-01-07 19:14:20,104 - Model parameters loaded from D:\fer\9.sem\NNETS\neur_mre\pretrained\checkpoints\gender_epoch_9.params
+2025-01-07 19:14:35,203 - Test Loss = 0.1812, Test Accuracy = 0.9491
